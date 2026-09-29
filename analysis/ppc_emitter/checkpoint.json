@@ -1,0 +1,34 @@
+{
+  "completed": [
+    "partitioned target slot 0x5e4 / va 0x00422ff4",
+    "identified obj text-vs-object split at 0x0047f1a6",
+    "recovered 572-entry PPC opcode descriptor registry",
+    "recovered binary encoder 0x00497b18 and field packers",
+    "matched oracle assembly mnemonics to opcode descriptors",
+    "mapped paired-single Espresso opcode formats 0xa3 and 0xa4"
+  ],
+  "counts": {
+    "hypotheses": 50,
+    "observed_facts": 16,
+    "opcode_descriptors": 572
+  },
+  "generators": [
+    "analysis/ppc_emitter/build_output_map.py",
+    "analysis/ppc_emitter/build_ai_manifest.py"
+  ],
+  "resume": {
+    "next_va": "0x00497b18",
+    "priority": 1,
+    "task": "partition remaining format-id switch cases and map every format id to field-packer semantics",
+    "then": [
+      "resolve target vtable relocation callback at slot +0x7b4 used by 0x004e76f6",
+      "trace callers of Espresso helpers 0x0045ea8d..0x0045f976 back to exact option gates 4712-4728",
+      "add object fixture relocation comparisons against normal cxppc output"
+    ]
+  },
+  "schema_version": 1,
+  "target": {
+    "path": "ghs5.3.22/bin/ecomppc.exe",
+    "sha256": "b28a092e01f818aa6183dfdbbd40623920d672dc6d37376c0da4fb6084d2f7b3"
+  }
+}

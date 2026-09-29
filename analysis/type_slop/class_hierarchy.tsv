@@ -1,0 +1,429 @@
+record_va	name	category	parent_record_va	parent_name	root_record_va	root_name	depth	direct_children	vtable_count	vtable_headers	max_slots
+0x00abf018	vn_advisor	other			0x00abf018	vn_advisor	0	0	0		0
+0x00abf0b0	vn_advisor_ppc_consolshift	other	0x00b05b54	vn_advisor_consolshift	0x00b053a8	vn_advisor	3	0	1	0x00abf06c	7
+0x00abf270	std::exception	runtime/std			0x00abf270	std::exception	0	3	1	0x00abf1b0	3
+0x00abf280	std::bad_alloc	runtime/std	0x00abf270	std::exception	0x00abf270	std::exception	1	0	1	0x00abf1d0	3
+0x00abf290	std::logic_error	runtime/std	0x00abf270	std::exception	0x00abf270	std::exception	1	1	1	0x00abf1f0	3
+0x00abf2a0	std::out_of_range	runtime/std	0x00abf290	std::logic_error	0x00abf270	std::exception	2	0	1	0x00abf210	3
+0x00abf2b0	std::runtime_error	runtime/std	0x00abf270	std::exception	0x00abf270	std::exception	1	1	1	0x00abf230	3
+0x00abf2c0	std::overflow_error	runtime/std	0x00abf2b0	std::runtime_error	0x00abf270	std::exception	2	0	1	0x00abf250	3
+0x00abfe94	backend_t	other	0x00b0b784	backend_basetype2	0x00b0e82c	backend_dataflow	3	0	1	0x00abf65c	262
+0x00abff98	std::exception	runtime/std			0x00abff98	std::exception	0	3	1	0x00abfed8	3
+0x00abffa8	std::bad_alloc	runtime/std	0x00abff98	std::exception	0x00abff98	std::exception	1	0	1	0x00abfef8	3
+0x00abffb8	std::logic_error	runtime/std	0x00abff98	std::exception	0x00abff98	std::exception	1	1	1	0x00abff18	3
+0x00abffc8	std::out_of_range	runtime/std	0x00abffb8	std::logic_error	0x00abff98	std::exception	2	0	1	0x00abff38	3
+0x00abffd8	std::runtime_error	runtime/std	0x00abff98	std::exception	0x00abff98	std::exception	1	1	1	0x00abff58	3
+0x00abffe8	std::overflow_error	runtime/std	0x00abffd8	std::runtime_error	0x00abff98	std::exception	2	0	1	0x00abff78	3
+0x00ac0198	ObjectVisitor	IR/object-model			0x00ac0198	ObjectVisitor	0	4	0		0
+0x00ac01a8	VectorOpsAnalyzer	optimizer/analysis	0x00ac0198	ObjectVisitor	0x00ac0198	ObjectVisitor	1	0	0		0
+0x00ac01b8	SizeVisitor	optimizer/analysis	0x00ac0198	ObjectVisitor	0x00ac0198	ObjectVisitor	1	0	0		0
+0x00ac01c8	RearrangeVisitor	optimizer/analysis	0x00ac0198	ObjectVisitor	0x00ac0198	ObjectVisitor	1	0	0		0
+0x00ac01d8	RearrangeReplacer	other	0x00ac0198	ObjectVisitor	0x00ac0198	ObjectVisitor	1	0	0		0
+0x00ac0a18	std::exception	runtime/std			0x00ac0a18	std::exception	0	2	1	0x00ac0998	3
+0x00ac0a28	std::bad_alloc	runtime/std	0x00ac0a18	std::exception	0x00ac0a18	std::exception	1	0	1	0x00ac09b8	3
+0x00ac0a38	std::logic_error	runtime/std	0x00ac0a18	std::exception	0x00ac0a18	std::exception	1	1	1	0x00ac09d8	3
+0x00ac0a48	std::out_of_range	runtime/std	0x00ac0a38	std::logic_error	0x00ac0a18	std::exception	2	0	1	0x00ac09f8	3
+0x00ac5960	g4_resource_scheduler	scheduler	0x00b0c0f4	resource_model_scheduler	0x00b0c0e4	list_scheduler	2	0	1	0x00ac5810	13
+0x00ac5970	ppc970_resource_scheduler	scheduler	0x00b0c0f4	resource_model_scheduler	0x00b0c0e4	list_scheduler	2	0	1	0x00ac5880	13
+0x00ac5980	ame_resource_scheduler	scheduler	0x00b0c0f4	resource_model_scheduler	0x00b0c0e4	list_scheduler	2	0	1	0x00ac58f0	13
+0x00acd024	ObjectVisitor	IR/object-model			0x00acd024	ObjectVisitor	0	7	0		0
+0x00acd034	ScopeTreeVisitor	optimizer/analysis			0x00acd034	ScopeTreeVisitor	0	1	0		0
+0x00acd044	VarValueofFinder	other	0x00acd024	ObjectVisitor	0x00acd024	ObjectVisitor	1	0	0		0
+0x00acd054	SubstituteVariantsVisitor	optimizer/analysis	0x00acd024	ObjectVisitor	0x00acd024	ObjectVisitor	1	0	0		0
+0x00acd064	SetVolatileAddressVisitor	optimizer/analysis	0x00acd024	ObjectVisitor	0x00acd024	ObjectVisitor	1	0	0		0
+0x00acd074	ClearCopiedScopeTreeInfo	other	0x00acd034	ScopeTreeVisitor	0x00acd034	ScopeTreeVisitor	1	0	0		0
+0x00acd084	lvalue_checker_type	other	0x00acd024	ObjectVisitor	0x00acd024	ObjectVisitor	1	0	0		0
+0x00acd094	FindAsmVisitor	optimizer/analysis	0x00acd024	ObjectVisitor	0x00acd024	ObjectVisitor	1	0	0		0
+0x00acd0a4	UnionVisitor	optimizer/analysis	0x00acd024	ObjectVisitor	0x00acd024	ObjectVisitor	1	0	0		0
+0x00ace1d0	objectdata	IR/object-model			0x00ace1d0	objectdata	0	39	1	0x00acdd90	2
+0x00ace1e0	objectdata_twoop	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acdda8	2
+0x00ace1f0	objectdata_arrayop	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acddc0	2
+0x00ace200	objectdata_vectorop	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acddd8	2
+0x00ace210	objectdata_compoundop	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acddf0	2
+0x00ace220	objectdata_magictype	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acde08	2
+0x00ace230	objectdata_qindex	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acde20	2
+0x00ace240	objectdata_dot	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acde38	2
+0x00ace250	objectdata_recordtyp	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acde50	2
+0x00ace260	objectdata_subrangeop	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acde68	2
+0x00ace270	objectdata_call	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acde80	2
+0x00ace280	objectdata_rouconstr	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acde98	2
+0x00ace290	objectdata_entryop	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acdeb0	2
+0x00ace2a0	objectdata_statfunc	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acdec8	2
+0x00ace2b0	objectdata_qaddrs	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acdee0	2
+0x00ace2c0	objectdata_variable	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acdef8	2
+0x00ace2d0	objectdata_varfield	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acdf10	2
+0x00ace2e0	objectdata_generic	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acdf28	2
+0x00ace2f0	objectdata_scalconst	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acdf40	2
+0x00ace300	objectdata_floatconst	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acdf58	2
+0x00ace310	objectdata_strconst	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acdf70	2
+0x00ace320	objectdata_setconstructor	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acdf88	2
+0x00ace330	objectdata_complexop	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acdfa0	2
+0x00ace340	objectdata_data	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acdfb8	2
+0x00ace350	objectdata_qjcond	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acdfd0	2
+0x00ace360	objectdata_qjmp	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00acdfe8	2
+0x00ace370	objectdata_qjtab	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00ace000	2
+0x00ace380	objectdata_arithifi	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00ace018	2
+0x00ace390	objectdata_ifop	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00ace030	2
+0x00ace3a0	objectdata_predcode	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00ace048	2
+0x00ace3b0	objectdata_block	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00ace060	2
+0x00ace3c0	objectdata_undefop	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00ace078	2
+0x00ace3d0	objectdata_fourop	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00ace090	2
+0x00ace3e0	objectdata_casm	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00ace0a8	2
+0x00ace3f0	objectdata_lineop	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00ace0c0	2
+0x00ace400	objectdata_commentop	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00ace0d8	2
+0x00ace410	objectdata_startscope	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00ace0f0	2
+0x00ace420	objectdata_leavescope	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00ace108	2
+0x00ace430	objectdata_varargsop	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00ace120	2
+0x00ace440	objectdata_statexpr	IR/object-model	0x00ace1d0	objectdata	0x00ace1d0	objectdata	1	0	1	0x00ace138	2
+0x00ace450	RemoveZeroSizedLocalsVisitor	optimizer/analysis	0x00acd024	ObjectVisitor	0x00acd024	ObjectVisitor	1	0	0		0
+0x00ace4c8	ObjectVisitor	IR/object-model			0x00ace4c8	ObjectVisitor	0	2	0		0
+0x00ace4d8	FixupEHBlock	other	0x00ace4c8	ObjectVisitor	0x00ace4c8	ObjectVisitor	1	0	0		0
+0x00ace514	FixupEH	other	0x00ace4c8	ObjectVisitor	0x00ace4c8	ObjectVisitor	1	0	0		0
+0x00ace628	std::exception	runtime/std			0x00ace628	std::exception	0	3	1	0x00ace558	3
+0x00ace638	std::bad_alloc	runtime/std	0x00ace628	std::exception	0x00ace628	std::exception	1	0	1	0x00ace578	3
+0x00ace648	std::logic_error	runtime/std	0x00ace628	std::exception	0x00ace628	std::exception	1	1	1	0x00ace598	3
+0x00ace658	std::out_of_range	runtime/std	0x00ace648	std::logic_error	0x00ace628	std::exception	2	0	1	0x00ace5b8	3
+0x00ace668	std::runtime_error	runtime/std	0x00ace628	std::exception	0x00ace628	std::exception	1	1	1	0x00ace5d8	3
+0x00ace678	std::overflow_error	runtime/std	0x00ace668	std::runtime_error	0x00ace628	std::exception	2	0	1	0x00ace5f8	3
+0x00acf300	InterblockDf	optimizer/analysis			0x00acf300	InterblockDf	0	3	1	0x00acf278	2
+0x00acf310	ObjectVisitor	IR/object-model			0x00acf310	ObjectVisitor	0	6	0		0
+0x00acf320	qadd_visitor	optimizer/analysis	0x00acf310	ObjectVisitor	0x00acf310	ObjectVisitor	1	0	0		0
+0x00acf330	qifop_visitor	optimizer/analysis	0x00acf310	ObjectVisitor	0x00acf310	ObjectVisitor	1	0	0		0
+0x00acf340	qd_visitor	optimizer/analysis	0x00acf310	ObjectVisitor	0x00acf310	ObjectVisitor	1	0	0		0
+0x00acf350	qderef_visitor	optimizer/analysis	0x00acf310	ObjectVisitor	0x00acf310	ObjectVisitor	1	0	0		0
+0x00acf360	CvtifSubstitute	optimizer/analysis	0x00acf310	ObjectVisitor	0x00acf310	ObjectVisitor	1	0	0		0
+0x00acf370	recursive_if_fixer	other	0x00acf310	ObjectVisitor	0x00acf310	ObjectVisitor	1	0	0		0
+0x00acf6d0	TouchesDf	optimizer/analysis	0x00acf300	InterblockDf	0x00acf300	InterblockDf	1	0	1	0x00acf688	2
+0x00acf6e0	LivenessDf	optimizer/analysis	0x00acf300	InterblockDf	0x00acf300	InterblockDf	1	0	1	0x00acf6a0	2
+0x00acf6f0	PostLivenessDf	optimizer/analysis	0x00acf300	InterblockDf	0x00acf300	InterblockDf	1	0	1	0x00acf6b8	2
+0x00ad0fbc	ObjectVisitor	IR/object-model			0x00ad0fbc	ObjectVisitor	0	5	0		0
+0x00ad0fcc	ScopeTreeVisitor	optimizer/analysis			0x00ad0fcc	ScopeTreeVisitor	0	1	0		0
+0x00ad0fdc	VarMarker	other	0x00ad0fbc	ObjectVisitor	0x00ad0fbc	ObjectVisitor	1	0	0		0
+0x00ad0fec	ReturnOverlapVisitor	optimizer/analysis	0x00ad0fbc	ObjectVisitor	0x00ad0fbc	ObjectVisitor	1	0	0		0
+0x00ad0ffc	NonLocalMemoryVisitor	optimizer/analysis	0x00ad0fbc	ObjectVisitor	0x00ad0fbc	ObjectVisitor	1	0	0		0
+0x00ad100c	DoInlineFlagReturnVars	other	0x00ad0fbc	ObjectVisitor	0x00ad0fbc	ObjectVisitor	1	0	0		0
+0x00ad101c	DoInlineCheckRetVar	other	0x00ad0fbc	ObjectVisitor	0x00ad0fbc	ObjectVisitor	1	0	0		0
+0x00ad102c	DoInlineIncrScopes	other	0x00ad0fcc	ScopeTreeVisitor	0x00ad0fcc	ScopeTreeVisitor	1	0	0		0
+0x00ad1e08	ObjectVisitor	IR/object-model			0x00ad1e08	ObjectVisitor	0	1	0		0
+0x00ad1e18	IfopFinder	other	0x00ad1e08	ObjectVisitor	0x00ad1e08	ObjectVisitor	1	0	0		0
+0x00ad1ea0	ObjectVisitor	IR/object-model			0x00ad1ea0	ObjectVisitor	0	2	0		0
+0x00ad1eb0	FloatConversionFinder	other	0x00ad1ea0	ObjectVisitor	0x00ad1ea0	ObjectVisitor	1	0	0		0
+0x00ad1ec0	DottedVectorVisitor	optimizer/analysis	0x00ad1ea0	ObjectVisitor	0x00ad1ea0	ObjectVisitor	1	0	0		0
+0x00ad2ad4	ObjectVisitor	IR/object-model			0x00ad2ad4	ObjectVisitor	0	3	0		0
+0x00ad2ae4	WriteLocFinder	other	0x00ad2ad4	ObjectVisitor	0x00ad2ad4	ObjectVisitor	1	0	0		0
+0x00ad2af4	InitFinder	other	0x00ad2ad4	ObjectVisitor	0x00ad2ad4	ObjectVisitor	1	0	0		0
+0x00ad4ce8	VolatileFinder	other	0x00ad2ad4	ObjectVisitor	0x00ad2ad4	ObjectVisitor	1	0	0		0
+0x00add7c0	ObjectVisitor	IR/object-model			0x00add7c0	ObjectVisitor	0	4	0		0
+0x00add7d0	SearchForLinPlusConst	other	0x00add7c0	ObjectVisitor	0x00add7c0	ObjectVisitor	1	0	0		0
+0x00add7e0	qderef_collector	other	0x00add7c0	ObjectVisitor	0x00add7c0	ObjectVisitor	1	0	0		0
+0x00addc98	NonTailcallVisitor	optimizer/analysis	0x00add7c0	ObjectVisitor	0x00add7c0	ObjectVisitor	1	0	0		0
+0x00addca8	DangerousVisitor	optimizer/analysis	0x00add7c0	ObjectVisitor	0x00add7c0	ObjectVisitor	1	0	0		0
+0x00addce8	ObjectVisitor	IR/object-model			0x00addce8	ObjectVisitor	0	1	0		0
+0x00addcf8	ExceptionVisitor	optimizer/analysis	0x00addce8	ObjectVisitor	0x00addce8	ObjectVisitor	1	0	0		0
+0x00afc4e0	backend_basetype	other	0x00b0e82c	backend_dataflow	0x00b0e82c	backend_dataflow	1	1	1	0x00afbb90	262
+0x00afcb18	ObjectVisitor	IR/object-model			0x00afcb18	ObjectVisitor	0	1	0		0
+0x00afcb28	VariableReplacerOnce	other	0x00afcb18	ObjectVisitor	0x00afcb18	ObjectVisitor	1	0	0		0
+0x00afd4d8	HasSideEffectVisitor	optimizer/analysis	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00afd5b8	InterblockDf	optimizer/analysis			0x00afd5b8	InterblockDf	0	21	1	0x00afd2c0	2
+0x00afd5c8	ObjectVisitor	IR/object-model			0x00afd5c8	ObjectVisitor	0	22	0		0
+0x00afd5d8	ExprAdder	other	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	2	0		0
+0x00afd5e8	ChildrenCollector	other	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00afd5f8	FindTempCopy	other	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00afd608	VolatileMerger	other	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00afd618	IPTypeFinder	other	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00afd628	CompSetComputer	other	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	2	0		0
+0x00afd638	DownSafetyDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd388	2
+0x00afd648	UpSafetyDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd3a0	2
+0x00afd658	EarliestDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd3b8	2
+0x00afd668	DelayedDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd3d0	2
+0x00afd678	LatestDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd3e8	2
+0x00afd688	IsolatedDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd400	2
+0x00afd698	FinalDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd418	2
+0x00afd6a8	GcseSelectDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd430	2
+0x00afd6b8	GcseLiveDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd448	2
+0x00afd6c8	GcseFinalDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd460	2
+0x00afd6d8	Substitutor	optimizer/analysis	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00afd6e8	Substitutor::Finder	optimizer/analysis	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00afd6f8	NestedUpdater	other	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00afd708	ExtraReplacesUpdater	other	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00afd718	DeleteUnread2Visitor	optimizer/analysis	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00afd728	SimpleSideEffectRemover	other	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00afd738	HoistAvailDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd4f8	2
+0x00afd748	HoistHelpfulDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd510	2
+0x00afd758	HoistRedundantDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd528	2
+0x00afd768	HoistFinalDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd540	2
+0x00afd778	HoistDelayDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd558	2
+0x00afd788	HoistFinal2Df	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd570	2
+0x00afd798	HoistUsableDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd588	2
+0x00afd7a8	HoistFinal3Df	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00afd5a0	2
+0x00aff0bc	ExprFinder	other	0x00afd5d8	ExprAdder	0x00afd5c8	ObjectVisitor	2	1	0		0
+0x00aff0cc	AliasAnalyzer	optimizer/analysis			0x00aff0cc	AliasAnalyzer	0	2	1	0x00afef5c	2
+0x00aff0dc	TimeAccurateAliasAnalyzer	optimizer/analysis	0x00aff0cc	AliasAnalyzer	0x00aff0cc	AliasAnalyzer	1	0	1	0x00afef74	2
+0x00aff0ec	BooleanAccurateAliasAnalyzer	optimizer/analysis	0x00aff0cc	AliasAnalyzer	0x00aff0cc	AliasAnalyzer	1	0	1	0x00afef8c	2
+0x00aff0fc	TreeReshaper	other	0x00afd5d8	ExprAdder	0x00afd5c8	ObjectVisitor	2	0	0		0
+0x00aff10c	DirectAccessVarFinder	other	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00aff11c	PreCompSetComputer	other	0x00afd628	CompSetComputer	0x00afd5c8	ObjectVisitor	2	0	0		0
+0x00aff12c	SideEffectsRemover	other	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00aff13c	WriteMarker	other	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00aff14c	PSMComputer	other	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00aff15c	UseDefMarker	other	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00aff16c	ValueNeededDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00aff004	2
+0x00aff17c	LocalConstProp	other	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00aff18c	ReachingWriteComp	other	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00aff19c	FCEReachingWriteDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00aff04c	2
+0x00aff1ac	DeadStoreRemover	other	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00aff1bc	FCEExprCounter	other	0x00aff0bc	ExprFinder	0x00afd5c8	ObjectVisitor	3	0	0		0
+0x00aff1cc	HoistSetComputer	other	0x00afd628	CompSetComputer	0x00afd5c8	ObjectVisitor	2	0	0		0
+0x00aff1dc	CopyPropVisitor	optimizer/analysis	0x00afd5c8	ObjectVisitor	0x00afd5c8	ObjectVisitor	1	0	0		0
+0x00aff1ec	CopyPropDf	optimizer/analysis	0x00afd5b8	InterblockDf	0x00afd5b8	InterblockDf	1	0	1	0x00aff0a4	2
+0x00aff4ac	InterblockDf	optimizer/analysis			0x00aff4ac	InterblockDf	0	1	1	0x00aff434	2
+0x00aff4bc	ObjectVisitor	IR/object-model			0x00aff4bc	ObjectVisitor	0	6	0		0
+0x00aff4cc	ExprAdder	other	0x00aff4bc	ObjectVisitor	0x00aff4bc	ObjectVisitor	1	0	0		0
+0x00aff4dc	CheckerPostVisit	other	0x00aff4bc	ObjectVisitor	0x00aff4bc	ObjectVisitor	1	0	0		0
+0x00aff4ec	Checker	other			0x00aff4ec	Checker	0	2	1	0x00aff810	8
+0x00aff4fc	CheckerIntStateLValue	other	0x00b01690	CheckerIntState	0x00aff4ec	Checker	2	8	1	0x00aff858	12
+0x00aff50c	CheckerLValue	other	0x00aff4ec	Checker	0x00aff4ec	Checker	1	4	1	0x00aff8c0	8
+0x00aff51c	CheckerIntStateSafevar	other	0x00b01690	CheckerIntState	0x00aff4ec	Checker	2	6	1	0x00aff908	12
+0x00aff52c	CheckerIntStateAll	other	0x00b01690	CheckerIntState	0x00aff4ec	Checker	2	5	1	0x00aff970	12
+0x00aff53c	InlineVisit	other	0x00aff4bc	ObjectVisitor	0x00aff4bc	ObjectVisitor	1	0	0		0
+0x00aff54c	FindRTECVars	other	0x00aff4bc	ObjectVisitor	0x00aff4bc	ObjectVisitor	1	0	0		0
+0x00aff55c	RemoveRTECVisitor	optimizer/analysis	0x00aff4bc	ObjectVisitor	0x00aff4bc	ObjectVisitor	1	0	0		0
+0x00b01670	CheckerVisit	other	0x00aff4bc	ObjectVisitor	0x00aff4bc	ObjectVisitor	1	0	0		0
+0x00b01680	CheckerFlow	other	0x00aff4ac	InterblockDf	0x00aff4ac	InterblockDf	1	0	1	0x00b00d14	2
+0x00b01690	CheckerIntState	other	0x00aff4ec	Checker	0x00aff4ec	Checker	1	3	1	0x00b00d2c	12
+0x00b016a0	ConstChecker	other	0x00aff50c	CheckerLValue	0x00aff4ec	Checker	2	0	1	0x00b00d94	8
+0x00b016b0	EquivChecker	other	0x00aff50c	CheckerLValue	0x00aff4ec	Checker	2	0	1	0x00b00ddc	8
+0x00b016c0	UninitMemChecker	other	0x00aff50c	CheckerLValue	0x00aff4ec	Checker	2	0	1	0x00b00e24	8
+0x00b016d0	RangeChecker	other	0x00aff50c	CheckerLValue	0x00aff4ec	Checker	2	0	1	0x00b00e6c	8
+0x00b016e0	MemLeakChecker	other	0x00aff51c	CheckerIntStateSafevar	0x00aff4ec	Checker	3	0	1	0x00b00eb4	12
+0x00b016f0	MemLeakCheckerBackwards	other	0x00aff51c	CheckerIntStateSafevar	0x00aff4ec	Checker	3	0	1	0x00b00f1c	12
+0x00b01700	NULLCheckChecker	other	0x00aff4fc	CheckerIntStateLValue	0x00aff4ec	Checker	3	0	1	0x00b00f84	12
+0x00b01710	NULLCheckCheckerBackwards	other	0x00aff4fc	CheckerIntStateLValue	0x00aff4ec	Checker	3	0	1	0x00b00fec	12
+0x00b01720	FreeChecker	other	0x00aff52c	CheckerIntStateAll	0x00aff4ec	Checker	3	0	1	0x00b01054	12
+0x00b01730	FreeCheckerBackwards	other	0x00aff52c	CheckerIntStateAll	0x00aff4ec	Checker	3	0	1	0x00b010bc	12
+0x00b01740	DerefNULLChecker	other	0x00aff4fc	CheckerIntStateLValue	0x00aff4ec	Checker	3	0	1	0x00b01124	12
+0x00b01750	LocalScopeChecker	other	0x00aff4fc	CheckerIntStateLValue	0x00aff4ec	Checker	3	0	1	0x00b0118c	12
+0x00b01760	ReadOnlyWriteChecker	other	0x00aff4fc	CheckerIntStateLValue	0x00aff4ec	Checker	3	0	1	0x00b011f4	12
+0x00b01770	NewSingleChecker	other	0x00aff4fc	CheckerIntStateLValue	0x00aff4ec	Checker	3	0	1	0x00b0125c	12
+0x00b01780	NewArrayChecker	other	0x00aff4fc	CheckerIntStateLValue	0x00aff4ec	Checker	3	0	1	0x00b012c4	12
+0x00b01790	NoReturnChecker	other	0x00aff52c	CheckerIntStateAll	0x00aff4ec	Checker	3	0	1	0x00b0132c	12
+0x00b017a0	UnreadChecker	other	0x00aff51c	CheckerIntStateSafevar	0x00aff4ec	Checker	3	0	1	0x00b01394	12
+0x00b017b0	UnreadCheckerBackwards	other	0x00aff51c	CheckerIntStateSafevar	0x00aff4ec	Checker	3	0	1	0x00b013fc	12
+0x00b017c0	NULLCheckDerefChecker	other	0x00aff4fc	CheckerIntStateLValue	0x00aff4ec	Checker	3	0	1	0x00b01464	12
+0x00b017d0	UninitReadChecker	other	0x00aff51c	CheckerIntStateSafevar	0x00aff4ec	Checker	3	0	1	0x00b014cc	12
+0x00b017e0	UninitReadCheckerBackwards	other	0x00aff51c	CheckerIntStateSafevar	0x00aff4ec	Checker	3	0	1	0x00b01534	12
+0x00b017f0	NoFlowChecker	other	0x00aff52c	CheckerIntStateAll	0x00aff4ec	Checker	3	0	1	0x00b0159c	12
+0x00b01800	StrictUninitChecker	other	0x00aff52c	CheckerIntStateAll	0x00aff4ec	Checker	3	0	1	0x00b01604	12
+0x00b0189c	ObjectVisitor	IR/object-model			0x00b0189c	ObjectVisitor	0	3	0		0
+0x00b018ac	TransformStatementVisitor	optimizer/analysis	0x00b0189c	ObjectVisitor	0x00b0189c	ObjectVisitor	1	3	0		0
+0x00b01aec	BreakupExpressionVisitor	optimizer/analysis	0x00b018ac	TransformStatementVisitor	0x00b0189c	ObjectVisitor	2	0	0		0
+0x00b01afc	ReverseQjfalseVisitor	optimizer/analysis	0x00b0189c	ObjectVisitor	0x00b0189c	ObjectVisitor	1	0	0		0
+0x00b01b0c	ReverseTwoopVisitor	optimizer/analysis	0x00b0189c	ObjectVisitor	0x00b0189c	ObjectVisitor	1	0	0		0
+0x00b01b1c	ExpandUpdatesVisitor	optimizer/analysis	0x00b018ac	TransformStatementVisitor	0x00b0189c	ObjectVisitor	2	0	0		0
+0x00b01b2c	ShiftVariables	other	0x00b018ac	TransformStatementVisitor	0x00b0189c	ObjectVisitor	2	0	0		0
+0x00b01e58	peep_transformer	other			0x00b01e58	peep_transformer	0	4	1	0x00b01cc8	9
+0x00b01e68	pt_condcodes	other	0x00b01e58	peep_transformer	0x00b01e58	peep_transformer	1	0	1	0x00b01d18	9
+0x00b01e78	pt_dead	other	0x00b01e58	peep_transformer	0x00b01e58	peep_transformer	1	0	1	0x00b01d68	9
+0x00b01e88	pt_alias	optimizer/analysis	0x00b01e58	peep_transformer	0x00b01e58	peep_transformer	1	0	1	0x00b01db8	9
+0x00b01e98	pt_const	other	0x00b01e58	peep_transformer	0x00b01e58	peep_transformer	1	0	1	0x00b01e08	9
+0x00b01ed0	ObjectVisitor	IR/object-model			0x00b01ed0	ObjectVisitor	0	1	0		0
+0x00b020a0	nonstandard_type_handler	other	0x00b01ed0	ObjectVisitor	0x00b01ed0	ObjectVisitor	1	1	1	0x00b02060	3
+0x00b020b0	bytereverser	other	0x00b020a0	nonstandard_type_handler	0x00b01ed0	ObjectVisitor	2	0	1	0x00b02080	3
+0x00b039cc	ObjectVisitor	IR/object-model			0x00b039cc	ObjectVisitor	0	8	0		0
+0x00b039dc	ExprAdder	other	0x00b039cc	ObjectVisitor	0x00b039cc	ObjectVisitor	1	0	0		0
+0x00b039ec	CallFinder	other	0x00b039cc	ObjectVisitor	0x00b039cc	ObjectVisitor	1	0	0		0
+0x00b039fc	GlobalMarker	other	0x00b039cc	ObjectVisitor	0x00b039cc	ObjectVisitor	1	0	0		0
+0x00b03a0c	VarFuncReferenced	other	0x00b039cc	ObjectVisitor	0x00b039cc	ObjectVisitor	1	0	0		0
+0x00b03a1c	VarFuncFinder	other	0x00b039cc	ObjectVisitor	0x00b039cc	ObjectVisitor	1	0	0		0
+0x00b03a2c	ArgReplacer	other	0x00b039cc	ObjectVisitor	0x00b039cc	ObjectVisitor	1	0	0		0
+0x00b03a3c	ConstructorReplacer	other	0x00b039cc	ObjectVisitor	0x00b039cc	ObjectVisitor	1	0	0		0
+0x00b03a4c	GlobalReplacer	other	0x00b039cc	ObjectVisitor	0x00b039cc	ObjectVisitor	1	0	0		0
+0x00b03c88	ObjectVisitor	IR/object-model			0x00b03c88	ObjectVisitor	0	1	0		0
+0x00b03c98	VarrefFinder	other	0x00b03c88	ObjectVisitor	0x00b03c88	ObjectVisitor	1	0	0		0
+0x00b03ea0	ObjectVisitor	IR/object-model			0x00b03ea0	ObjectVisitor	0	5	0		0
+0x00b03eb0	CallReplacer	other	0x00b03ea0	ObjectVisitor	0x00b03ea0	ObjectVisitor	1	0	0		0
+0x00b03ec0	ConfusingWrites	other	0x00b03ea0	ObjectVisitor	0x00b03ea0	ObjectVisitor	1	0	0		0
+0x00b044a8	GlobalVisitor	optimizer/analysis	0x00b03ea0	ObjectVisitor	0x00b03ea0	ObjectVisitor	1	0	0		0
+0x00b044b8	ConstVisitor	optimizer/analysis	0x00b03ea0	ObjectVisitor	0x00b03ea0	ObjectVisitor	1	0	0		0
+0x00b044c8	WriteFinder	other	0x00b03ea0	ObjectVisitor	0x00b03ea0	ObjectVisitor	1	0	0		0
+0x00b04530	ObjectVisitor	IR/object-model			0x00b04530	ObjectVisitor	0	2	0		0
+0x00b04540	ReferenceFinder	other	0x00b04530	ObjectVisitor	0x00b04530	ObjectVisitor	1	0	0		0
+0x00b047a4	DependencyFinder	other	0x00b04530	ObjectVisitor	0x00b04530	ObjectVisitor	1	0	0		0
+0x00b049b0	ObjectVisitor	IR/object-model			0x00b049b0	ObjectVisitor	0	1	0		0
+0x00b051a0	ReplaceExprStrVisitor	optimizer/analysis	0x00b049b0	ObjectVisitor	0x00b049b0	ObjectVisitor	1	0	0		0
+0x00b051e0	ObjectVisitor	IR/object-model			0x00b051e0	ObjectVisitor	0	2	0		0
+0x00b0523c	ExprChecker	other	0x00b051e0	ObjectVisitor	0x00b051e0	ObjectVisitor	1	0	0		0
+0x00b0524c	UniquesnumChecker	other	0x00b051e0	ObjectVisitor	0x00b051e0	ObjectVisitor	1	0	0		0
+0x00b05388	pl_bool	other			0x00b05388	pl_bool	0	7	0		0
+0x00b05398	pl_void	other			0x00b05398	pl_void	0	3	0		0
+0x00b053a8	vn_advisor	other			0x00b053a8	vn_advisor	0	13	0		0
+0x00b053b8	pl_apply_readers	other	0x00b05398	pl_void	0x00b05398	pl_void	1	0	0		0
+0x00b053c8	was_replaced	other	0x00b05388	pl_bool	0x00b05388	pl_bool	1	0	0		0
+0x00b05b34	vn_advisor_consol	other	0x00b053a8	vn_advisor	0x00b053a8	vn_advisor	1	2	1	0x00b05934	7
+0x00b05b44	vn_advisor_consoladd	other	0x00b05b34	vn_advisor_consol	0x00b053a8	vn_advisor	2	0	1	0x00b05974	7
+0x00b05b54	vn_advisor_consolshift	other	0x00b05b34	vn_advisor_consol	0x00b053a8	vn_advisor	2	1	1	0x00b059b4	7
+0x00b05b64	vn_advisor_copyprop	optimizer/analysis	0x00b053a8	vn_advisor	0x00b053a8	vn_advisor	1	0	0		0
+0x00b05b74	vn_advisor_intomove	other	0x00b053a8	vn_advisor	0x00b053a8	vn_advisor	1	0	0		0
+0x00b05b84	vn_advisor_preintomove	other	0x00b053a8	vn_advisor	0x00b053a8	vn_advisor	1	0	0		0
+0x00b05b94	vn_advisor_preintomove::register_finder	other	0x00b05388	pl_bool	0x00b05388	pl_bool	1	0	0		0
+0x00b05ba4	vn_advisor_removeinst2	other	0x00b053a8	vn_advisor	0x00b053a8	vn_advisor	1	0	0		0
+0x00b05bb4	vn_advisor_removeinst	other	0x00b053a8	vn_advisor	0x00b053a8	vn_advisor	1	0	0		0
+0x00b05bc4	vn_advisor_mergeaddload	other	0x00b053a8	vn_advisor	0x00b053a8	vn_advisor	1	0	0		0
+0x00b05bd4	vn_advisor_constprop	other	0x00b053a8	vn_advisor	0x00b053a8	vn_advisor	1	0	0		0
+0x00b05be4	vn_advisor_debug	other	0x00b053a8	vn_advisor	0x00b053a8	vn_advisor	1	0	0		0
+0x00b05bf4	vn_advisor_bkwdremoveinst	other	0x00b053a8	vn_advisor	0x00b053a8	vn_advisor	1	0	0		0
+0x00b05c04	vn_advisor_use_pull	other	0x00b053a8	vn_advisor	0x00b053a8	vn_advisor	1	0	0		0
+0x00b05c14	vn_advisor_use_pull::replacer	other	0x00b05388	pl_bool	0x00b05388	pl_bool	1	0	0		0
+0x00b05c24	vn_advisor_use_pull::searcher	other	0x00b05388	pl_bool	0x00b05388	pl_bool	1	0	0		0
+0x00b05c34	vn_advisor_use_pull::good_provider	other	0x00b05388	pl_bool	0x00b05388	pl_bool	1	0	0		0
+0x00b05c44	vn_advisor_combine_shifts2	other	0x00b053a8	vn_advisor	0x00b053a8	vn_advisor	1	0	0		0
+0x00b05c54	vn_advisor_advance_src_writes	other	0x00b053a8	vn_advisor	0x00b053a8	vn_advisor	1	0	0		0
+0x00b05c64	vn_advisor_advance_src_writes::find_dup_read	other	0x00b05398	pl_void	0x00b05398	pl_void	1	0	0		0
+0x00b05c74	vn_advisor_advance_src_writes::find_copy	other	0x00b05398	pl_void	0x00b05398	pl_void	1	0	0		0
+0x00b05c84	vn_advisor_advance_src_writes::new_targ_is_touched	other	0x00b05388	pl_bool	0x00b05388	pl_bool	1	0	0		0
+0x00b05c94	is_pred_shift	other	0x00b05388	pl_bool	0x00b05388	pl_bool	1	0	0		0
+0x00b05d10	pl_void	other			0x00b05d10	pl_void	0	3	0		0
+0x00b05d20	mark_undead	other	0x00b05d10	pl_void	0x00b05d10	pl_void	1	0	0		0
+0x00b05d30	pl_apply_readers	other	0x00b05d10	pl_void	0x00b05d10	pl_void	1	0	0		0
+0x00b05d40	save_vnpl	other	0x00b05d10	pl_void	0x00b05d10	pl_void	1	0	0		0
+0x00b05eb0	pl_bool	other			0x00b05eb0	pl_bool	0	9	0		0
+0x00b05ec0	kill_may_happen_other_than	other	0x00b05eb0	pl_bool	0x00b05eb0	pl_bool	1	0	0		0
+0x00b05ed0	may_be_killed_before_helper	other	0x00b05eb0	pl_bool	0x00b05eb0	pl_bool	1	0	0		0
+0x00b05ee0	may_be_read_helper	other	0x00b05eb0	pl_bool	0x00b05eb0	pl_bool	1	0	0		0
+0x00b05ef0	may_be_read_helper::inner_helper	other	0x00b05eb0	pl_bool	0x00b05eb0	pl_bool	1	0	0		0
+0x00b06018	register_changer	register-allocation	0x00b05eb0	pl_bool	0x00b05eb0	pl_bool	1	0	0		0
+0x00b06028	replace_dest	other	0x00b05eb0	pl_bool	0x00b05eb0	pl_bool	1	0	0		0
+0x00b06038	replace_dest::replace_one_dest	other	0x00b05eb0	pl_bool	0x00b05eb0	pl_bool	1	0	0		0
+0x00b06048	unique_pl	other	0x00b05eb0	pl_bool	0x00b05eb0	pl_bool	1	0	0		0
+0x00b06058	write_may_be_killed	other	0x00b05eb0	pl_bool	0x00b05eb0	pl_bool	1	0	0		0
+0x00b06c1c	ObjectVisitor	IR/object-model			0x00b06c1c	ObjectVisitor	0	2	0		0
+0x00b06c2c	MachopVisitor	optimizer/analysis			0x00b06c2c	MachopVisitor	0	2	1	0x00b06bbc	3
+0x00b06c3c	VarMarker2	other	0x00b06c1c	ObjectVisitor	0x00b06c1c	ObjectVisitor	1	0	0		0
+0x00b06c4c	weak_call_visitor	optimizer/analysis	0x00b06c1c	ObjectVisitor	0x00b06c1c	ObjectVisitor	1	0	0		0
+0x00b06c5c	Split64TestVisitor	optimizer/analysis	0x00b06c2c	MachopVisitor	0x00b06c2c	MachopVisitor	1	0	1	0x00b06bfc	3
+0x00b06c6c	std::exception	runtime/std			0x00b06c6c	std::exception	0	2	1	0x00b06b2c	3
+0x00b06c7c	std::bad_alloc	runtime/std	0x00b06c6c	std::exception	0x00b06c6c	std::exception	1	0	1	0x00b06b4c	3
+0x00b06c8c	std::logic_error	runtime/std	0x00b06c6c	std::exception	0x00b06c6c	std::exception	1	1	1	0x00b06b6c	3
+0x00b06c9c	std::out_of_range	runtime/std	0x00b06c8c	std::logic_error	0x00b06c6c	std::exception	2	0	1	0x00b06b8c	3
+0x00b07ef0	Split64DoVisitor	optimizer/analysis	0x00b06c2c	MachopVisitor	0x00b06c2c	MachopVisitor	1	0	1	0x00b07e3c	3
+0x00b080a0	MachopVisitor	optimizer/analysis			0x00b080a0	MachopVisitor	0	2	1	0x00b08040	3
+0x00b080b0	MachopObjectInvalidator	other	0x00b080a0	MachopVisitor	0x00b080a0	MachopVisitor	1	0	1	0x00b08060	3
+0x00b080c0	MachopImmpropClearer	other	0x00b080a0	MachopVisitor	0x00b080a0	MachopVisitor	1	0	1	0x00b08080	3
+0x00b09ac8	MachopVisitor	optimizer/analysis			0x00b09ac8	MachopVisitor	0	3	1	0x00b09a48	3
+0x00b09ad8	MachopChecker	other	0x00b09ac8	MachopVisitor	0x00b09ac8	MachopVisitor	1	0	1	0x00b09a68	3
+0x00b09ae8	MachopBitoffsetClearer	other	0x00b09ac8	MachopVisitor	0x00b09ac8	MachopVisitor	1	0	1	0x00b09a88	3
+0x00b09af8	AddMachopVisitor	optimizer/analysis	0x00b09ac8	MachopVisitor	0x00b09ac8	MachopVisitor	1	0	1	0x00b09aa8	3
+0x00b09bfc	forEachFunctor<crossblock_preads_fix_entry *>	other			0x00b09bfc	forEachFunctor<crossblock_preads_fix_entry *>	0	2	0		0
+0x00b09c0c	fcpfl	other	0x00b09bfc	forEachFunctor<crossblock_preads_fix_entry *>	0x00b09bfc	forEachFunctor<crossblock_preads_fix_entry *>	1	0	0		0
+0x00b09c1c	a2pf	other	0x00b09bfc	forEachFunctor<crossblock_preads_fix_entry *>	0x00b09bfc	forEachFunctor<crossblock_preads_fix_entry *>	1	0	0		0
+0x00b0a500	alloc_table	register-allocation			0x00b0a500	alloc_table	0	3	1	0x00b0a4d8	4
+0x00b0a5c8	alloc_table_hash	register-allocation	0x00b0a500	alloc_table	0x00b0a500	alloc_table	1	0	1	0x00b0a550	4
+0x00b0a5d8	alloc_table_btree	register-allocation	0x00b0a500	alloc_table	0x00b0a500	alloc_table	1	0	1	0x00b0a578	4
+0x00b0a5e8	alloc_table_bcl	register-allocation	0x00b0a500	alloc_table	0x00b0a500	alloc_table	1	0	1	0x00b0a5a0	4
+0x00b0b784	backend_basetype2	other	0x00afc4e0	backend_basetype	0x00b0e82c	backend_dataflow	2	1	1	0x00b0af4c	262
+0x00b0b7b8	ws_interface	other			0x00b0b7b8	ws_interface	0	1	1	0x00b0b828	13
+0x00b0c0e4	list_scheduler	scheduler			0x00b0c0e4	list_scheduler	0	2	1	0x00b0bf40	11
+0x00b0c0f4	resource_model_scheduler	scheduler	0x00b0c0e4	list_scheduler	0x00b0c0e4	list_scheduler	1	3	1	0x00b0bfa0	13
+0x00b0c104	compat_list_scheduler	scheduler	0x00b0c0e4	list_scheduler	0x00b0c0e4	list_scheduler	1	0	1	0x00b0c084	11
+0x00b0c114	ls_window_scheduler	scheduler	0x00b0b7b8	ws_interface	0x00b0b7b8	ws_interface	1	0	1	0x00b0c010	13
+0x00b0c328	empty	other	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	0	1	0x00b0c35c	23
+0x00b0c7cc	operand_parser	other			0x00b0c7cc	operand_parser	0	18	1	0x00b0c64c	23
+0x00b0c7dc	immediate_implicit	other	0x00b10d70	immediate	0x00b0c7cc	operand_parser	2	0	1	0x00b0c70c	23
+0x00b0c89c	Val	other	0x00b0d2d4	Exp	0x00b0d2d4	Exp	1	2	1	0x00b0c92c	25
+0x00b0c8ac	Num	other	0x00b0c89c	Val	0x00b0d2d4	Exp	2	0	1	0x00b0c9fc	25
+0x00b0c8bc	Unk	other	0x00b0c89c	Val	0x00b0d2d4	Exp	2	2	1	0x00b0cacc	26
+0x00b0c8cc	Bot	other	0x00b0c8bc	Unk	0x00b0d2d4	Exp	3	0	1	0x00b0cba4	26
+0x00b0c8dc	Mem	other	0x00b0c8bc	Unk	0x00b0d2d4	Exp	3	0	1	0x00b0cc7c	26
+0x00b0c8ec	Alu	other	0x00b0d2d4	Exp	0x00b0d2d4	Exp	1	2	1	0x00b0cd54	25
+0x00b0c8fc	Bop	other	0x00b0c8ec	Alu	0x00b0d2d4	Exp	2	2	1	0x00b0ce24	26
+0x00b0c90c	Ncm	other	0x00b0c8fc	Bop	0x00b0d2d4	Exp	3	0	1	0x00b0cefc	26
+0x00b0c91c	Uop	other	0x00b0c8ec	Alu	0x00b0d2d4	Exp	2	0	1	0x00b0cfd4	25
+0x00b0d2d4	Exp	other			0x00b0d2d4	Exp	0	2	1	0x00b0d134	24
+0x00b0d2e4	Cmm	other	0x00b0c8fc	Bop	0x00b0d2d4	Exp	3	0	1	0x00b0d1fc	26
+0x00b0d3b8	obj_iter	other			0x00b0d3b8	obj_iter	0	3	1	0x00b0d578	3
+0x00b0d3c8	singleton_iter	other	0x00b0d3b8	obj_iter	0x00b0d3b8	obj_iter	1	0	1	0x00b0d328	3
+0x00b0d3d8	var_multimap	other			0x00b0d3d8	var_multimap	0	1	1	0x00b0d4c8	10
+0x00b0d3e8	var_disjointsets	other			0x00b0d3e8	var_disjointsets	0	1	1	0x00b0d368	4
+0x00b0d3f8	objectlist_iter	other	0x00b0d3b8	obj_iter	0x00b0d3b8	obj_iter	1	0	1	0x00b0d348	3
+0x00b0d408	var_multimap_impl	other	0x00b0d3d8	var_multimap	0x00b0d3d8	var_multimap	1	0	1	0x00b0d520	10
+0x00b0d418	var_map<objectlist>::var_map_iter	other	0x00b0d3b8	obj_iter	0x00b0d3b8	obj_iter	1	0	1	0x00b0d598	3
+0x00b0d428	var_disjointsets_impl	other	0x00b0d3e8	var_disjointsets	0x00b0d3e8	var_disjointsets	1	0	1	0x00b0d390	4
+0x00b0d5c8	obj_iter	other			0x00b0d5c8	obj_iter	0	1	0		0
+0x00b0d5d8	var_map<objectlist>::var_map_iter	other	0x00b0d5c8	obj_iter	0x00b0d5c8	obj_iter	1	0	0		0
+0x00b0d680	obj_iter	other			0x00b0d680	obj_iter	0	1	1	0x00b0d640	3
+0x00b0d690	update_listener<object_variable>	other			0x00b0d690	update_listener<object_variable>	0	1	0		0
+0x00b0d6a0	spill_variable_set::listener	register-allocation	0x00b0d690	update_listener<object_variable>	0x00b0d690	update_listener<object_variable>	1	0	0		0
+0x00b0d8b8	objpairlist_searchiter	other	0x00b0d680	obj_iter	0x00b0d680	obj_iter	1	0	1	0x00b0d898	3
+0x00b0d908	InterblockDf	optimizer/analysis			0x00b0d908	InterblockDf	0	1	1	0x00b0d8f0	2
+0x00b0e82c	backend_dataflow	optimizer/analysis			0x00b0e82c	backend_dataflow	0	1	1	0x00b0e53c	28
+0x00b0e83c	IndDataFlow	optimizer/analysis	0x00b0d908	InterblockDf	0x00b0d908	InterblockDf	1	4	1	0x00b0e624	15
+0x00b0e84c	RBFwdDataFlow	optimizer/analysis	0x00b0e83c	IndDataFlow	0x00b0d908	InterblockDf	2	0	1	0x00b0e6a4	15
+0x00b0e85c	RBBkwdDataFlow	optimizer/analysis	0x00b0e83c	IndDataFlow	0x00b0d908	InterblockDf	2	0	1	0x00b0e724	15
+0x00b0e86c	RegReNameBkwdDataFlow	optimizer/analysis	0x00b0e83c	IndDataFlow	0x00b0d908	InterblockDf	2	0	1	0x00b0e7a4	15
+0x00b0e91c	InterblockDf	optimizer/analysis			0x00b0e91c	InterblockDf	0	0	1	0x00b0e8d4	2
+0x00b0e92c	pl_void	other			0x00b0e92c	pl_void	0	3	0		0
+0x00b0e93c	mark_undead	other	0x00b0e92c	pl_void	0x00b0e92c	pl_void	1	0	0		0
+0x00b0e94c	apply_and_kill_vol_readers	other	0x00b0e92c	pl_void	0x00b0e92c	pl_void	1	0	0		0
+0x00b0ed44	VNFwdDataFlow	optimizer/analysis	0x00b0e83c	IndDataFlow	0x00b0d908	InterblockDf	2	0	1	0x00b0ecb0	15
+0x00b0ed54	inst_dist	other	0x00b0e92c	pl_void	0x00b0e92c	pl_void	1	0	0		0
+0x00b0edf0	ScavengingFixup	other			0x00b0edf0	ScavengingFixup	0	0	1	0x00b0ed90	11
+0x00b0f1ec	std::exception	runtime/std			0x00b0f1ec	std::exception	0	2	1	0x00b0f16c	3
+0x00b0f1fc	std::bad_alloc	runtime/std	0x00b0f1ec	std::exception	0x00b0f1ec	std::exception	1	0	1	0x00b0f18c	3
+0x00b0f20c	std::logic_error	runtime/std	0x00b0f1ec	std::exception	0x00b0f1ec	std::exception	1	1	1	0x00b0f1ac	3
+0x00b0f21c	std::length_error	runtime/std	0x00b0f20c	std::logic_error	0x00b0f1ec	std::exception	2	0	1	0x00b0f1cc	3
+0x00b0f5dc	std::exception	runtime/std			0x00b0f5dc	std::exception	0	2	1	0x00b0f53c	3
+0x00b0f5ec	std::bad_alloc	runtime/std	0x00b0f5dc	std::exception	0x00b0f5dc	std::exception	1	0	1	0x00b0f55c	3
+0x00b0f5fc	std::logic_error	runtime/std	0x00b0f5dc	std::exception	0x00b0f5dc	std::exception	1	2	1	0x00b0f57c	3
+0x00b0f60c	std::length_error	runtime/std	0x00b0f5fc	std::logic_error	0x00b0f5dc	std::exception	2	0	1	0x00b0f59c	3
+0x00b0f61c	std::out_of_range	runtime/std	0x00b0f5fc	std::logic_error	0x00b0f5dc	std::exception	2	0	1	0x00b0f5bc	3
+0x00b10d30	register_range	register-allocation	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	0	1	0x00b105b0	23
+0x00b10d40	register_set	register-allocation	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	0	1	0x00b10068	23
+0x00b10d50	register_implicit	register-allocation	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	0	1	0x00b10670	23
+0x00b10d60	textset	other	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	0	1	0x00b10128	23
+0x00b10d70	immediate	other	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	1	1	0x00b101e8	23
+0x00b10d80	register_list	register-allocation	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	0	1	0x00b10a30	23
+0x00b10d90	statictext	other	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	0	1	0x00b102a8	23
+0x00b10da0	hardcode	other	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	0	1	0x00b10368	23
+0x00b10db0	compose	other	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	0	1	0x00b107f0	23
+0x00b10dc0	choose	other	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	0	1	0x00b10428	23
+0x00b10dd0	multiple_fields	other	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	0	1	0x00b104e8	23
+0x00b10de0	split_fields	other	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	0	1	0x00b10970	23
+0x00b10df0	suffix	other	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	0	1	0x00b10c70	23
+0x00b10e00	join	other	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	0	1	0x00b10bb0	23
+0x00b10e10	sameas	other	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	0	1	0x00b108b0	23
+0x00b10e20	ignore	other	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	0	1	0x00b10730	23
+0x00b10e30	mnemonic_placeholder	other	0x00b0c7cc	operand_parser	0x00b0c7cc	operand_parser	1	0	1	0x00b10af0	23
+0x00b10f10	std::exception	runtime/std			0x00b10f10	std::exception	0	2	1	0x00b10e70	3
+0x00b10f20	std::bad_alloc	runtime/std	0x00b10f10	std::exception	0x00b10f10	std::exception	1	0	1	0x00b10e90	3
+0x00b10f30	std::logic_error	runtime/std	0x00b10f10	std::exception	0x00b10f10	std::exception	1	2	1	0x00b10eb0	3
+0x00b10f40	std::length_error	runtime/std	0x00b10f30	std::logic_error	0x00b10f10	std::exception	2	0	1	0x00b10ed0	3
+0x00b10f50	std::out_of_range	runtime/std	0x00b10f30	std::logic_error	0x00b10f10	std::exception	2	0	1	0x00b10ef0	3
+0x00b1154c	register_map	register-allocation			0x00b1154c	register_map	0	0	0		0
+0x00b1155c	Disassembler	other			0x00b1155c	Disassembler	0	0	1	0x00b114b4	18
+0x00b11aa8	std::exception	runtime/std			0x00b11aa8	std::exception	0	2	1	0x00b11a28	3
+0x00b11ab8	std::bad_alloc	runtime/std	0x00b11aa8	std::exception	0x00b11aa8	std::exception	1	0	1	0x00b11a48	3
+0x00b11ac8	std::logic_error	runtime/std	0x00b11aa8	std::exception	0x00b11aa8	std::exception	1	1	1	0x00b11a68	3
+0x00b11ad8	std::length_error	runtime/std	0x00b11ac8	std::logic_error	0x00b11aa8	std::exception	2	0	1	0x00b11a88	3
+0x00b11f18	IndInst::instop	other			0x00b11f18	IndInst::instop	0	4	1	0x00b11e78	3
+0x00b11f28	IndInst::instopreg	other	0x00b11f18	IndInst::instop	0x00b11f18	IndInst::instop	1	0	1	0x00b11e98	3
+0x00b11f38	IndInst::instopimm	other	0x00b11f18	IndInst::instop	0x00b11f18	IndInst::instop	1	0	1	0x00b11eb8	3
+0x00b11f48	IndInst::instopcomp	other	0x00b11f18	IndInst::instop	0x00b11f18	IndInst::instop	1	0	1	0x00b11ed8	3
+0x00b11f58	IndInst::instopreglist	other	0x00b11f18	IndInst::instop	0x00b11f18	IndInst::instop	1	0	1	0x00b11ef8	3
+0x00b12008	std::exception	runtime/std			0x00b12008	std::exception	0	2	1	0x00b11f88	3
+0x00b12018	std::bad_alloc	runtime/std	0x00b12008	std::exception	0x00b12008	std::exception	1	0	1	0x00b11fa8	3
+0x00b12028	std::logic_error	runtime/std	0x00b12008	std::exception	0x00b12008	std::exception	1	1	1	0x00b11fc8	3
+0x00b12038	std::length_error	runtime/std	0x00b12028	std::logic_error	0x00b12008	std::exception	2	0	1	0x00b11fe8	3
+0x00b125a0	IndInst::IndInstInterface	other			0x00b125a0	IndInst::IndInstInterface	0	0	1	0x00b12568	6
+0x00b12800	OutputGen	other			0x00b12800	OutputGen	0	4	1	0x00b12738	4
+0x00b12810	SimpleOutputGen	other	0x00b12800	OutputGen	0x00b12800	OutputGen	1	0	1	0x00b12760	4
+0x00b12820	FileOutputGen	other	0x00b12800	OutputGen	0x00b12800	OutputGen	1	0	1	0x00b12788	4
+0x00b12830	BufferOutputGen	other	0x00b12800	OutputGen	0x00b12800	OutputGen	1	0	1	0x00b127b0	4
+0x00b12840	DebugOutputGen	other	0x00b12800	OutputGen	0x00b12800	OutputGen	1	0	1	0x00b127d8	4
+0x00b12cf4	std::exception	runtime/std			0x00b12cf4	std::exception	0	1	1	0x00b12cb4	3
+0x00b12d04	std::bad_alloc	runtime/std	0x00b12cf4	std::exception	0x00b12cf4	std::exception	1	0	1	0x00b12cd4	3
+0x00bd48a0	std::exception	runtime/std			0x00bd48a0	std::exception	0	2	1	0x00bd4800	3
+0x00bd48b0	std::bad_alloc	runtime/std	0x00bd48a0	std::exception	0x00bd48a0	std::exception	1	0	1	0x00bd4820	3
+0x00bd48c0	std::logic_error	runtime/std	0x00bd48a0	std::exception	0x00bd48a0	std::exception	1	2	1	0x00bd4840	3
+0x00bd48d0	std::length_error	runtime/std	0x00bd48c0	std::logic_error	0x00bd48a0	std::exception	2	0	1	0x00bd4860	3
+0x00bd48e0	std::out_of_range	runtime/std	0x00bd48c0	std::logic_error	0x00bd48a0	std::exception	2	0	1	0x00bd4880	3
+0x00bd49a0	std::type_info	runtime/std			0x00bd49a0	std::type_info	0	0	0		0

@@ -1,0 +1,24 @@
+{
+  "confidence": {
+    "high_min": 0.82,
+    "medium_min": 0.65,
+    "range": [
+      0.0,
+      1.0
+    ]
+  },
+  "determinism": "rows sort by descending confidence then ascending VA; arrays/sets use deterministic VA/name ordering",
+  "record_types": {
+    "naming_hypothesis": "inferred semantic name/role; never auto-applied to Ghidra",
+    "observed_function": "facts/current-state exported or structurally recovered from local analysis artifacts"
+  },
+  "schema_version": 1,
+  "separation": {
+    "hypotheses_jsonl": "analysis/auto_names/proposals.jsonl",
+    "hypotheses_tsv": "analysis/auto_names/proposals.tsv",
+    "observations": "analysis/auto_names/observations.jsonl",
+    "observed_evidence_refs_field": "observed_evidence_refs",
+    "upstream_hypothesis_refs_field": "upstream_hypothesis_refs"
+  },
+  "va_format": "0x + 8 lowercase hexadecimal digits"
+}

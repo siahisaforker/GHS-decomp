@@ -1,0 +1,5 @@
+relocation_id,elf_name,oracle_fixtures,encoder_evidence
+4,R_PPC_ADDR16_LO,analysis/oracle/fingerprint_repeat_a/branch__speed/backend.o,oracle ELF evidence
+6,R_PPC_ADDR16_HA,analysis/oracle/fingerprint_repeat_a/branch__speed/backend.o,oracle ELF evidence
+10,R_PPC_REL24,analysis/oracle/fingerprint_repeat_b/loop__debug/probe.o,0x00497b18 emits relocation 10 before 0x004961ab I-form branch encoding
+11,R_PPC_REL14,analysis/oracle/fingerprint_repeat_a/branch__speed/backend.o;analysis/oracle/fingerprint_repeat_b/loop__debug/probe.o,0x00497b18 emits relocation 11 before 0x004961f7 B-form conditional branch encoding

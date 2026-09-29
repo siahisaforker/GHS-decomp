@@ -1,0 +1,7 @@
+fixture,output_kind,mnemonic,text_offset,observed_word,registry_base_encoding,format_id,evidence
+analysis/oracle/fingerprint_new_smoke/paired_candidate__general/probe.o,ELF32-big object,lfsx,0x00000008,0x7da4042e,0x7c00042e,33,oracle object word produced by GHS 5.3.22 Nintendo
+analysis/oracle/fingerprint_new_smoke/paired_candidate__general/probe.o,ELF32-big object,addi,0x00000010,0x398c0001,0x38000000,13,oracle object word produced by GHS 5.3.22 Nintendo
+analysis/oracle/fingerprint_new_smoke/paired_candidate__general/probe.o,ELF32-big object,stfsx,0x0000001c,0x7c03052e,0x7c00052e,33,oracle object word produced by GHS 5.3.22 Nintendo
+analysis/oracle/fingerprint_new_smoke/paired_candidate__general/probe.o,ELF32-big object,blr,0x00000024,0x4e800020,0x4e800020,5,oracle object word produced by GHS 5.3.22 Nintendo
+analysis/oracle/fingerprint_new_smoke/paired_candidate__general/probe.o,ELF32-big object,fmadds,0x00000040,0xec0d603a,0xec00003a,37,oracle object word produced by GHS 5.3.22 Nintendo
+analysis/oracle/_ps_probe/ps.s,text assembly,ps_merge10,,,0x100004a0,35,oracle -S output names this paired-single instruction; registry supplies its base word

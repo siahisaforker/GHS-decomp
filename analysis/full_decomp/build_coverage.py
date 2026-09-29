@@ -21,6 +21,12 @@ CALLGRAPH = HERE / "callgraph.tsv"
 VTABLES = ROOT / "analysis/worker3_static_map/ghs_vtables.tsv"
 REGISTRY = ROOT / "analysis/worker3_static_map/ghs_registry.tsv"
 DECOMPILED = ROOT / "analysis/ghidra/out/decompiled"
+EXTRA_DECOMPILED_GLOBS = (
+    "analysis/full_decomp/exports_wave/*/*.c",
+    "analysis/full_decomp/exports/*/*.c",
+    "analysis/full_decomp/exports_*/*/*.c",
+    "analysis/full_decomp/export_smoke/*/*.c",
+)
 
 DEFAULT_NAME = re.compile(r"FUN_[0-9A-Fa-f]+$")
 SLOT_ADDR = re.compile(r"0x([0-9A-Fa-f]{8})")
@@ -76,6 +82,26 @@ def semantic_score(row: dict) -> float:
     return min(score, 1.0)
 
 
+def module_evidence_metadata(entry: str, evidence: str) -> tuple[list[str], list[str]]:
+    kinds = {
+        "direct_source": ["embedded_source_string_xref"],
+        "address": ["address_bracketed_source_anchors"],
+        "graph": ["callgraph_source_neighbor_consensus"],
+        "graph+address": ["address_bracketed_source_anchors", "callgraph_source_neighbor_consensus"],
+        "vtable": ["vtable_class_membership"],
+    }.get(evidence, [] if not evidence else [evidence])
+    refs = []
+    if evidence in {"direct_source", "address", "graph", "graph+address"}:
+        refs.append(f"analysis/prime/source_file_function_map.tsv#function_entry={entry}")
+    if evidence in {"graph", "graph+address"}:
+        refs.append(f"analysis/full_decomp/callgraph.tsv#va=0x{entry}")
+    if evidence in {"address", "graph+address"}:
+        refs.append("analysis/ghidra/out/inventory/functions.tsv")
+    if evidence == "vtable":
+        refs.append(f"analysis/worker3_static_map/ghs_vtables.tsv#target_va=0x{entry}")
+    return kinds, refs
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--batch-size", type=int, default=96)
@@ -103,7 +129,10 @@ def main() -> int:
 
     # Existing decompiler exports.
     decompiled: set[str] = set()
-    for p in glob.glob(str(DECOMPILED / "*.c")):
+    decomp_paths = list(glob.glob(str(DECOMPILED / "*.c")))
+    for pattern in EXTRA_DECOMPILED_GLOBS:
+        decomp_paths.extend(glob.glob(str(ROOT / pattern)))
+    for p in decomp_paths:
         m = DECOMP_ADDR.match(Path(p).name)
         if m and m.group(1).lower() in functions:
             decompiled.add(m.group(1).lower())
@@ -217,9 +246,12 @@ def main() -> int:
             wave = "unclustered"
 
         row = {
+            "va": "0x" + a,
             "entry": a,
             "body_size": int(f["body_size"]),
             "name": f["name"],
+            "raw_name": ("FUN_" + a.upper()) if f["source"] == "USER_DEFINED" else f["name"],
+            "proposed_name": f["name"] if f["source"] == "USER_DEFINED" else "",
             "name_source": f["source"],
             "semantic_name": semantic,
             "curated_name": f["source"] == "USER_DEFINED",
@@ -236,6 +268,12 @@ def main() -> int:
             "caller_refs": int(f["caller_refs"]),
             "callee_count": int(f["callee_count"]),
         }
+        evidence_kinds, evidence_refs = module_evidence_metadata(a, module_evidence)
+        row["confidence"] = round(module_conf if module else 1.0, 3)
+        row["evidence_kinds"] = evidence_kinds
+        row["evidence_refs"] = evidence_refs
+        row["provenance"] = "analysis/full_decomp/build_coverage.py"
+        row["source_file"] = "analysis/ghidra/out/inventory/functions.tsv"
         row["semantic_score"] = semantic_score(row)
         rows.append(row)
 
@@ -316,6 +354,12 @@ def main() -> int:
                 "address_min": min(chunk, key=lambda x: int(x, 16)),
                 "address_max": max(chunk, key=lambda x: int(x, 16)),
                 "list": str(path.relative_to(out)),
+                "function_vas": ["0x" + a for a in chunk],
+                "confidence": round(sum(remaining[a]["confidence"] for a in chunk) / len(chunk), 3),
+                "evidence_kinds": sorted({k for a in chunk for k in remaining[a]["evidence_kinds"]}),
+                "evidence_refs": sorted({ref for a in chunk for ref in remaining[a]["evidence_refs"]}),
+                "provenance": "analysis/full_decomp/build_coverage.py",
+                "source_file": "analysis/full_decomp/coverage.tsv",
             })
             batch_members[batch_id] = chunk
 
@@ -345,10 +389,10 @@ def main() -> int:
 
     # Full per-function table.
     table_fields = [
-        "entry", "body_size", "name", "name_source", "semantic_name", "curated_name", "decompiled",
+        "va", "entry", "body_size", "raw_name", "proposed_name", "name", "name_source", "semantic_name", "curated_name", "decompiled",
         "direct_source", "source_confidence", "vtable_member", "vtable_classes", "vtable_categories",
         "module", "module_evidence", "module_confidence", "wave", "caller_refs", "callee_count",
-        "semantic_score", "priority",
+        "semantic_score", "priority", "confidence", "evidence_kinds", "evidence_refs", "provenance", "source_file",
     ]
     with (out / "coverage.tsv").open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=table_fields, delimiter="\t")
@@ -357,6 +401,8 @@ def main() -> int:
             x = dict(r)
             x["vtable_classes"] = ";".join(x["vtable_classes"])
             x["vtable_categories"] = ";".join(x["vtable_categories"])
+            x["evidence_kinds"] = ";".join(x["evidence_kinds"])
+            x["evidence_refs"] = ";".join(x["evidence_refs"])
             w.writerow(x)
 
     total = len(rows)
@@ -422,13 +468,20 @@ def main() -> int:
     with (out / "batch_manifest.tsv").open("w", newline="", encoding="utf-8") as f:
         fields = [
             "id", "wave", "module", "module_evidence", "count", "priority_max", "priority_mean",
-            "address_min", "address_max", "list", "outbound_dependencies", "inbound_neighbors",
+            "address_min", "address_max", "list", "function_vas", "confidence", "evidence_kinds", "evidence_refs",
+            "provenance", "source_file", "outbound_dependencies", "inbound_neighbors",
         ]
         w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
         w.writeheader()
         for b in batches:
             w.writerow({
                 **{k: b[k] for k in fields[:10]},
+                "function_vas": ";".join(b["function_vas"]),
+                "confidence": b["confidence"],
+                "evidence_kinds": ";".join(b["evidence_kinds"]),
+                "evidence_refs": ";".join(b["evidence_refs"]),
+                "provenance": b["provenance"],
+                "source_file": b["source_file"],
                 "outbound_dependencies": ";".join(
                     f"{x['batch']}:{x['edges']}" for x in b["outbound_batch_dependencies"]
                 ),
@@ -488,6 +541,49 @@ def main() -> int:
         "Direct source paths are high-confidence anchors. Inferred module labels require either matching source anchors on both address sides within 64 KiB, at least two direct-source callgraph neighbors with >=75% agreement, or both. Vtable-only groupings are explicitly marked as lower-confidence structural locality.",
     ]
     (out / "REPORT.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    remaining_by_wave = Counter(b["wave"] for b in batches for _ in range(b["count"]))
+    completed_wave_exports = {}
+    for wave in ("backend_target", "optimizer", "frontend_bridge"):
+        p = out / "exports_wave" / wave
+        completed_wave_exports[wave] = {
+            "written_functions": len(list(p.glob("*.c"))) if p.is_dir() else 0,
+            "source_list": f"analysis/full_decomp/wave_{wave}.tsv",
+            "export_dir": f"analysis/full_decomp/exports_wave/{wave}",
+        }
+    next_batch = batches[0] if batches else None
+    resume = {
+        "schema_version": 1,
+        "provenance": "analysis/full_decomp/build_coverage.py",
+        "source_file": "analysis/full_decomp/coverage.json",
+        "binary": "ghs5.3.22/bin/ecomppc.exe",
+        "function_count": total,
+        "decompiled_functions": summary["existing_decompiled_functions"],
+        "remaining_functions": summary["remaining_without_decompiled_body"],
+        "semantic_completion_estimate_pct": summary["semantic_completion_estimate_pct"],
+        "core_evidence_pct": summary["functions_with_any_structural_or_semantic_evidence_pct"],
+        "completed_wave_exports": completed_wave_exports,
+        "remaining_batches": len(batches),
+        "remaining_functions_by_wave": dict(sorted(remaining_by_wave.items())),
+        "next_batch": None if next_batch is None else {
+            "batch_id": next_batch["id"],
+            "wave": next_batch["wave"],
+            "module": next_batch["module"],
+            "count": next_batch["count"],
+            "list": "analysis/full_decomp/" + next_batch["list"],
+            "function_vas": next_batch["function_vas"],
+        },
+        "next_wave_command": None if next_batch is None else (
+            f"python3 analysis/full_decomp/export_batches.py --wave {next_batch['wave']} --coalesce "
+            f"--out analysis/full_decomp/exports_{next_batch['wave']}"
+        ),
+        "post_export_commands": [
+            "python3 analysis/full_decomp/build_coverage.py",
+            "python3 analysis/full_decomp/build_ai_index.py",
+        ],
+        "checkpoint_pre_wave": "analysis/full_decomp/checkpoint_pre_wave/checkpoint.json",
+    }
+    (out / "resume.json").write_text(json.dumps(resume, indent=2) + "\n", encoding="utf-8")
 
     print(json.dumps(summary, indent=2))
     return 0

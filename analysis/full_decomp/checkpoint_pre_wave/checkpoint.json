@@ -1,0 +1,13 @@
+{
+  "function_count": 21953,
+  "existing_decompiled_functions": 1810,
+  "remaining_without_decompiled_body": 20143,
+  "semantic_completion_estimate_pct": 6.55,
+  "core_evidence_pct": 18.1,
+  "batch_count": 485,
+  "requested_wave_functions": {
+    "backend_target": 407,
+    "optimizer": 388,
+    "frontend_bridge": 216
+  }
+}

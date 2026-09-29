@@ -1,0 +1,12 @@
+00491dc0	opcode_register
+00491e90	opcode_table_aux_init
+00491eb5	opcode_table_init
+004f8bd7	binary_codegen_pragma_gate
+0074281b	indopc_encode_dispatch
+0059c820	genout_source_anchor
+007a0ed0	indoutputgen_simple
+007a0f69	indoutputgen_buffer
+007a1026	indoutputgen_base
+007a1060	indoutputgen_file
+007a1098	indoutputgen_debug
+007a11cf	indoutputgen_write

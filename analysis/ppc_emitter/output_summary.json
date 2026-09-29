@@ -1,0 +1,74 @@
+{
+  "target": {
+    "path": "ghs5.3.22/bin/ecomppc.exe",
+    "sha256": "b28a092e01f818aa6183dfdbbd40623920d672dc6d37376c0da4fb6084d2f7b3"
+  },
+  "target_vtable_slot_0x5e4": {
+    "function": "0x00422ff4",
+    "semantic_role": "finalize_register_change_mask",
+    "raw_instruction_encoder": false
+  },
+  "instruction_output_boundary": {
+    "per_instruction_function": "0x0047f1a6",
+    "text_assembly_condition": "obj == 0",
+    "binary_object_condition": "obj != 0",
+    "binary_encoder": "0x00497b18",
+    "binary_encoder_requires": "elfobj != 0"
+  },
+  "opcode_database": {
+    "initializer": "0x00491eb5",
+    "register_function": "0x00491dc0",
+    "hash_buckets": 255,
+    "hash_bucket_array": "0x00bdae18",
+    "fixed_descriptor_count": 572,
+    "paired_single_descriptor_count": 35,
+    "paired_single_format_ids": [
+      "0x22",
+      "0x23",
+      "0x24",
+      "0x26",
+      "0x72",
+      "0xa3",
+      "0xa4"
+    ]
+  },
+  "binary_encoder": {
+    "descriptor_lookup": "0x004969e6",
+    "descriptor_fields": {
+      "+0x0": "mnemonic pointer",
+      "+0x4": "32-bit base instruction word",
+      "+0x8": "operand/encoding format id",
+      "+0xc": "hash-chain next"
+    },
+    "write_pattern": "pack fields into base word, reserve 4 bytes, write word at current output location",
+    "paired_single_quantized": {
+      "format_0xa3": "0x00496041",
+      "format_0xa4": "0x004960f6"
+    }
+  },
+  "espresso_peepholes": {
+    "dispatcher": "0x0045fc7d",
+    "master_gate": "espresso_peepholes",
+    "master_disable": "nolocalpeep",
+    "ordered_helpers": [
+      "0x0045f169 espresso_combine_store",
+      "0x0045ea8d espresso_combine_merge",
+      "0x0045ec4a espresso_combine_load",
+      "0x0045f7e5 espresso_fsplat",
+      "0x0045f976 espresso_cmp"
+    ],
+    "ppc_target_initializer": "0x00476da3",
+    "initializer_sets_to_one": [
+      "espresso_basic_ps_opt",
+      "espresso_loadstore_opt",
+      "espresso_peepholes",
+      "espresso_combine_merge",
+      "espresso_combine_load",
+      "espresso_combine_store",
+      "espresso_fsplat",
+      "espresso_cmp",
+      "espresso_ps_pre",
+      "espresso_ps_structinreg"
+    ]
+  }
+}

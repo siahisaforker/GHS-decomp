@@ -1,0 +1,21 @@
+function,option_id,option_name,option_byte_va,condition,effect
+0x00422ff4,1800,ppc_ep_rpx_tnt,0x00c40d56,!= 0,run 0x00422f2e cleanup before register-mask processing
+0x00422ff4,1326,useregchgmask,0x00c40b7c,!= 0,master enable for +0x5e4 register-change-mask finalizer
+0x00422ff4,1373,ada95,0x00c40bab,!= 0 with proc state byte +0x80,suppress mask generation for selected Ada procedure state
+0x00422ff4,385,ajo1,0x00c407cf,== 0,allow addition of two reserved/special register bits
+0x00422ff4,2942,codefactor,0x00c411cc,!= 0 (OR linkxda),enable special-register bit augmentation
+0x00422ff4,3077,linkxda,0x00c41253,!= 0 (OR codefactor),enable special-register bit augmentation
+0x0047f1a6,75,obj,0x00c40699,== 0,emit textual assembly; nonzero selects binary/object encoder 0x00497b18
+0x0074281b,75,obj,0x00c40699,== 0 on target-encode failure,permit fallback to textual PPC operand printer; object mode treats failed target encoding as invalid
+0x0074281b,10,consistent,0x00c40658,!= 0,validate instruction/operand consistency before target encoding
+0x00497b18,1346,elfobj,0x00c40b90,!= 0,required invariant for binary PPC instruction encoder
+0x004e5aad,75,obj,0x00c40699,== 0 vs != 0,select .byte textual rendering versus binary section write
+0x004e5aad,78,bigendian,0x00c4069c,!= 0,serialize high byte/halfword first; matches Wii big-endian ELF output
+0x00497b18,1128,ppcsfp,0x00c40ab6,== 0 for selected CR opcodes,inject target CR helper encoding before main instruction
+0x00497b18,2686,ppc_lwz_absol,0x00c410cc,!= 0,allow absolute D-form rewrite for qualifying loads
+0x0049aa41,2746,ppce500,0x00c41108,!= 0,register e500/SPE extension opcode families
+0x00423aa1,1958,ppc_isel,0x00c40df4,tested,affects target instruction predicate
+0x00423aa1,2581,ppc_fsel,0x00c41063,tested,affects target instruction predicate
+0x00423c13,2062,AltiVec,0x00c40e5c,tested,selects vector operand/register class table
+0x00423c13,2746,ppce500,0x00c41108,tested,selects e500 operand/register class table
+0x00423ce7,1128,ppcsfp,0x00c40ab6,tested,changes extended-asm register-set construction

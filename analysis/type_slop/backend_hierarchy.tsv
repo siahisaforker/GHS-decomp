@@ -1,0 +1,5 @@
+record_va	class_name	category	group_id	depth	primary_base_record_va	primary_base_name	has_vtable	vptr_va	slot_count	confidence	evidence
+0x00abfe94	backend_t	other	backend_dataflow@0x00b0e82c	3	0x00b0b784	backend_basetype2	1	0x00abf664	262	0.99	descriptor_primary_base
+0x00afc4e0	backend_basetype	other	backend_dataflow@0x00b0e82c	1	0x00b0e82c	backend_dataflow	1	0x00afbb98	262	0.99	descriptor_primary_base
+0x00b0b784	backend_basetype2	other	backend_dataflow@0x00b0e82c	2	0x00afc4e0	backend_basetype	1	0x00b0af54	262	0.99	descriptor_primary_base
+0x00b0e82c	backend_dataflow	optimizer/analysis	backend_dataflow@0x00b0e82c	0			1	0x00b0e544	28	0.95	registry_root

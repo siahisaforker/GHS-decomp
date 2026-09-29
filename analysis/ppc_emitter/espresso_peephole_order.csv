@@ -1,0 +1,6 @@
+order,option_name,option_id,helper,effect
+0,espresso_combine_store,4714,0x0045f169,paired-single store combine
+1,espresso_combine_merge,4712,0x0045ea8d,paired-single merge combine
+2,espresso_combine_load,4713,0x0045ec4a,paired-single load combine
+3,espresso_fsplat,4726,0x0045f7e5,paired-single splat fold
+4,espresso_cmp,4728,0x0045f976,paired-single compare combine

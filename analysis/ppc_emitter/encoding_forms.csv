@@ -1,0 +1,10 @@
+function,form,packed_fields,output_bytes,notes
+0x00495fc4,D,rA@21:5;rB@16:5;imm@0:16,4,normal load/store/addi-style D form
+0x00496041,PSQ_D,fr@21:5;rA@16:5;disp@0:12;W@15:1;I@12:3,4,Gekko/Espresso paired-single quantized D form
+0x004960f6,PSQ_X,fr@21:5;rA@16:5;rB@11:5;W@10:1;I@7:3,4,Gekko/Espresso paired-single quantized indexed form
+0x004961ab,I_BRANCH,disp>>2 packed into 24-bit branch field,4,unconditional branch displacement
+0x004961f7,B_BRANCH,BO/condition@18:3;disp>>2 into 14-bit branch field,4,conditional branch form
+0x00496261,XL_BRANCH,field@16:5;value>>2 into 14-bit field,4,XL-like target branch form
+0x004962cb,X,rD@21:5;rA@16:5;rB@11:5,4,three-register X form
+0x00496348,ROTATE_MASK,rD@21:5;rA@16:5;sh[0:4]@11:5;sh5@1;mb[0:4]@6:5;mb5@5,4,rotate/mask split fields
+0x004964aa,MULTI5,f0@21:5;f1@16:5;f2@11:5;f3@6:5;f4@1:5,4,five-field PPC form

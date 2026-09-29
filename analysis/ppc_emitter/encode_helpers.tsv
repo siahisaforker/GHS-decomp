@@ -1,0 +1,9 @@
+004969e6	opcode_descriptor_for_ir
+00495d19	encode_register_field
+00495fc4	encode_d_form
+00496041	encode_psq_d_form
+004960f6	encode_psq_x_form
+004961ab	encode_branch_disp
+004961f7	encode_special_form
+004962cb	encode_x_form
+004952d9	resolve_immediate_or_reloc

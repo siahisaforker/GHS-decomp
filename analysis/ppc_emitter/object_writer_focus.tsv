@@ -1,0 +1,7 @@
+004e76f6	add_object_relocation
+004e5aad	write_object_word
+0062375b	advance_output_location
+004e57e7	write_object_halfword
+004e5670	prepare_output_location
+004e59aa	write_object_wide
+004efe25	align_object_location

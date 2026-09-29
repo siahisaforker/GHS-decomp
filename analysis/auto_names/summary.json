@@ -1,0 +1,158 @@
+{
+  "functions_total": 21953,
+  "unnamed_functions": 21283,
+  "proposal_count": 9838,
+  "bands": {
+    "high": 2988,
+    "medium": 1829,
+    "speculative": 5021
+  },
+  "proposal_kinds": {
+    "class_vmethod": 1258,
+    "curated_backend_map": 7,
+    "string_semantic": 1929,
+    "module_role": 5153,
+    "named_neighbor": 204,
+    "role_only": 634,
+    "weak_evidence": 653
+  },
+  "evidence_types": {
+    "callgraph_round_2": 1023,
+    "vtable": 1552,
+    "direct_string": 3399,
+    "decompiled_body": 1562,
+    "semantic_neighbor": 587,
+    "backend_map": 7,
+    "direct_source": 1736,
+    "address_bracket": 2622,
+    "callgraph_round_1": 890
+  },
+  "top_modules": [
+    [
+      "ghs_be",
+      850
+    ],
+    [
+      "il",
+      398
+    ],
+    [
+      "templates",
+      302
+    ],
+    [
+      "lower_il",
+      295
+    ],
+    [
+      "expr",
+      292
+    ],
+    [
+      "lexical",
+      214
+    ],
+    [
+      "lower_init",
+      211
+    ],
+    [
+      "symbol_tbl",
+      208
+    ],
+    [
+      "overload",
+      180
+    ],
+    [
+      "types",
+      176
+    ],
+    [
+      "exprutil",
+      173
+    ],
+    [
+      "class_decl",
+      163
+    ],
+    [
+      "pragma_ghs",
+      162
+    ],
+    [
+      "error",
+      142
+    ],
+    [
+      "decls",
+      140
+    ],
+    [
+      "trans_corresp",
+      137
+    ],
+    [
+      "statements",
+      117
+    ],
+    [
+      "folding",
+      106
+    ],
+    [
+      "lower_name",
+      96
+    ],
+    [
+      "il_display",
+      95
+    ],
+    [
+      "lower_eh",
+      87
+    ],
+    [
+      "il_alloc",
+      81
+    ],
+    [
+      "macro",
+      79
+    ],
+    [
+      "host_envir",
+      78
+    ],
+    [
+      "scope_stk",
+      78
+    ],
+    [
+      "lower_c99",
+      76
+    ],
+    [
+      "il_to_str",
+      75
+    ],
+    [
+      "lookup",
+      68
+    ],
+    [
+      "ghs_debug",
+      66
+    ],
+    [
+      "decl_spec",
+      63
+    ]
+  ],
+  "decompiled_inputs": 2848,
+  "direct_source_anchors": 1736,
+  "direct_string_functions": 5054,
+  "vtable_member_functions": 1552,
+  "current_semantic_labels": 670,
+  "semantic_anchor_names": 41
+}

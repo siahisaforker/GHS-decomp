@@ -1,0 +1,51 @@
+{
+  "target": {
+    "path": "ghs5.3.22/bin/ecomppc.exe",
+    "sha256": "b28a092e01f818aa6183dfdbbd40623920d672dc6d37376c0da4fb6084d2f7b3"
+  },
+  "vtable_seam": {
+    "slot": "0x5e4",
+    "target": "0x00422ff4",
+    "recovered_semantics": "register-change-mask finalizer"
+  },
+  "output_boundary": {
+    "dispatcher": "0x0047f1a6",
+    "option": "obj",
+    "option_id": 75,
+    "option_byte_va": "0x00c40699",
+    "text_when": 0,
+    "binary_when": "nonzero",
+    "binary_encoder": "0x00497b18",
+    "text_operand_printer": "0x0047e00e"
+  },
+  "opcode_registry": {
+    "initializer": "0x00491eb5",
+    "inserter": "0x00491dc0",
+    "hash_buckets": 255,
+    "entry_count": 572,
+    "paired_single_entries": 35
+  },
+  "register_mask": {
+    "width_bits": 96,
+    "word_count": 6,
+    "working_masks": [
+      "0x00bdb560",
+      "0x00bdb56c",
+      "0x00bdb578"
+    ],
+    "destination": "target-proc-state + 0xb0",
+    "valid_flag": "target-proc-state + 0x59 bit 0x80"
+  },
+  "counts": {
+    "functions": 50,
+    "option_gates": 20,
+    "partitions": 6,
+    "encoding_forms": 9,
+    "nearby_target_callbacks": 13,
+    "finalizer_unique_direct_callees": 18,
+    "target_default_options": 25,
+    "espresso_pattern_xrefs": 70,
+    "oracle_correlations": 6,
+    "oracle_relocation_types": 4
+  }
+}

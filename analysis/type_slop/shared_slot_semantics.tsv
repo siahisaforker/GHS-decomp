@@ -1,0 +1,507 @@
+family_root_record_va	family_root_name	slot	classes_with_slot	unique_targets	dominant_target_va	dominant_target_count	dominant_fraction	inherited_count	override_count	introduced_count	semantic_hypothesis	confidence
+0x00abf270	std::exception	0	6	6	0x00405190	1	0.167	0	5	0	lifecycle/destructor candidate	0.55
+0x00abf270	std::exception	1	6	3	0x004051b7	2	0.333	3	2	0	class-specific virtual slot	0.48
+0x00abf270	std::exception	2	6	6	0x004051c3	1	0.167	0	5	0	override-heavy polymorphic operation	0.72
+0x00abff98	std::exception	0	6	6	0x00424e80	1	0.167	0	5	0	lifecycle/destructor candidate	0.55
+0x00abff98	std::exception	1	6	3	0x00424ea7	2	0.333	3	2	0	class-specific virtual slot	0.48
+0x00abff98	std::exception	2	6	6	0x00424eb3	1	0.167	0	5	0	override-heavy polymorphic operation	0.72
+0x00ac0a18	std::exception	0	4	4	0x0043a660	1	0.250	0	3	0	lifecycle/destructor candidate	0.55
+0x00ac0a18	std::exception	1	4	2	0x0043a687	2	0.500	2	1	0	shared implementation slot	0.62
+0x00ac0a18	std::exception	2	4	4	0x0043a693	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00ace1d0	objectdata	0	40	40	0x004dea14	1	0.025	0	39	0	lifecycle/destructor candidate	0.55
+0x00ace1d0	objectdata	1	40	40	0x004a5d05	1	0.025	0	39	0	override-heavy polymorphic operation	0.72
+0x00ace628	std::exception	0	6	6	0x004e0f9f	1	0.167	0	5	0	lifecycle/destructor candidate	0.55
+0x00ace628	std::exception	1	6	3	0x004e0fc6	2	0.333	3	2	0	class-specific virtual slot	0.48
+0x00ace628	std::exception	2	6	6	0x004e0fd2	1	0.167	0	5	0	override-heavy polymorphic operation	0.72
+0x00acf300	InterblockDf	0	4	4	0x00a92860	1	0.250	0	3	0	lifecycle/destructor candidate	0.55
+0x00acf300	InterblockDf	1	4	4	0x00a92860	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00afd5b8	InterblockDf	0	22	22	0x00a92860	1	0.045	0	21	0	lifecycle/destructor candidate	0.55
+0x00afd5b8	InterblockDf	1	22	22	0x00a92860	1	0.045	0	21	0	override-heavy polymorphic operation	0.72
+0x00aff0cc	AliasAnalyzer	0	3	3	0x005cf400	1	0.333	0	2	0	lifecycle/destructor candidate	0.55
+0x00aff0cc	AliasAnalyzer	1	3	3	0x005cf409	1	0.333	0	2	0	override-heavy polymorphic operation	0.72
+0x00aff4ac	InterblockDf	0	2	2	0x00a92860	1	0.500	0	1	0	lifecycle/destructor candidate	0.55
+0x00aff4ac	InterblockDf	1	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00aff4ec	Checker	0	29	24	0x00a92860	6	0.207	5	23	0	lifecycle/destructor candidate	0.55
+0x00aff4ec	Checker	1	29	24	0x00a92860	6	0.207	5	23	0	override-heavy polymorphic operation	0.72
+0x00aff4ec	Checker	2	29	6	0x0060ecc6	23	0.793	23	5	0	shared implementation slot	0.62
+0x00aff4ec	Checker	3	29	6	0x0060d30f	23	0.793	23	5	0	shared implementation slot	0.62
+0x00aff4ec	Checker	4	29	6	0x0060ee8f	23	0.793	23	5	0	shared implementation slot	0.62
+0x00aff4ec	Checker	5	29	24	0x00a92860	6	0.207	5	23	0	override-heavy polymorphic operation	0.72
+0x00aff4ec	Checker	6	29	6	0x00606438	23	0.793	23	5	0	shared implementation slot	0.62
+0x00aff4ec	Checker	7	29	5	0x006034e2	9	0.310	24	4	0	class-specific virtual slot	0.48
+0x00aff4ec	Checker	8	23	20	0x00a92860	4	0.174	3	19	1	override-heavy polymorphic operation	0.72
+0x00aff4ec	Checker	9	23	20	0x00a92860	4	0.174	3	19	1	override-heavy polymorphic operation	0.72
+0x00aff4ec	Checker	10	23	20	0x00a92860	4	0.174	3	19	1	override-heavy polymorphic operation	0.72
+0x00aff4ec	Checker	11	23	20	0x00a92860	4	0.174	3	19	1	override-heavy polymorphic operation	0.72
+0x00b01e58	peep_transformer	0	5	2	0x0061fe61	4	0.800	3	1	0	lifecycle/destructor candidate	0.55
+0x00b01e58	peep_transformer	1	5	2	0x0061fe6a	4	0.800	3	1	0	stable inherited base virtual	0.85
+0x00b01e58	peep_transformer	2	5	2	0x0061fe73	4	0.800	3	1	0	stable inherited base virtual	0.85
+0x00b01e58	peep_transformer	3	5	5	0x0061fe7c	1	0.200	0	4	0	override-heavy polymorphic operation	0.72
+0x00b01e58	peep_transformer	4	5	5	0x0061fe85	1	0.200	0	4	0	override-heavy polymorphic operation	0.72
+0x00b01e58	peep_transformer	5	5	5	0x0061fe8e	1	0.200	0	4	0	override-heavy polymorphic operation	0.72
+0x00b01e58	peep_transformer	6	5	1	0x0061fc27	5	1.000	4	0	0	stable inherited base virtual	0.90
+0x00b01e58	peep_transformer	7	5	3	0x0061fd8a	3	0.600	2	2	0	shared implementation slot	0.62
+0x00b01e58	peep_transformer	8	5	3	0x0061fe5c	3	0.600	2	2	0	shared implementation slot	0.62
+0x00b01ed0	ObjectVisitor	0	2	1	0x0061fea0	2	1.000	1	0	0	lifecycle/destructor candidate	0.55
+0x00b01ed0	ObjectVisitor	1	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b01ed0	ObjectVisitor	2	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b053a8	vn_advisor	0	4	1	0x00665891	4	1.000	3	0	0	lifecycle/destructor candidate	0.55
+0x00b053a8	vn_advisor	1	4	2	0x0066616f	2	0.500	2	1	0	shared implementation slot	0.62
+0x00b053a8	vn_advisor	2	4	2	0x006661ce	2	0.500	2	1	0	shared implementation slot	0.62
+0x00b053a8	vn_advisor	3	4	4	0x004011b5	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b053a8	vn_advisor	4	4	4	0x00401010	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b053a8	vn_advisor	5	4	4	0x00401490	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b053a8	vn_advisor	6	4	4	0x004010cd	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b06c2c	MachopVisitor	0	3	3	0x00a92860	1	0.333	0	2	0	lifecycle/destructor candidate	0.55
+0x00b06c2c	MachopVisitor	1	3	3	0x00696dd5	1	0.333	0	2	0	override-heavy polymorphic operation	0.72
+0x00b06c2c	MachopVisitor	2	3	1	0x00696df1	3	1.000	2	0	0	stable inherited base virtual	0.90
+0x00b06c6c	std::exception	0	4	4	0x00695a04	1	0.250	0	3	0	lifecycle/destructor candidate	0.55
+0x00b06c6c	std::exception	1	4	2	0x00695a2b	2	0.500	2	1	0	shared implementation slot	0.62
+0x00b06c6c	std::exception	2	4	4	0x00695a37	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b080a0	MachopVisitor	0	3	3	0x00a92860	1	0.333	0	2	0	lifecycle/destructor candidate	0.55
+0x00b080a0	MachopVisitor	1	3	1	0x006cfb36	3	1.000	2	0	0	stable inherited base virtual	0.90
+0x00b080a0	MachopVisitor	2	3	1	0x006cfb52	3	1.000	2	0	0	stable inherited base virtual	0.90
+0x00b09ac8	MachopVisitor	0	4	4	0x00a92860	1	0.250	0	3	0	lifecycle/destructor candidate	0.55
+0x00b09ac8	MachopVisitor	1	4	2	0x00700460	3	0.750	2	1	0	shared implementation slot	0.62
+0x00b09ac8	MachopVisitor	2	4	1	0x0070047c	4	1.000	3	0	0	stable inherited base virtual	0.90
+0x00b0a500	alloc_table	0	4	4	0x0071dcd0	1	0.250	0	3	0	lifecycle/destructor candidate	0.55
+0x00b0a500	alloc_table	1	4	4	0x00a92860	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0a500	alloc_table	2	4	4	0x00a92860	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0a500	alloc_table	3	4	4	0x00a92860	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0b7b8	ws_interface	0	2	2	0x00a92860	1	0.500	0	1	0	lifecycle/destructor candidate	0.55
+0x00b0b7b8	ws_interface	1	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0b7b8	ws_interface	2	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0b7b8	ws_interface	3	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0b7b8	ws_interface	4	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0b7b8	ws_interface	5	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0b7b8	ws_interface	6	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0b7b8	ws_interface	7	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0b7b8	ws_interface	8	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0b7b8	ws_interface	9	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0b7b8	ws_interface	10	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0b7b8	ws_interface	11	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0b7b8	ws_interface	12	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0c0e4	list_scheduler	0	6	3	0x00735ab0	3	0.500	2	3	0	lifecycle/destructor candidate	0.55
+0x00b0c0e4	list_scheduler	1	6	6	0x00487f47	1	0.167	0	5	0	override-heavy polymorphic operation	0.72
+0x00b0c0e4	list_scheduler	2	6	2	0x007387cf	4	0.667	4	1	0	shared implementation slot	0.62
+0x00b0c0e4	list_scheduler	3	6	2	0x00738de5	4	0.667	4	1	0	shared implementation slot	0.62
+0x00b0c0e4	list_scheduler	4	6	3	0x00738772	4	0.667	3	2	0	shared implementation slot	0.62
+0x00b0c0e4	list_scheduler	5	6	2	0x00738d12	4	0.667	4	1	0	shared implementation slot	0.62
+0x00b0c0e4	list_scheduler	6	6	3	0x00739097	4	0.667	3	2	0	shared implementation slot	0.62
+0x00b0c0e4	list_scheduler	7	6	2	0x00739679	4	0.667	4	1	0	shared implementation slot	0.62
+0x00b0c0e4	list_scheduler	8	6	2	0x00739659	4	0.667	4	1	0	shared implementation slot	0.62
+0x00b0c0e4	list_scheduler	9	6	2	0x00739ae2	4	0.667	4	1	0	shared implementation slot	0.62
+0x00b0c0e4	list_scheduler	10	6	2	0x00739824	4	0.667	4	1	0	shared implementation slot	0.62
+0x00b0c0e4	list_scheduler	11	4	4	0x00486cbc	1	0.250	0	3	1	override-heavy polymorphic operation	0.72
+0x00b0c0e4	list_scheduler	12	4	1	0x007399dd	4	1.000	3	0	1	stable inherited base virtual	0.90
+0x00b0c7cc	operand_parser	0	20	18	0x0073b5d2	2	0.100	1	18	0	lifecycle/destructor candidate	0.55
+0x00b0c7cc	operand_parser	1	20	16	0x0078a5bc	4	0.200	1	18	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	2	20	12	0x0078a5c1	7	0.350	2	17	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	3	20	13	0x0078a60a	6	0.300	2	17	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	4	20	8	0x0078a63f	11	0.550	1	18	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	5	20	11	0x0078a644	9	0.450	1	18	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	6	20	4	0x00742622	17	0.850	16	3	0	stable inherited base virtual	0.86
+0x00b0c7cc	operand_parser	7	20	5	0x0078a665	15	0.750	1	18	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	8	20	6	0x0078a66f	13	0.650	2	17	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	9	20	7	0x0074281b	14	0.700	13	6	0	shared implementation slot	0.62
+0x00b0c7cc	operand_parser	10	20	4	0x0078a678	15	0.750	1	18	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	11	20	10	0x0078a699	9	0.450	2	17	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	12	20	11	0x0078a6af	9	0.450	1	18	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	13	20	2	0x0079b5b0	19	0.950	18	1	0	stable inherited base virtual	0.89
+0x00b0c7cc	operand_parser	14	20	10	0x0078a6c3	9	0.450	2	17	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	15	20	10	0x0078a6dd	9	0.450	2	17	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	16	20	10	0x0078a6f1	9	0.450	2	17	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	17	20	10	0x0078a712	9	0.450	2	17	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	18	20	7	0x0078a732	12	0.600	2	17	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	19	20	12	0x0078a78d	7	0.350	2	17	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	20	20	4	0x0078a7dc	15	0.750	1	18	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	21	20	11	0x0078a834	8	0.400	2	17	0	override-heavy polymorphic operation	0.72
+0x00b0c7cc	operand_parser	22	20	7	0x0078a855	12	0.600	2	17	0	override-heavy polymorphic operation	0.72
+0x00b0d2d4	Exp	0	11	3	0x00747c41	5	0.455	8	2	0	lifecycle/destructor candidate	0.55
+0x00b0d2d4	Exp	1	11	2	0x00748931	10	0.909	9	1	0	stable inherited base virtual	0.88
+0x00b0d2d4	Exp	2	11	1	0x00746f50	11	1.000	10	0	0	stable inherited base virtual	0.90
+0x00b0d2d4	Exp	3	11	1	0x00746f73	11	1.000	10	0	0	stable inherited base virtual	0.90
+0x00b0d2d4	Exp	4	11	1	0x00746f96	11	1.000	10	0	0	stable inherited base virtual	0.90
+0x00b0d2d4	Exp	5	11	1	0x00746fb9	11	1.000	10	0	0	stable inherited base virtual	0.90
+0x00b0d2d4	Exp	6	11	1	0x00746fdc	11	1.000	10	0	0	stable inherited base virtual	0.90
+0x00b0d2d4	Exp	7	11	1	0x00746fff	11	1.000	10	0	0	stable inherited base virtual	0.90
+0x00b0d2d4	Exp	8	11	1	0x00747014	11	1.000	10	0	0	stable inherited base virtual	0.90
+0x00b0d2d4	Exp	9	11	1	0x00747029	11	1.000	10	0	0	stable inherited base virtual	0.90
+0x00b0d2d4	Exp	10	11	1	0x0074703e	11	1.000	10	0	0	stable inherited base virtual	0.90
+0x00b0d2d4	Exp	11	11	1	0x00747053	11	1.000	10	0	0	stable inherited base virtual	0.90
+0x00b0d2d4	Exp	12	11	1	0x00747065	11	1.000	10	0	0	stable inherited base virtual	0.90
+0x00b0d2d4	Exp	13	11	1	0x00747077	11	1.000	10	0	0	stable inherited base virtual	0.90
+0x00b0d2d4	Exp	14	11	2	0x00747246	6	0.545	9	1	0	shared implementation slot	0.62
+0x00b0d2d4	Exp	15	11	2	0x0074724f	6	0.545	9	1	0	shared implementation slot	0.62
+0x00b0d2d4	Exp	16	11	2	0x00747258	10	0.909	9	1	0	stable inherited base virtual	0.88
+0x00b0d2d4	Exp	17	11	2	0x00747261	8	0.727	9	1	0	shared implementation slot	0.62
+0x00b0d2d4	Exp	18	11	2	0x0074726a	10	0.909	9	1	0	stable inherited base virtual	0.88
+0x00b0d2d4	Exp	19	11	2	0x00747273	10	0.909	9	1	0	stable inherited base virtual	0.88
+0x00b0d2d4	Exp	20	11	2	0x0074727c	8	0.727	9	1	0	shared implementation slot	0.62
+0x00b0d2d4	Exp	21	11	2	0x00747285	10	0.909	9	1	0	stable inherited base virtual	0.88
+0x00b0d2d4	Exp	22	11	2	0x0074728e	10	0.909	9	1	0	stable inherited base virtual	0.88
+0x00b0d2d4	Exp	23	11	2	0x00747297	10	0.909	9	1	0	stable inherited base virtual	0.88
+0x00b0d2d4	Exp	24	10	5	0x00747d53	3	0.300	4	4	2	class-specific virtual slot	0.48
+0x00b0d2d4	Exp	25	6	5	0x00a92860	2	0.333	0	4	2	override-heavy polymorphic operation	0.72
+0x00b0d3b8	obj_iter	0	4	4	0x00a92860	1	0.250	0	3	0	lifecycle/destructor candidate	0.55
+0x00b0d3b8	obj_iter	1	4	4	0x00a92860	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0d3b8	obj_iter	2	4	4	0x00a92860	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0d3d8	var_multimap	0	2	2	0x00a92860	1	0.500	0	1	0	lifecycle/destructor candidate	0.55
+0x00b0d3d8	var_multimap	1	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0d3d8	var_multimap	2	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0d3d8	var_multimap	3	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0d3d8	var_multimap	4	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0d3d8	var_multimap	5	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0d3d8	var_multimap	6	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0d3d8	var_multimap	7	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0d3d8	var_multimap	8	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0d3d8	var_multimap	9	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0d3e8	var_disjointsets	0	2	2	0x00a92860	1	0.500	0	1	0	lifecycle/destructor candidate	0.55
+0x00b0d3e8	var_disjointsets	1	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0d3e8	var_disjointsets	2	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0d3e8	var_disjointsets	3	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0d680	obj_iter	0	2	2	0x00a92860	1	0.500	0	1	0	lifecycle/destructor candidate	0.55
+0x00b0d680	obj_iter	1	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0d680	obj_iter	2	2	2	0x00a92860	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00b0d908	InterblockDf	0	6	5	0x00a92860	2	0.333	1	4	0	lifecycle/destructor candidate	0.55
+0x00b0d908	InterblockDf	1	6	5	0x00a92860	2	0.333	1	4	0	override-heavy polymorphic operation	0.72
+0x00b0d908	InterblockDf	2	5	4	0x0074dd47	2	0.400	1	3	1	override-heavy polymorphic operation	0.72
+0x00b0d908	InterblockDf	3	5	3	0x0074dd4c	3	0.600	2	2	1	shared implementation slot	0.62
+0x00b0d908	InterblockDf	4	5	4	0x0074dd69	2	0.400	1	3	1	override-heavy polymorphic operation	0.72
+0x00b0d908	InterblockDf	5	5	3	0x0074dd86	3	0.600	2	2	1	shared implementation slot	0.62
+0x00b0d908	InterblockDf	6	5	4	0x0074dd9f	2	0.400	1	3	1	override-heavy polymorphic operation	0.72
+0x00b0d908	InterblockDf	7	5	5	0x00a92860	1	0.200	0	4	1	override-heavy polymorphic operation	0.72
+0x00b0d908	InterblockDf	8	5	4	0x0074ddb8	2	0.400	1	3	1	override-heavy polymorphic operation	0.72
+0x00b0d908	InterblockDf	9	5	4	0x0074ddbd	2	0.400	1	3	1	override-heavy polymorphic operation	0.72
+0x00b0d908	InterblockDf	10	5	3	0x0074ddc7	3	0.600	2	2	1	shared implementation slot	0.62
+0x00b0d908	InterblockDf	11	5	5	0x00a92860	1	0.200	0	4	1	override-heavy polymorphic operation	0.72
+0x00b0d908	InterblockDf	12	5	2	0x0076da5c	4	0.800	3	1	1	stable inherited base virtual	0.85
+0x00b0d908	InterblockDf	13	5	2	0x0076da6c	4	0.800	3	1	1	stable inherited base virtual	0.85
+0x00b0d908	InterblockDf	14	5	2	0x0074ddcc	4	0.800	3	1	1	stable inherited base virtual	0.85
+0x00b0e82c	backend_dataflow	0	4	4	0x00406414	1	0.250	0	3	0	lifecycle/destructor candidate	0.55
+0x00b0e82c	backend_dataflow	1	4	1	0x0076fdcf	4	1.000	3	0	0	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	2	4	4	0x00406419	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	3	4	4	0x0040641e	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	4	4	4	0x00406427	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	5	4	2	0x0076fd8c	3	0.750	2	1	0	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	6	4	2	0x007692da	3	0.750	2	1	0	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	7	4	2	0x0076fd44	3	0.750	2	1	0	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	8	4	2	0x00766cae	3	0.750	2	1	0	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	9	4	4	0x00406430	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	10	4	1	0x007700a6	4	1.000	3	0	0	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	11	4	4	0x00406439	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	12	4	2	0x0076fd2e	3	0.750	2	1	0	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	13	4	4	0x0040644d	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	14	4	4	0x00406456	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	15	4	4	0x0040645f	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	16	4	4	0x00406468	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	17	4	4	0x00406477	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	18	4	4	0x004064a4	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	19	4	4	0x0040670b	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	20	4	4	0x00406714	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	21	4	4	0x0040671d	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	22	4	4	0x0040672b	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	23	4	4	0x004050d2	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	24	4	1	0x0077017f	4	1.000	3	0	0	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	25	4	1	0x007711eb	4	1.000	3	0	0	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	26	4	4	0x004064ae	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	27	4	4	0x00405128	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	28	3	1	0x005bc53a	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	29	3	3	0x00401024	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	30	3	1	0x005bc5d3	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	31	3	1	0x005bc608	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	32	3	1	0x005bc63d	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	33	3	1	0x005bc6a7	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	34	3	3	0x004064c3	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	35	3	1	0x005bc801	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	36	3	1	0x005bc8c2	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	37	3	1	0x005bc947	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	38	3	2	0x005bca13	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	39	3	2	0x005bca59	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	40	3	3	0x004064cd	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	41	3	1	0x005bca8e	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	42	3	1	0x005bca93	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	43	3	3	0x004241a3	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	44	3	3	0x004064d6	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	45	3	1	0x005bca9c	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	46	3	1	0x005bcaa5	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	47	3	1	0x005bcaae	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	48	3	1	0x005bcab7	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	49	3	1	0x005bcac0	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	50	3	1	0x005bcac9	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	51	3	1	0x005bcad2	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	52	3	1	0x005bcadc	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	53	3	1	0x005bcae5	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	54	3	1	0x005bcaee	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	55	3	1	0x005bde39	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	56	3	1	0x005bde42	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	57	3	1	0x005bde4b	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	58	3	3	0x004064df	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	59	3	2	0x005bcaf7	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	60	3	2	0x005bcb00	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	61	3	1	0x0072f96d	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	62	3	3	0x004064e8	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	63	3	2	0x005bca85	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	64	3	2	0x005bcb05	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	65	3	3	0x00424088	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	66	3	2	0x00735592	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	67	3	3	0x0047196d	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	68	3	2	0x007353e2	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	69	3	3	0x004a45f0	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	70	3	3	0x004711e8	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	71	3	3	0x0046f93f	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	72	3	2	0x007354ed	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	73	3	3	0x00471795	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	74	3	3	0x00471769	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	75	3	3	0x004064ed	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	76	3	3	0x004064f2	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	77	3	2	0x007355be	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	78	3	3	0x004064f7	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	79	3	3	0x00406505	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	80	3	3	0x0040650e	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	81	3	3	0x00473a91	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	82	3	1	0x005bcf2f	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	83	3	3	0x0040651e	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	84	3	2	0x00735743	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	85	3	1	0x0077f001	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	86	3	1	0x0077f05d	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	87	3	3	0x00406527	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	88	3	3	0x00406530	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	89	3	3	0x00406535	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	90	3	3	0x0040653a	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	91	3	1	0x005bdbcd	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	92	3	1	0x006cd518	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	93	3	3	0x00406544	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	94	3	1	0x006fc36e	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	95	3	1	0x006fc4f2	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	96	3	1	0x006c8f2b	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	97	3	2	0x007352a0	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	98	3	2	0x007352ea	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	99	3	2	0x00735341	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	100	3	2	0x0073538b	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	101	3	2	0x00735612	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	102	3	2	0x0073561b	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	103	3	3	0x0040654e	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	104	3	3	0x0040655d	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	105	3	3	0x00486abc	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	106	3	3	0x00486b20	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	107	3	3	0x00486ae9	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	108	3	3	0x004869f9	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	109	3	3	0x00486b57	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	110	3	1	0x005bcb18	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	111	3	1	0x005bcb51	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	112	3	2	0x005bdbaa	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	113	3	1	0x00739d9d	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	114	3	1	0x005bcb13	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	115	3	1	0x005bccd3	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	116	3	1	0x005bcb0a	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	117	3	3	0x00406567	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	118	3	1	0x005bccd8	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	119	3	1	0x005bcce1	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	120	3	3	0x00406770	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	121	3	3	0x004067a8	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	122	3	3	0x00406570	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	123	3	3	0x00406579	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	124	3	3	0x00406582	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	125	3	3	0x0040658b	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	126	3	3	0x00406594	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	127	3	1	0x005bde20	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	128	3	3	0x0040735e	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	129	3	3	0x0040659d	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	130	3	1	0x005bccea	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	131	3	1	0x005bce00	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	132	3	3	0x004065a2	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	133	3	2	0x005bce2d	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	134	3	2	0x005bce7d	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	135	3	1	0x005bceca	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	136	3	1	0x005bcecf	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	137	3	1	0x005bcef3	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	138	3	3	0x004065ab	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	139	3	1	0x005bd353	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	140	3	3	0x00470998	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	141	3	3	0x004065b4	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	142	3	3	0x00424b8f	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	143	3	3	0x00424b5d	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	144	3	3	0x004065b9	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	145	3	3	0x004065be	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	146	3	3	0x004065cd	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	147	3	3	0x004065d2	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	148	3	3	0x004065d7	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	149	3	1	0x0073bd67	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	150	3	1	0x0073befc	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	151	3	1	0x0073c694	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	152	3	3	0x004065e1	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	153	3	3	0x004065ea	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	154	3	3	0x004065f4	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	155	3	1	0x0073e08f	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	156	3	1	0x0073ef61	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	157	3	1	0x0073f585	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	158	3	1	0x0073ea02	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	159	3	3	0x004065fe	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	160	3	3	0x00406608	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	161	3	3	0x00406612	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	162	3	3	0x00406617	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	163	3	3	0x0040661c	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	164	3	3	0x00406621	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	165	3	1	0x005bd358	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	166	3	1	0x005bd6a3	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	167	3	2	0x005bd73a	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	168	3	2	0x005bd82a	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	169	3	2	0x007351e2	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	170	3	2	0x0073522e	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	171	3	2	0x00735254	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	172	3	2	0x0073527a	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	173	3	2	0x005bd393	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	174	3	2	0x005bd398	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	175	3	2	0x005bd3a0	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	176	3	2	0x005bd3a9	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	177	3	1	0x005bd3b2	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	178	3	1	0x005bd3bb	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	179	3	2	0x005bd3c5	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	180	3	2	0x005bd3ca	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	181	3	2	0x005bd3cf	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	182	3	3	0x0040662b	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	183	3	1	0x005bd3d8	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	184	3	2	0x005bd3dd	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	185	3	2	0x005bd3e7	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	186	3	1	0x005bd65c	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	187	3	3	0x00422ff4	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	188	3	3	0x00423ce7	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	189	3	3	0x00406630	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	190	3	3	0x00424c85	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	191	3	3	0x00423e2d	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	192	3	3	0x00431693	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	193	3	3	0x0043ec1b	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	194	3	1	0x005bd89d	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	195	3	3	0x00423c13	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	196	3	2	0x005bd972	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	197	3	2	0x005bd9f1	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	198	3	3	0x00406635	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	199	3	2	0x005bda6a	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	200	3	3	0x00423caf	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	201	3	3	0x0040663e	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	202	3	3	0x00406647	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	203	3	3	0x00406651	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	204	3	3	0x0040665b	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	205	3	3	0x004242c0	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	206	3	1	0x005bd98d	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	207	3	3	0x00424123	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	208	3	3	0x00406660	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	209	3	3	0x00406669	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	210	3	1	0x005bdb08	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	211	3	3	0x00406672	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	212	3	1	0x004e2d50	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	213	3	3	0x0040667c	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	214	3	3	0x00406681	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	215	3	3	0x0040668a	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	216	3	1	0x005bdd08	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	217	3	3	0x0040668f	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	218	3	3	0x00406698	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	219	3	3	0x004066a1	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	220	3	3	0x004066aa	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	221	3	3	0x004066b4	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	222	3	3	0x004066b9	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	223	3	3	0x004066c3	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	224	3	3	0x004066cd	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	225	3	3	0x004066d6	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	226	3	3	0x004066db	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	227	3	3	0x004066e0	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	228	3	3	0x00401d91	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	229	3	1	0x0074249b	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	230	3	3	0x004066e5	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	231	3	3	0x004066ee	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	232	3	3	0x004066fd	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	233	3	3	0x00406706	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	234	3	1	0x005bdcc7	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	235	3	1	0x005bdcdc	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	236	3	3	0x00404f81	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	237	3	3	0x0040505a	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	238	3	2	0x005bdbe6	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	239	3	2	0x00735673	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	240	3	3	0x0040673a	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	241	3	2	0x005bde11	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	242	3	3	0x0042439b	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	243	3	3	0x004243b1	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	244	3	3	0x004244c6	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	245	3	3	0x0049a873	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	246	3	1	0x009947c2	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	247	3	2	0x006c4c04	2	0.667	1	1	1	shared implementation slot	0.62
+0x00b0e82c	backend_dataflow	248	3	3	0x0040673f	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	249	3	3	0x00406748	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	250	3	3	0x00406751	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	251	3	3	0x00406756	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	252	3	3	0x0040675e	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	253	3	3	0x0047c39e	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	254	3	1	0x0061eb3f	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	255	3	1	0x0061ea6d	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	256	3	1	0x0061ea04	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	257	3	1	0x0061ead6	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	258	3	1	0x0077f082	3	1.000	2	0	1	stable inherited base virtual	0.90
+0x00b0e82c	backend_dataflow	259	3	3	0x00406767	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	260	3	3	0x0048cba0	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e82c	backend_dataflow	261	3	3	0x00424c57	1	0.333	0	2	1	override-heavy polymorphic operation	0.72
+0x00b0e91c	InterblockDf	0	1	1	0x00a92860	1	1.000	0	0	0	lifecycle/destructor candidate	0.55
+0x00b0e91c	InterblockDf	1	1	1	0x00a92860	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b0edf0	ScavengingFixup	0	1	1	0x00780a92	1	1.000	0	0	0	lifecycle/destructor candidate	0.55
+0x00b0edf0	ScavengingFixup	1	1	1	0x00a92860	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b0edf0	ScavengingFixup	2	1	1	0x007808d0	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b0edf0	ScavengingFixup	3	1	1	0x007808d9	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b0edf0	ScavengingFixup	4	1	1	0x007808e2	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b0edf0	ScavengingFixup	5	1	1	0x007808f2	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b0edf0	ScavengingFixup	6	1	1	0x00780902	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b0edf0	ScavengingFixup	7	1	1	0x0078090b	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b0edf0	ScavengingFixup	8	1	1	0x00a92860	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b0edf0	ScavengingFixup	9	1	1	0x00a92860	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b0edf0	ScavengingFixup	10	1	1	0x00780914	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b0f1ec	std::exception	0	4	4	0x00785910	1	0.250	0	3	0	lifecycle/destructor candidate	0.55
+0x00b0f1ec	std::exception	1	4	2	0x00785937	2	0.500	2	1	0	shared implementation slot	0.62
+0x00b0f1ec	std::exception	2	4	4	0x00785943	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b0f5dc	std::exception	0	5	5	0x00787800	1	0.200	0	4	0	lifecycle/destructor candidate	0.55
+0x00b0f5dc	std::exception	1	5	2	0x00788235	3	0.600	3	1	0	shared implementation slot	0.62
+0x00b0f5dc	std::exception	2	5	5	0x00787833	1	0.200	0	4	0	override-heavy polymorphic operation	0.72
+0x00b10f10	std::exception	0	5	5	0x007918c0	1	0.200	0	4	0	lifecycle/destructor candidate	0.55
+0x00b10f10	std::exception	1	5	2	0x00792312	3	0.600	3	1	0	shared implementation slot	0.62
+0x00b10f10	std::exception	2	5	5	0x007918f3	1	0.200	0	4	0	override-heavy polymorphic operation	0.72
+0x00b1155c	Disassembler	0	1	1	0x00796e31	1	1.000	0	0	0	lifecycle/destructor candidate	0.55
+0x00b1155c	Disassembler	1	1	1	0x00795c8c	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b1155c	Disassembler	2	1	1	0x00795c95	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b1155c	Disassembler	3	1	1	0x00795ca2	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b1155c	Disassembler	4	1	1	0x00795cc3	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b1155c	Disassembler	5	1	1	0x00795ccd	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b1155c	Disassembler	6	1	1	0x00797bb6	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b1155c	Disassembler	7	1	1	0x00798d6d	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b1155c	Disassembler	8	1	1	0x007991de	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b1155c	Disassembler	9	1	1	0x0079ab66	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b1155c	Disassembler	10	1	1	0x00795cec	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b1155c	Disassembler	11	1	1	0x00795cf6	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b1155c	Disassembler	12	1	1	0x00796ef1	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b1155c	Disassembler	13	1	1	0x00795d00	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b1155c	Disassembler	14	1	1	0x007972fd	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b1155c	Disassembler	15	1	1	0x00795d0c	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b1155c	Disassembler	16	1	1	0x00795d15	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b1155c	Disassembler	17	1	1	0x00795d2b	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b11aa8	std::exception	0	4	4	0x0079ca40	1	0.250	0	3	0	lifecycle/destructor candidate	0.55
+0x00b11aa8	std::exception	1	4	2	0x0079ca67	2	0.500	2	1	0	shared implementation slot	0.62
+0x00b11aa8	std::exception	2	4	4	0x0079ca73	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b11f18	IndInst::instop	0	5	5	0x0079d717	1	0.200	0	4	0	lifecycle/destructor candidate	0.55
+0x00b11f18	IndInst::instop	1	5	5	0x00a92860	1	0.200	0	4	0	override-heavy polymorphic operation	0.72
+0x00b11f18	IndInst::instop	2	5	5	0x0079d917	1	0.200	0	4	0	override-heavy polymorphic operation	0.72
+0x00b12008	std::exception	0	4	4	0x0079ea10	1	0.250	0	3	0	lifecycle/destructor candidate	0.55
+0x00b12008	std::exception	1	4	2	0x0079ea37	2	0.500	2	1	0	shared implementation slot	0.62
+0x00b12008	std::exception	2	4	4	0x0079ea43	1	0.250	0	3	0	override-heavy polymorphic operation	0.72
+0x00b125a0	IndInst::IndInstInterface	0	1	1	0x0079f959	1	1.000	0	0	0	lifecycle/destructor candidate	0.55
+0x00b125a0	IndInst::IndInstInterface	1	1	1	0x0079f9bd	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b125a0	IndInst::IndInstInterface	2	1	1	0x0079fa60	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b125a0	IndInst::IndInstInterface	3	1	1	0x0079fdcc	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b125a0	IndInst::IndInstInterface	4	1	1	0x007a023e	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b125a0	IndInst::IndInstInterface	5	1	1	0x007a044d	1	1.000	0	0	0	shared implementation slot	0.62
+0x00b12800	OutputGen	0	5	5	0x00a92860	1	0.200	0	4	0	lifecycle/destructor candidate	0.55
+0x00b12800	OutputGen	1	5	5	0x007a0ddc	1	0.200	0	4	0	override-heavy polymorphic operation	0.72
+0x00b12800	OutputGen	2	5	3	0x007a0e16	3	0.600	2	2	0	shared implementation slot	0.62
+0x00b12800	OutputGen	3	5	1	0x007a0e54	5	1.000	4	0	0	stable inherited base virtual	0.90
+0x00b12cf4	std::exception	0	2	2	0x007a1610	1	0.500	0	1	0	lifecycle/destructor candidate	0.55
+0x00b12cf4	std::exception	1	2	1	0x007a1637	2	1.000	1	0	0	shared implementation slot	0.62
+0x00b12cf4	std::exception	2	2	2	0x007a1643	1	0.500	0	1	0	override-heavy polymorphic operation	0.72
+0x00bd48a0	std::exception	0	5	5	0x00a91fa0	1	0.200	0	4	0	lifecycle/destructor candidate	0.55
+0x00bd48a0	std::exception	1	5	2	0x00a927a7	3	0.600	3	1	0	shared implementation slot	0.62
+0x00bd48a0	std::exception	2	5	5	0x00a9284f	1	0.200	0	4	0	override-heavy polymorphic operation	0.72

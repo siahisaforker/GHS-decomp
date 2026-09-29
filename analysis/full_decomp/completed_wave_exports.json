@@ -1,0 +1,44 @@
+[
+  {
+    "schema_version": 1,
+    "wave": "backend_target",
+    "requested_functions": 407,
+    "written_functions": 407,
+    "source_list": "analysis/full_decomp/wave_backend_target.tsv",
+    "source_list_sha256": "75594561d035694bef03a4bd393339a098449a7d0c73532dbf77d2a683e5986c",
+    "export_dir": "analysis/full_decomp/exports_wave/backend_target",
+    "export_bytes": 397811,
+    "returncode": 0,
+    "read_only_project": true,
+    "provenance": "manual headless wave export via DecompileAddresses.java",
+    "source_file": "analysis/ghidra/scripts/DecompileAddresses.java"
+  },
+  {
+    "schema_version": 1,
+    "wave": "optimizer",
+    "requested_functions": 388,
+    "written_functions": 388,
+    "source_list": "analysis/full_decomp/wave_optimizer.tsv",
+    "source_list_sha256": "ac3d1ce92ca1416ad7583b8b02485ac3c3bfcde3d4d5f36ab74f2ce2512f7230",
+    "export_dir": "analysis/full_decomp/exports_wave/optimizer",
+    "export_bytes": 319564,
+    "returncode": 0,
+    "read_only_project": true,
+    "provenance": "manual headless wave export via DecompileAddresses.java",
+    "source_file": "analysis/ghidra/scripts/DecompileAddresses.java"
+  },
+  {
+    "schema_version": 1,
+    "wave": "frontend_bridge",
+    "requested_functions": 216,
+    "written_functions": 216,
+    "source_list": "analysis/full_decomp/wave_frontend_bridge.tsv",
+    "source_list_sha256": "77a9a5e7ee1f3459d4ce3cd61f0cad720a4babdf9397a9687e97626b61deb6e4",
+    "export_dir": "analysis/full_decomp/exports_wave/frontend_bridge",
+    "export_bytes": 267782,
+    "returncode": 0,
+    "read_only_project": true,
+    "provenance": "manual headless wave export via DecompileAddresses.java",
+    "source_file": "analysis/ghidra/scripts/DecompileAddresses.java"
+  }
+]

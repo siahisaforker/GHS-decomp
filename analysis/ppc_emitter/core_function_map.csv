@@ -1,0 +1,51 @@
+entry,end,size,ghidra_name,analysis_name,role,confidence,evidence
+0x006ae05c,0x006ae38a,815,codewrite,codewrite,generic final-codewrite stage that invokes target slot +0x5e4,high,Ghidra decompile; target-vtable dispatch
+0x00422ff4,0x00423964,2417,FUN_00422ff4,finalize_register_change_mask,PPC target +0x5e4 callback; computes final 96-bit register-change metadata,high,option gates + six-word bitset operations + proc flag 0x80
+0x00422f2e,0x00422ff3,198,FUN_00422f2e,rpx_tnt_regmask_cleanup,optional pre-finalization cleanup for ppc_ep_rpx_tnt,medium-high,direct call from 0x00422ff4 gated by ID 1800
+0x00422e2d,0x00422f2d,257,FUN_00422e2d,regchgmask_instruction_visit,instruction/operand visitor callback used during final mask scan,high,passed to 0x00408b78 by 0x00422ff4
+0x0042226d,0x00422e2c,3008,FUN_0042226d,regchgmask_mark_operand,maps visited target registers into three 96-bit working masks,high,called by 0x00422e2d; register-range globals and bit writes
+0x00406399,0x004063c2,42,FUN_00406399,bitset_fill_96,fill six 16-bit words with one value,high,loop count 6 over ushort words
+0x00405d8a,0x00405dc0,55,FUN_00405d8a,bitset_and_96,AND six 16-bit words,high,six-word loop
+0x00405dc1,0x00405df7,55,FUN_00405dc1,bitset_or_96,OR six 16-bit words,high,six-word loop
+0x00405df8,0x00405ecc,213,FUN_00405df8,bitset_shift_left_96,left-shift six-word/96-bit mask,high,six-word shift implementation
+0x0047f1a6,0x0048169f,9466,FUN_0047f1a6,ppc_per_instruction_output,per-instruction text-vs-object output dispatcher,high,obj gate: text path when clear; calls 0x00497b18 when set
+0x0047e00e,0x0047efe4,4055,FUN_0047e00e,ppc_asm_operand_printer,textual PPC operand/relocation printer,high,emits SDA/PID/TLS syntax and punctuation through text sinks
+0x004f5247,0x004f5963,1821,FUN_004f5247,final_instruction_output_loop,walk finalized blocks/instructions and invoke 0x0047f1a6 for each emitted operation,high,codewrite calls this after target +0x5e4; direct per-op call at decompile line 95
+0x004816c0,0x004817fc,317,FUN_004816c0,text_function_footer,emit function/frame summary comments in assembly mode,high,obj==0 gate and #function/#stack frame strings
+0x0074281b,0x007429d0,438,FUN_0074281b,indopc_encode_dispatch,generic indopc encoder interface: target opdata encoding plus text/object sink dispatch,high,embedded src/compilers/indep/indopc.cc breadcrumb; 4 KiB opdata buffer and obj gate
+0x00497b18,0x0049a2e6,9607,FUN_00497b18,ppc_binary_instruction_output,binary PPC encoder/relocation dispatcher for one IR instruction,high,opcode descriptor format switch; calls concrete form encoders
+0x004969e6,0x00497006,1569,FUN_004969e6,opcode_descriptor_for_ir,lookup PPC opcode descriptor/base word/format for IR instruction,high,called immediately before format switch in binary encoder
+0x00491eb5,0x00494bba,11526,FUN_00491eb5,ppc_opcode_table_init,register base PPC mnemonic/format/base-word table,high,572 calls to 0x00491dc0
+0x00491dc0,0x00491e28,105,FUN_00491dc0,ppc_opcode_register,insert mnemonic record into 255-bucket opcode hash table,high,allocates 16-byte record and hashes mnemonic
+0x0049a9a0,0x0049a9fe,95,FUN_0049a9a0,opcode_hash_contains,test whether mnemonic already exists in opcode hash,high,hash+strcmp chain over DAT_00bdae18
+0x0049aa41,0x0049b067,1575,FUN_0049aa41,e500_opcode_extension_init,conditionally add SPE/e500 opcode families,high,ppce500 gate; extension tables and opcode registration
+0x00476da3,0x0047797b,3033,FUN_00476da3,ppc_target_init,initialize PPC target defaults and base opcode table,high,sets target option bytes and calls 0x00491eb5
+0x004952d9,0x00495d18,2512,FUN_004952d9,resolve_immediate_or_reloc,resolve operand value or create relocation-facing value,medium-high,used throughout binary form switch before bit packing
+0x004952b8,0x004952d8,33,FUN_004952b8,insert_instruction_field,insert a value into a selected bitfield of a 32-bit PPC instruction word,high,shared primitive called by all recovered form encoders
+0x00495d19,0x00495edf,387,FUN_00495d19,encode_register_number,map target register operand to encoded register number,high,feeds 5-bit fields in form encoders
+0x00495fc4,0x00496040,125,FUN_00495fc4,encode_d_form,pack GPR/FPR fields + 16-bit immediate and emit 4-byte word,high,bit positions 21/16/0; output word sink
+0x00496041,0x004960f5,181,FUN_00496041,encode_psq_d_form,pack paired-single quantized D-form fields,high,"bits 21:5,16:5,0:12,15:1,12:3"
+0x004960f6,0x004961aa,181,FUN_004960f6,encode_psq_x_form,pack paired-single quantized indexed-form fields,high,"bits 21:5,16:5,11:5,10:1,7:3"
+0x004961ab,0x004961f6,76,FUN_004961ab,encode_branch_i_form,pack 24-bit word-aligned branch displacement,high,displacement shifted/masked then 4-byte output
+0x004961f7,0x00496260,106,FUN_004961f7,encode_branch_b_form,pack BO/condition plus 14-bit word-aligned branch displacement,high,bits 18:3 plus shifted displacement
+0x00496261,0x004962ca,106,FUN_00496261,encode_branch_xl_form,pack XL-style branch fields,high,5-bit field at bit16 plus 14-bit shifted value
+0x004962cb,0x00496347,125,FUN_004962cb,encode_x_form,pack three 5-bit register fields into X-form base word,high,bits 21/16/11 then 4-byte output
+0x00496348,0x00496410,201,FUN_00496348,encode_rotate_mask_form,pack two registers plus split 6-bit rotate/mask fields,high,5-bit fields plus high-bit split positions
+0x004964aa,0x0049655e,181,FUN_004964aa,encode_multi_field_form,pack five 5-bit fields into base word,high,bits 21/16/11/6/1
+0x004e5aad,0x004e5ce0,564,FUN_004e5aad,emit_u32_word,serialize one 32-bit PPC word as .byte text or object bytes according to obj/bigendian,high,all recovered form encoders call this after advancing 4 bytes
+0x0062375b,0x006237fc,162,FUN_0062375b,advance_output_position,advance emitted-code position and optional debug/output accounting,high,"all recovered form encoders call with (4,1) before word sink"
+0x00423aa1,0x00423c12,370,FUN_00423aa1,target_predicate_62c,PPC instruction predicate influenced by isel/fsel/vectorizer options,medium-high,target slot +0x62c and direct option tests
+0x00423c13,0x00423cae,156,FUN_00423c13,target_operand_class_624,choose PPC operand/register class table for AltiVec/e500,medium-high,target slot +0x624; AltiVec/ppce500 gates
+0x00423ce7,0x00423e2c,326,FUN_00423ce7,target_extasm_regset_5ec,construct extended-asm register-set bitmask,medium-high,target slot +0x5ec; ppcsfp gate
+0x00423e2d,0x00423f44,280,FUN_00423e2d,target_extasm_constraint_604,PPC extended-asm constraint printer/validator,medium-high,target slot +0x604; I/U/X constraint handling
+0x004244c6,0x00424b5c,1687,FUN_004244c6,target_relocatable_ir_lowering_7ac,rewrite symbolic/address-bearing generic IR into PPC target operations before final encoding,high,target slot +0x7ac; decompile rewrites opcodes 0x78..0x7b and 0xc6/0xcd
+0x00424c57,0x00424c84,46,FUN_00424c57,target_branch_merge_834,construct helper instruction during target branch merge,medium-high,target slot +0x834; creates opcode 0x85
+0x0045fc7d,0x0046456b,18671,FUN_0045fc7d,ppc_local_peephole,PPC local peephole dispatcher; Espresso subpasses run first in fixed order,high,espresso_peepholes and sub-option gates
+0x0045ea8d,0x0045ec49,445,FUN_0045ea8d,espresso_combine_merge,paired-single merge combiner,high,espresso_combine_merge gate; PS COM diagnostics
+0x0045ec4a,0x0045f168,1311,FUN_0045ec4a,espresso_combine_load,paired-single load combiner,high,espresso_combine_load gate; PS LOAD diagnostics
+0x0045f169,0x0045f754,1516,FUN_0045f169,espresso_combine_store,paired-single store combiner,high,espresso_combine_store gate; PS ST diagnostics
+0x0045f7e5,0x0045f975,401,FUN_0045f7e5,espresso_fsplat,paired-single splat combiner,high,espresso_fsplat gate; PS FSPLAT diagnostics
+0x0045f976,0x0045fc7c,775,FUN_0045f976,espresso_cmp,paired-single compare combiner,high,espresso_cmp gate; PS CMP diagnostics
+0x0049a873,0x0049a998,294,FUN_0049a873,ppc_relocation_adjust_7b4,target relocation callback that adjusts field offset/width/type before generic relocation creation,high,target slot +0x7b4; first callback in 0x004e76f6
+0x004e57e7,0x004e5959,371,FUN_004e57e7,emit_u16_halfword,serialize one 16-bit halfword according to obj/bigendian,high,called by 0x004e5aad and binary pseudo-op paths
+0x004e76f6,0x004e86f1,4064,FUN_004e76f6,add_object_relocation,create generic object relocation records after target PPC relocation adjustment,high,binary encoder uses relocation IDs 10/11 for I/B branches

@@ -1,0 +1,16 @@
+{
+  "exported_functions": 1011,
+  "by_wave": {
+    "backend_target": 407,
+    "frontend_bridge": 216,
+    "optimizer": 388
+  },
+  "hypothesis_rows": 997,
+  "with_strings": 127,
+  "with_vtable_classes": 701,
+  "with_vtable_slots": 701,
+  "with_registry_evidence": 701,
+  "with_callers": 284,
+  "with_callees": 586,
+  "provenance": "analysis/full_decomp/build_ai_index.py"
+}

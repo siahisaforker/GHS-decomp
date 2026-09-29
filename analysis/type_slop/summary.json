@@ -1,0 +1,67 @@
+{
+  "registry_records": 428,
+  "registry_unique_names": 341,
+  "explicit_primary_base_links": 353,
+  "vtables": 253,
+  "vtable_classes": 253,
+  "virtual_slot_rows": 2605,
+  "unique_virtual_functions": 1553,
+  "vtable_xrefs": 1012,
+  "functions_with_vtable_xrefs": 169,
+  "ctor_dtor_hypotheses": 441,
+  "class_function_hypotheses": 11979,
+  "fun_labels": 2916,
+  "fun_labels_conf_ge_080": 1662,
+  "fun_labels_conf_ge_060": 1667,
+  "shared_slot_family_rows": 506,
+  "backend_chain": [
+    {
+      "record_va": "0x00b0e82c",
+      "name": "backend_dataflow",
+      "depth": 0,
+      "parent_record_va": "",
+      "parent_name": "",
+      "vtable_header_va": "0x00b0e53c",
+      "slot_count": 28,
+      "inherited_slots": 0,
+      "overridden_slots": 0,
+      "introduced_slots": 28
+    },
+    {
+      "record_va": "0x00afc4e0",
+      "name": "backend_basetype",
+      "depth": 1,
+      "parent_record_va": "0x00b0e82c",
+      "parent_name": "backend_dataflow",
+      "vtable_header_va": "0x00afbb90",
+      "slot_count": 262,
+      "inherited_slots": 9,
+      "overridden_slots": 19,
+      "introduced_slots": 234
+    },
+    {
+      "record_va": "0x00b0b784",
+      "name": "backend_basetype2",
+      "depth": 2,
+      "parent_record_va": "0x00afc4e0",
+      "parent_name": "backend_basetype",
+      "vtable_header_va": "0x00b0af4c",
+      "slot_count": 262,
+      "inherited_slots": 109,
+      "overridden_slots": 153,
+      "introduced_slots": 0
+    },
+    {
+      "record_va": "0x00abfe94",
+      "name": "backend_t",
+      "depth": 3,
+      "parent_record_va": "0x00b0b784",
+      "parent_name": "backend_basetype2",
+      "vtable_header_va": "0x00abf65c",
+      "slot_count": 262,
+      "inherited_slots": 94,
+      "overridden_slots": 168,
+      "introduced_slots": 0
+    }
+  ]
+}

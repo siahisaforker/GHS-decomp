@@ -1,0 +1,257 @@
+{
+  "counts": {
+    "bands": {
+      "high": 2988,
+      "medium": 1829,
+      "speculative": 5021
+    },
+    "current_semantic_labels": 670,
+    "decompiled_inputs": 2848,
+    "direct_source_anchors": 1736,
+    "direct_string_functions": 5054,
+    "evidence_types": {
+      "address_bracket": 2622,
+      "backend_map": 7,
+      "callgraph_round_1": 890,
+      "callgraph_round_2": 1023,
+      "decompiled_body": 1562,
+      "direct_source": 1736,
+      "direct_string": 3399,
+      "semantic_neighbor": 587,
+      "vtable": 1552
+    },
+    "functions_total": 21953,
+    "proposal_count": 9838,
+    "proposal_kinds": {
+      "class_vmethod": 1258,
+      "curated_backend_map": 7,
+      "module_role": 5153,
+      "named_neighbor": 204,
+      "role_only": 634,
+      "string_semantic": 1929,
+      "weak_evidence": 653
+    },
+    "semantic_anchor_names": 41,
+    "top_modules": [
+      [
+        "ghs_be",
+        850
+      ],
+      [
+        "il",
+        398
+      ],
+      [
+        "templates",
+        302
+      ],
+      [
+        "lower_il",
+        295
+      ],
+      [
+        "expr",
+        292
+      ],
+      [
+        "lexical",
+        214
+      ],
+      [
+        "lower_init",
+        211
+      ],
+      [
+        "symbol_tbl",
+        208
+      ],
+      [
+        "overload",
+        180
+      ],
+      [
+        "types",
+        176
+      ],
+      [
+        "exprutil",
+        173
+      ],
+      [
+        "class_decl",
+        163
+      ],
+      [
+        "pragma_ghs",
+        162
+      ],
+      [
+        "error",
+        142
+      ],
+      [
+        "decls",
+        140
+      ],
+      [
+        "trans_corresp",
+        137
+      ],
+      [
+        "statements",
+        117
+      ],
+      [
+        "folding",
+        106
+      ],
+      [
+        "lower_name",
+        96
+      ],
+      [
+        "il_display",
+        95
+      ],
+      [
+        "lower_eh",
+        87
+      ],
+      [
+        "il_alloc",
+        81
+      ],
+      [
+        "macro",
+        79
+      ],
+      [
+        "host_envir",
+        78
+      ],
+      [
+        "scope_stk",
+        78
+      ],
+      [
+        "lower_c99",
+        76
+      ],
+      [
+        "il_to_str",
+        75
+      ],
+      [
+        "lookup",
+        68
+      ],
+      [
+        "ghs_debug",
+        66
+      ],
+      [
+        "decl_spec",
+        63
+      ]
+    ],
+    "unnamed_functions": 21283,
+    "vtable_member_functions": 1552
+  },
+  "decompiled_input": {
+    "aggregate_sha256": "fd2f1b6bc4accdf0e9f5376a957a6cb4f31eb4fec16ba20ca69424cf40a98d1e",
+    "file_count": 2903,
+    "globs": [
+      "analysis/full_decomp/exports_wave/**/*.c",
+      "analysis/ghidra/out/decompiled/*.c",
+      "analysis/ghidra/out/keypasses/**/*.c",
+      "analysis/ghidra/out/resource_scheduler/**/*.c",
+      "analysis/ppc_emitter/decompiled_output/*.c"
+    ]
+  },
+  "generator": "analysis/auto_names/build_auto_names.py",
+  "generator_sha256": "5cd004b8c08de1c12d956b549444e667f8cf5a9ed20d926b6271fe22e02e54c0",
+  "inputs": [
+    {
+      "bytes": 1357747,
+      "path": "analysis/ghidra/out/inventory/functions.tsv",
+      "sha256": "b09971c69cc8e53ddf7a839c9686fb8155ba8150299f13d56a842ec207b03c41"
+    },
+    {
+      "bytes": 92816,
+      "path": "analysis/prime/source_file_function_map.tsv",
+      "sha256": "7c58c91c04fd1d47e1a6ff1a67b58841d2472d35e08c503a2668db8d719f9a86"
+    },
+    {
+      "bytes": 2185280,
+      "path": "analysis/ghidra/out/all_string_xrefs.tsv",
+      "sha256": "36df25273eb471975f7817e5328e55ce638106e8d29a3af2a7a3e80dc3f02a36"
+    },
+    {
+      "bytes": 3671822,
+      "path": "analysis/full_decomp/callgraph.tsv",
+      "sha256": "0ffdc5ab9381863749c3ec6079e6071a5557848a25e26fdf807f7a99f2f3b9af"
+    },
+    {
+      "bytes": 49505,
+      "path": "analysis/worker3_static_map/ghs_vtables.tsv",
+      "sha256": "f5233f404306b944c86048b4bc3fa3dd7173888fe9960a0387d4de96e146a8e2"
+    },
+    {
+      "bytes": 34295,
+      "path": "analysis/worker3_static_map/ghs_registry.tsv",
+      "sha256": "9844a0262e457683a9249d3c870c0616b276f36696f1a5a5a2d4e4d9de9ac0e9"
+    },
+    {
+      "bytes": 4011,
+      "path": "analysis/backend_map/function_map.csv",
+      "sha256": "10b25844e92b65d9080ace4aa57668be2cb003d4a7b726d6e45e94e3e0575215"
+    },
+    {
+      "bytes": 8248,
+      "path": "analysis/backend_map/option_globals.csv",
+      "sha256": "2b07c9c62bb16748f048c68b35a2045998053ca3fc3fb9484142a19b33eebd13"
+    }
+  ],
+  "output_digests": [
+    {
+      "bytes": 17846166,
+      "path": "analysis/auto_names/observations.jsonl",
+      "sha256": "f3f46570b894392b18cbc7dec08f2b45f8ad9f911698202551c571268571365f"
+    },
+    {
+      "bytes": 10026731,
+      "path": "analysis/auto_names/proposals.tsv",
+      "sha256": "e116a0ef0dfc7f1c1039b0f81bf4e6e29195fe6a69486771e0164894a6e400a9"
+    },
+    {
+      "bytes": 15537763,
+      "path": "analysis/auto_names/proposals.jsonl",
+      "sha256": "f2f72821ccf64f402d02922d385426d28be491d0014a39d89cfeb8d16880bab8"
+    },
+    {
+      "bytes": 869,
+      "path": "analysis/auto_names/schema.json",
+      "sha256": "44696dfc07cb7be4c76e9d83828d6cd7b5bebde0783819b72895c0d78eb47f7b"
+    },
+    {
+      "bytes": 2087,
+      "path": "analysis/auto_names/summary.json",
+      "sha256": "0624e07fcab11c5c62d2feb5a1f5876f8e8404881ba03ad0c4dc625871f5f0ac"
+    },
+    {
+      "bytes": 929,
+      "path": "analysis/auto_names/summary.md",
+      "sha256": "b1b02e0eb9195cc8f09fde48cf09216c27f232453d0cbb0e3d3a049c091899d9"
+    }
+  ],
+  "outputs": [
+    "analysis/auto_names/observations.jsonl",
+    "analysis/auto_names/proposals.tsv",
+    "analysis/auto_names/proposals.jsonl",
+    "analysis/auto_names/schema.json",
+    "analysis/auto_names/summary.json",
+    "analysis/auto_names/summary.md"
+  ],
+  "resume_command": "python3 analysis/auto_names/build_auto_names.py",
+  "schema_version": 1
+}

@@ -1,8 +1,0 @@
-006ad8d8	independent_optimize
-006ae504	codegen
-006a0b1d	makeproc
-006ae05c	codewrite
-006adf1c	allocate_registers
-006ace63	branch_optimize_driver
-006ac8eb	fixup_driver
-006a51dd	pre_alloc_scheduling

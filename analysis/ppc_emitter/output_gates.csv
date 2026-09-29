@@ -1,0 +1,25 @@
+option_id,option_name,option_byte_va,function,observed_effect
+937,nolocalpeep,0x00c409f7,0x0045fc7d,master early return for PPC local peephole dispatcher
+4712,espresso_combine_merge,0x00c418b6,0x0045fc7d,gate 0x0045ea8d paired-single merge combiner
+4713,espresso_combine_load,0x00c418b7,0x0045fc7d,gate 0x0045ec4a paired-single load combiner
+4714,espresso_combine_store,0x00c418b8,0x0045fc7d,gate 0x0045f169 paired-single store combiner
+4725,espresso_peepholes,0x00c418c3,0x0045fc7d,master enable for Espresso-specific local peephole subpasses
+4726,espresso_fsplat,0x00c418c4,0x0045fc7d,gate 0x0045f7e5 paired-single splat combiner
+4728,espresso_cmp,0x00c418c6,0x0045fc7d,gate 0x0045f976 paired-single compare combiner
+1800,ppc_ep_rpx_tnt,0x00c40d56,0x00422ff4,pre-clean register metadata before mask reconstruction
+1326,useregchgmask,0x00c40b7c,0x00422ff4,master enable for register-change-mask construction
+1373,ada95,0x00c40bab,0x00422ff4,special procedure exclusion invalidates register mask
+385,ajo1,0x00c407cf,0x00422ff4,suppresses explicit r3/r4 addition
+2942,codefactor,0x00c411cc,0x00422ff4,"with !ajo1, causes r3/r4 addition"
+3077,linkxda,0x00c41253,0x00422ff4,"with !ajo1, causes r3/r4 addition"
+75,obj,0x00c40699,0x0047f1a6,0 selects textual assembly; nonzero selects binary object encoder
+1346,elfobj,0x00c40b90,0x00497b18,required invariant for binary PPC object encoder
+3377,direct_c20asm,0x00c4137f,0x006ae05c,runs direct-C2.0-asm prepass 0x006ce39f before main output
+696,ppcvle,0x00c40906,0x0047f1a6/0x00497b18,selects VLE-sensitive textual/object handling
+542,linux_ppc64_abi,0x00c4086c,0x0047f1a6,changes PPC64 textual relocation/operand spellings
+539,ppc64_no_traceback_table,0x00c40869,0x004242c0,suppresses target +0x674 PPC64 traceback metadata output
+542,linux_ppc64_abi,0x00c4086c,0x004242c0,enables target +0x674 PPC64 traceback metadata output
+1128,ppcsfp,0x00c40ab6,0x0047f1a6/0x00497b18,changes SFP instruction/output behavior
+1200,ppcabipic,0x00c40afe,0x0047f1a6,PIC ABI textual lowering/relocation spelling
+1201,ppclargegot,0x00c40aff,0x0047f1a6,large-GOT textual lowering
+2062,AltiVec,0x00c40e5c,0x004969e6,permits alternate opcode descriptor path for vector instructions

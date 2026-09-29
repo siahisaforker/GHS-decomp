@@ -1,0 +1,7 @@
+start,end,partition,gate,semantics
+0x00422ff4,0x0042301d,optional_rpx_tnt_cleanup,ppc_ep_rpx_tnt,optional list/instruction cleanup via 0x00422f2e
+0x0042301e,0x00423059,eligibility_gates,useregchgmask + exclusion predicate + proc flag,decide whether register-change metadata is applicable
+0x0042305a,0x00423091,ada_suppression,ada95 + proc state,clear existing valid flag and exit for excluded Ada procedures
+0x00423092,0x00423152,scan_final_instruction_stream,none beyond master gates,"zero three masks, preserve old mask subset, walk every finalized instruction; abort on record kind 2"
+0x00423153,0x00423832,special_register_augmentation,ajo1==0 && (codefactor || linkxda),mark two target register positions; oversized-index paths are std::bitset range-error scaffolding
+0x00423833,0x0042395f,commit_register_change_mask,successful scan,"set valid bit 0x80, clear proc mask, OR shifted working masks and preserved bits into proc+0xb0"

@@ -1,0 +1,14 @@
+method_offset,target_va,analysis_name,semantics,confidence
+0x5e4,0x00422ff4,finalize_register_change_mask,post-codegen register-change metadata finalizer,high
+0x5ec,0x00423ce7,target_extasm_regset,construct PPC extended-asm register set,medium-high
+0x5fc,0x00424c85,target_shift_constraint_rewrite,rewrite shift amount for target constraint 's',medium-high
+0x604,0x00423e2d,target_extasm_constraint,handle PPC extended-asm I/U/X constraints,medium-high
+0x624,0x00423c13,target_operand_class,select operand/register class table for AltiVec/e500,medium-high
+0x62c,0x00423aa1,target_instruction_predicate,predicate influenced by ppc_isel/ppc_fsel/vectorizer state,medium-high
+0x634,0x00424bce,target_address_register,return target address/base register used by assembly operand printer,medium
+0x64c,0x00423caf,target_small_callback,small target query adjacent to operand-class callbacks,medium
+0x674,0x004242c0,target_traceback_metadata,emit PPC64 traceback metadata when Linux PPC64 ABI requests it,high
+0x67c,0x005bd98d,branch_instruction_predicate,target branch/instruction predicate/filter,medium-high
+0x684,0x00424123,target_state_684,set target state field to 0x20/0x40 from target mode,medium
+0x7ac,0x004244c6,target_relocatable_ir_lowering,rewrite relocatable/symbolic PPC IR before binary/text emission,high
+0x7b4,0x0049a873,target_relocation_adjust,adjust PPC relocation field offset/width/type before generic relocation creation,high

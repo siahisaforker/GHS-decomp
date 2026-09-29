@@ -1,0 +1,1013 @@
+class_record_va	class_name	target_kind	target_va	xref_from	function_entry	function_name	ref_type	instruction
+0x00abf0b0	vn_advisor_ppc_consolshift	table_header	00abf06c	00401559	004014f7	FUN_004014f7	DATA	MOV dword ptr [EAX + 0x8],ECX
+0x00abf0b0	vn_advisor_ppc_consolshift	table_header	00abf06c	00401554	004014f7	FUN_004014f7	DATA	MOV ECX,0xabf06c
+0x00abf270	std::exception	table_header	00abf1b0	004231e4	00422ff4	FUN_00422ff4	DATA	MOV dword ptr [EBP + -0x34],ECX
+0x00abf270	std::exception	table_header	00abf1b0	00423536	00422ff4	FUN_00422ff4	DATA	MOV dword ptr [EBP + -0x74],ECX
+0x00abf270	std::exception	table_header	00abf1b0	004223ac	0042226d	FUN_0042226d	DATA	MOV dword ptr [EBP + 0xffffff54],ECX
+0x00abf270	std::exception	table_header	00abf1b0	0042279e	0042226d	FUN_0042226d	DATA	MOV dword ptr [EBP + -0x2c],EAX
+0x00abf270	std::exception	table_header	00abf1b0	00422b01	0042226d	FUN_0042226d	DATA	MOV dword ptr [EBP + -0x6c],ECX
+0x00abf270	std::exception	table_header	00abf1b0	00405a6d	004059d8	FUN_004059d8	DATA	MOV dword ptr [EBP + -0x28],ECX
+0x00abf270	std::exception	table_header	00abf1b0	00406010	00405fae	FUN_00405fae	DATA	MOV dword ptr [EBP + -0x28],ECX
+0x00abf270	std::exception	table_header	00abf1b0	0040523b	00405200	FUN_00405200	DATA	MOV ECX,0xabf1b0
+0x00abf270	std::exception	table_header	00abf1b0	00405a68	004059d8	FUN_004059d8	DATA	MOV ECX,0xabf1b0
+0x00abf270	std::exception	table_header	00abf1b0	0040600b	00405fae	FUN_00405fae	DATA	MOV ECX,0xabf1b0
+0x00abf270	std::exception	table_header	00abf1b0	004223a7	0042226d	FUN_0042226d	DATA	MOV ECX,0xabf1b0
+0x00abf270	std::exception	table_header	00abf1b0	00422799	0042226d	FUN_0042226d	DATA	MOV EAX,0xabf1b0
+0x00abf270	std::exception	table_header	00abf1b0	00422afc	0042226d	FUN_0042226d	DATA	MOV ECX,0xabf1b0
+0x00abf270	std::exception	table_header	00abf1b0	004231df	00422ff4	FUN_00422ff4	DATA	MOV ECX,0xabf1b0
+0x00abf270	std::exception	table_header	00abf1b0	00423531	00422ff4	FUN_00422ff4	DATA	MOV ECX,0xabf1b0
+0x00abf280	std::bad_alloc	table_header	00abf1d0	0040524b	00405200	FUN_00405200	DATA	MOV EAX,0xabf1d0
+0x00abf290	std::logic_error	table_header	00abf1f0	004231ef	00422ff4	FUN_00422ff4	DATA	MOV dword ptr [EBP + -0x34],EAX
+0x00abf290	std::logic_error	table_header	00abf1f0	00423541	00422ff4	FUN_00422ff4	DATA	MOV dword ptr [EBP + -0x74],EAX
+0x00abf290	std::logic_error	table_header	00abf1f0	004223bd	0042226d	FUN_0042226d	DATA	MOV dword ptr [EBP + 0xffffff54],EAX
+0x00abf290	std::logic_error	table_header	00abf1f0	004227a9	0042226d	FUN_0042226d	DATA	MOV dword ptr [EBP + -0x2c],EAX
+0x00abf290	std::logic_error	table_header	00abf1f0	00422b0c	0042226d	FUN_0042226d	DATA	MOV dword ptr [EBP + -0x6c],EAX
+0x00abf290	std::logic_error	table_header	00abf1f0	00405a78	004059d8	FUN_004059d8	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00abf290	std::logic_error	table_header	00abf1f0	00405a73	004059d8	FUN_004059d8	DATA	MOV EAX,0xabf1f0
+0x00abf290	std::logic_error	table_header	00abf1f0	004223b8	0042226d	FUN_0042226d	DATA	MOV EAX,0xabf1f0
+0x00abf290	std::logic_error	table_header	00abf1f0	004227a4	0042226d	FUN_0042226d	DATA	MOV EAX,0xabf1f0
+0x00abf290	std::logic_error	table_header	00abf1f0	00422b07	0042226d	FUN_0042226d	DATA	MOV EAX,0xabf1f0
+0x00abf290	std::logic_error	table_header	00abf1f0	004231ea	00422ff4	FUN_00422ff4	DATA	MOV EAX,0xabf1f0
+0x00abf290	std::logic_error	table_header	00abf1f0	0042353c	00422ff4	FUN_00422ff4	DATA	MOV EAX,0xabf1f0
+0x00abf2a0	std::out_of_range	table_header	00abf210	00423456	00422ff4	FUN_00422ff4	DATA	MOV dword ptr [EBP + -0x34],EAX
+0x00abf2a0	std::out_of_range	table_header	00abf210	004237b4	00422ff4	FUN_00422ff4	DATA	MOV dword ptr [EBP + -0x74],EAX
+0x00abf2a0	std::out_of_range	table_header	00abf210	00422693	0042226d	FUN_0042226d	DATA	MOV dword ptr [EBP + 0xffffff54],EAX
+0x00abf2a0	std::out_of_range	table_header	00abf210	00422a10	0042226d	FUN_0042226d	DATA	MOV dword ptr [EBP + -0x2c],EAX
+0x00abf2a0	std::out_of_range	table_header	00abf210	00422d7f	0042226d	FUN_0042226d	DATA	MOV dword ptr [EBP + -0x6c],EAX
+0x00abf2a0	std::out_of_range	table_header	00abf210	00405cdf	004059d8	FUN_004059d8	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00abf2a0	std::out_of_range	table_header	00abf210	00405cda	004059d8	FUN_004059d8	DATA	MOV EAX,0xabf210
+0x00abf2a0	std::out_of_range	table_header	00abf210	0042268e	0042226d	FUN_0042226d	DATA	MOV EAX,0xabf210
+0x00abf2a0	std::out_of_range	table_header	00abf210	00422a0b	0042226d	FUN_0042226d	DATA	MOV EAX,0xabf210
+0x00abf2a0	std::out_of_range	table_header	00abf210	00422d7a	0042226d	FUN_0042226d	DATA	MOV EAX,0xabf210
+0x00abf2a0	std::out_of_range	table_header	00abf210	00423451	00422ff4	FUN_00422ff4	DATA	MOV EAX,0xabf210
+0x00abf2a0	std::out_of_range	table_header	00abf210	004237af	00422ff4	FUN_00422ff4	DATA	MOV EAX,0xabf210
+0x00abf2b0	std::runtime_error	table_header	00abf230	0040601b	00405fae	FUN_00405fae	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00abf2b0	std::runtime_error	table_header	00abf230	00406016	00405fae	FUN_00405fae	DATA	MOV EAX,0xabf230
+0x00abf2c0	std::overflow_error	table_header	00abf250	00406282	00405fae	FUN_00405fae	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00abf2c0	std::overflow_error	table_header	00abf250	0040627d	00405fae	FUN_00405fae	DATA	MOV EAX,0xabf250
+0x00abfe94	backend_t	table_header	00abf65c	00424e21	00424ceb	FUN_00424ceb	DATA	MOV dword ptr [EBX],EAX
+0x00abfe94	backend_t	table_header	00abf65c	00424e1c	00424ceb	FUN_00424ceb	DATA	MOV EAX,0xabf65c
+0x00abff98	std::exception	table_header	00abfed8	00425bf4	00425b92	FUN_00425b92	DATA	MOV dword ptr [EBP + -0x28],ECX
+0x00abff98	std::exception	table_header	00abfed8	0042575d	004256c8	FUN_004256c8	DATA	MOV dword ptr [EBP + -0x28],ECX
+0x00abff98	std::exception	table_header	00abfed8	00424f2b	00424ef0	FUN_00424ef0	DATA	MOV ECX,0xabfed8
+0x00abff98	std::exception	table_header	00abfed8	00425758	004256c8	FUN_004256c8	DATA	MOV ECX,0xabfed8
+0x00abff98	std::exception	table_header	00abfed8	00425bef	00425b92	FUN_00425b92	DATA	MOV ECX,0xabfed8
+0x00abffa8	std::bad_alloc	table_header	00abfef8	00424f3b	00424ef0	FUN_00424ef0	DATA	MOV EAX,0xabfef8
+0x00abffb8	std::logic_error	table_header	00abff18	00425768	004256c8	FUN_004256c8	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00abffb8	std::logic_error	table_header	00abff18	00425763	004256c8	FUN_004256c8	DATA	MOV EAX,0xabff18
+0x00abffc8	std::out_of_range	table_header	00abff38	004259cf	004256c8	FUN_004256c8	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00abffc8	std::out_of_range	table_header	00abff38	004259ca	004256c8	FUN_004256c8	DATA	MOV EAX,0xabff38
+0x00abffd8	std::runtime_error	table_header	00abff58	00425bff	00425b92	FUN_00425b92	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00abffd8	std::runtime_error	table_header	00abff58	00425bfa	00425b92	FUN_00425b92	DATA	MOV EAX,0xabff58
+0x00abffe8	std::overflow_error	table_header	00abff78	00425e66	00425b92	FUN_00425b92	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00abffe8	std::overflow_error	table_header	00abff78	00425e61	00425b92	FUN_00425b92	DATA	MOV EAX,0xabff78
+0x00ac0a18	std::exception	table_header	00ac0998	0043ae8c	0043adf7	FUN_0043adf7	DATA	MOV dword ptr [EBP + -0x28],ECX
+0x00ac0a18	std::exception	table_header	00ac0998	0043a70b	0043a6d0	FUN_0043a6d0	DATA	MOV ECX,0xac0998
+0x00ac0a18	std::exception	table_header	00ac0998	0043ae87	0043adf7	FUN_0043adf7	DATA	MOV ECX,0xac0998
+0x00ac0a28	std::bad_alloc	table_header	00ac09b8	0043a71b	0043a6d0	FUN_0043a6d0	DATA	MOV EAX,0xac09b8
+0x00ac0a38	std::logic_error	table_header	00ac09d8	0043ae97	0043adf7	FUN_0043adf7	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00ac0a38	std::logic_error	table_header	00ac09d8	0043ae92	0043adf7	FUN_0043adf7	DATA	MOV EAX,0xac09d8
+0x00ac0a48	std::out_of_range	table_header	00ac09f8	0043b0fe	0043adf7	FUN_0043adf7	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00ac0a48	std::out_of_range	table_header	00ac09f8	0043b0f9	0043adf7	FUN_0043adf7	DATA	MOV EAX,0xac09f8
+0x00ac5960	g4_resource_scheduler	table_header	00ac5810	00486bd1	00486b99	FUN_00486b99	DATA	MOV dword ptr [EBX + 0x3c],EAX
+0x00ac5960	g4_resource_scheduler	table_header	00ac5810	00486bcc	00486b99	FUN_00486b99	DATA	MOV EAX,0xac5810
+0x00ac5970	ppc970_resource_scheduler	table_header	00ac5880	00487f9a	00487f60	FUN_00487f60	DATA	MOV dword ptr [EBX + 0x3c],EAX
+0x00ac5970	ppc970_resource_scheduler	table_header	00ac5880	00487f95	00487f60	FUN_00487f60	DATA	MOV EAX,0xac5880
+0x00ac5980	ame_resource_scheduler	table_header	00ac58f0	0048a7d4	0048a79c	FUN_0048a79c	DATA	MOV dword ptr [EBX + 0x3c],EAX
+0x00ac5980	ame_resource_scheduler	table_header	00ac58f0	0048a7cf	0048a79c	FUN_0048a79c	DATA	MOV EAX,0xac58f0
+0x00ace1d0	objectdata	table_header	00acdd90	004f3209	004f31ef	FUN_004f31ef	DATA	MOV dword ptr [EBP + 0xffffff28],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	00613be9	006137ae	FUN_006137ae	DATA	MOV dword ptr [EBP + -0x3c],EAX
+0x00ace1d0	objectdata	table_header	00acdd90	00613d2d	006137ae	FUN_006137ae	DATA	MOV dword ptr [EBP + -0x60],EAX
+0x00ace1d0	objectdata	table_header	00acdd90	004aaf98	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ac73e	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ababd	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ac5c1	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004abb63	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004abc00	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004aba21	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004abc94	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ac551	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ab7b4	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ac6b3	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ac377	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ac307	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ac290	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ac219	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ac1a2	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ab6e1	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ac3fc	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ab5f8	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ab4d9	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ac108	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ac098	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ab263	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ab03e	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ac028	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ac4dc	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ac46c	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ab0c4	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004abf59	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ab151	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ab354	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004abee9	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004abe79	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004ac631	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004abde0	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004abd44	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	005592ea	005592d9	FUN_005592d9	DATA	MOV dword ptr [EBP + -0x2c],EAX
+0x00ace1d0	objectdata	table_header	00acdd90	005ef8b5	005ef811	FUN_005ef811	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00ace1d0	objectdata	table_header	00acdd90	005271db	00526df0	FUN_00526df0	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	0052729c	00526df0	FUN_00526df0	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	005edbf4	005edb5b	FUN_005edb5b	DATA	MOV dword ptr [EBP + -0x14],EAX
+0x00ace1d0	objectdata	table_header	00acdd90	005d5e6c	005d5e5e	FUN_005d5e5e	DATA	MOV dword ptr [EBP + -0x20],EAX
+0x00ace1d0	objectdata	table_header	00acdd90	005f53e5	005f5370	FUN_005f5370	DATA	MOV dword ptr [EBP + 0xffffff40],EAX
+0x00ace1d0	objectdata	table_header	00acdd90	00994aeb	00994ada	FUN_00994ada	DATA	MOV dword ptr [EBP + -0x38],ECX
+0x00ace1d0	objectdata	table_header	00acdd90	004aaf93	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ab039	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ab0bf	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ab14c	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ab25e	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ab34f	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ab4d4	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ab5f3	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ab6dc	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ab7af	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004aba1c	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004abab8	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004abb5e	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004abbfb	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004abc8f	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004abd3f	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004abddb	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004abe74	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004abee4	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004abf54	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ac023	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ac093	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ac103	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ac19d	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ac214	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ac28b	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ac302	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ac372	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ac3f7	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ac467	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ac4d7	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ac54c	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ac5bc	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ac62c	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ac6ae	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004ac739	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	004f3204	004f31ef	FUN_004f31ef	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	005271d6	00526df0	FUN_00526df0	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	00527297	00526df0	FUN_00526df0	DATA	MOV ECX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	005592e5	005592d9	FUN_005592d9	DATA	MOV EAX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	00576be4	00576bbe	FUN_00576bbe	DATA	MOV EAX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	005d5e67	005d5e5e	FUN_005d5e5e	DATA	MOV EAX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	005edbef	005edb5b	FUN_005edb5b	DATA	MOV EAX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	005ef8b0	005ef811	FUN_005ef811	DATA	MOV EAX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	005f53e0	005f5370	FUN_005f5370	DATA	MOV EAX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	00613be4	006137ae	FUN_006137ae	DATA	MOV EAX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	00613d28	006137ae	FUN_006137ae	DATA	MOV EAX,0xacdd90
+0x00ace1d0	objectdata	table_header	00acdd90	00994ae6	00994ada	FUN_00994ada	DATA	MOV ECX,0xacdd90
+0x00ace1e0	objectdata_twoop	table_header	00acdda8	00613ca4	006137ae	FUN_006137ae	DATA	MOV dword ptr [EBP + -0x3c],EAX
+0x00ace1e0	objectdata_twoop	table_header	00acdda8	00613de8	006137ae	FUN_006137ae	DATA	MOV dword ptr [EBP + -0x60],EAX
+0x00ace1e0	objectdata_twoop	table_header	00acdda8	004aafa6	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1e0	objectdata_twoop	table_header	00acdda8	005592f6	005592d9	FUN_005592d9	DATA	MOV dword ptr [EBP + -0x2c],EAX
+0x00ace1e0	objectdata_twoop	table_header	00acdda8	005ef8c1	005ef811	FUN_005ef811	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00ace1e0	objectdata_twoop	table_header	00acdda8	00576bf5	00576bbe	FUN_00576bbe	DATA	MOV EAX,0xacdda8
+0x00ace1e0	objectdata_twoop	table_header	00acdda8	005edc00	005edb5b	FUN_005edb5b	DATA	MOV dword ptr [EBP + -0x14],EAX
+0x00ace1e0	objectdata_twoop	table_header	00acdda8	005d5e78	005d5e5e	FUN_005d5e5e	DATA	MOV dword ptr [EBP + -0x20],EAX
+0x00ace1e0	objectdata_twoop	table_header	00acdda8	004aafa1	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdda8
+0x00ace1e0	objectdata_twoop	table_header	00acdda8	005592f1	005592d9	FUN_005592d9	DATA	MOV EAX,0xacdda8
+0x00ace1e0	objectdata_twoop	table_header	00acdda8	005d5e73	005d5e5e	FUN_005d5e5e	DATA	MOV EAX,0xacdda8
+0x00ace1e0	objectdata_twoop	table_header	00acdda8	005edbfb	005edb5b	FUN_005edb5b	DATA	MOV EAX,0xacdda8
+0x00ace1e0	objectdata_twoop	table_header	00acdda8	005ef8bc	005ef811	FUN_005ef811	DATA	MOV EAX,0xacdda8
+0x00ace1e0	objectdata_twoop	table_header	00acdda8	00613c9f	006137ae	FUN_006137ae	DATA	MOV EAX,0xacdda8
+0x00ace1e0	objectdata_twoop	table_header	00acdda8	00613de3	006137ae	FUN_006137ae	DATA	MOV EAX,0xacdda8
+0x00ace1f0	objectdata_arrayop	table_header	00acddc0	004abd52	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace1f0	objectdata_arrayop	table_header	00acddc0	004abd4d	004aad62	FUN_004aad62	DATA	MOV ECX,0xacddc0
+0x00ace200	objectdata_vectorop	table_header	00acddd8	004abdee	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace200	objectdata_vectorop	table_header	00acddd8	004abde9	004aad62	FUN_004aad62	DATA	MOV ECX,0xacddd8
+0x00ace210	objectdata_compoundop	table_header	00acddf0	004ac63f	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace210	objectdata_compoundop	table_header	00acddf0	004ac63a	004aad62	FUN_004aad62	DATA	MOV ECX,0xacddf0
+0x00ace220	objectdata_magictype	table_header	00acde08	004ac5cf	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace220	objectdata_magictype	table_header	00acde08	004ac5ca	004aad62	FUN_004aad62	DATA	MOV ECX,0xacde08
+0x00ace230	objectdata_qindex	table_header	00acde20	004abe87	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace230	objectdata_qindex	table_header	00acde20	004abe82	004aad62	FUN_004aad62	DATA	MOV ECX,0xacde20
+0x00ace240	objectdata_dot	table_header	00acde38	004abef7	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace240	objectdata_dot	table_header	00acde38	004abef2	004aad62	FUN_004aad62	DATA	MOV ECX,0xacde38
+0x00ace250	objectdata_recordtyp	table_header	00acde50	004ab362	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace250	objectdata_recordtyp	table_header	00acde50	004ab35d	004aad62	FUN_004aad62	DATA	MOV ECX,0xacde50
+0x00ace260	objectdata_subrangeop	table_header	00acde68	004ab15f	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace260	objectdata_subrangeop	table_header	00acde68	004ab15a	004aad62	FUN_004aad62	DATA	MOV ECX,0xacde68
+0x00ace270	objectdata_call	table_header	00acde80	004abf67	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace270	objectdata_call	table_header	00acde80	00994ba6	00994ada	FUN_00994ada	DATA	MOV dword ptr [EBP + -0x38],ECX
+0x00ace270	objectdata_call	table_header	00acde80	004abf62	004aad62	FUN_004aad62	DATA	MOV ECX,0xacde80
+0x00ace270	objectdata_call	table_header	00acde80	00994ba1	00994ada	FUN_00994ada	DATA	MOV ECX,0xacde80
+0x00ace280	objectdata_rouconstr	table_header	00acde98	004f3303	004f31ef	FUN_004f31ef	DATA	MOV dword ptr [EBP + 0xffffff28],ECX
+0x00ace280	objectdata_rouconstr	table_header	00acde98	004ab0d2	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace280	objectdata_rouconstr	table_header	00acde98	005272a8	00526df0	FUN_00526df0	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace280	objectdata_rouconstr	table_header	00acde98	004ab0cd	004aad62	FUN_004aad62	DATA	MOV ECX,0xacde98
+0x00ace280	objectdata_rouconstr	table_header	00acde98	004f32fe	004f31ef	FUN_004f31ef	DATA	MOV ECX,0xacde98
+0x00ace280	objectdata_rouconstr	table_header	00acde98	005272a3	00526df0	FUN_00526df0	DATA	MOV ECX,0xacde98
+0x00ace290	objectdata_entryop	table_header	00acdeb0	004ac47a	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace290	objectdata_entryop	table_header	00acdeb0	004ac475	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdeb0
+0x00ace2a0	objectdata_statfunc	table_header	00acdec8	004ac4ea	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace2a0	objectdata_statfunc	table_header	00acdec8	004ac4e5	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdec8
+0x00ace2b0	objectdata_qaddrs	table_header	00acdee0	004ac036	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace2b0	objectdata_qaddrs	table_header	00acdee0	004ac031	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdee0
+0x00ace2c0	objectdata_variable	table_header	00acdef8	004ab04c	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace2c0	objectdata_variable	table_header	00acdef8	005271e7	00526df0	FUN_00526df0	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace2c0	objectdata_variable	table_header	00acdef8	004ab047	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdef8
+0x00ace2c0	objectdata_variable	table_header	00acdef8	005271e2	00526df0	FUN_00526df0	DATA	MOV ECX,0xacdef8
+0x00ace2d0	objectdata_varfield	table_header	00acdf10	004ab271	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace2d0	objectdata_varfield	table_header	00acdf10	004ab26c	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdf10
+0x00ace2e0	objectdata_generic	table_header	00acdf28	004ac0a6	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace2e0	objectdata_generic	table_header	00acdf28	004ac0a1	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdf28
+0x00ace2f0	objectdata_scalconst	table_header	00acdf40	004ac116	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace2f0	objectdata_scalconst	table_header	00acdf40	004ac111	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdf40
+0x00ace300	objectdata_floatconst	table_header	00acdf58	004ab4e7	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace300	objectdata_floatconst	table_header	00acdf58	004ab4e2	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdf58
+0x00ace310	objectdata_strconst	table_header	00acdf70	004ab606	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace310	objectdata_strconst	table_header	00acdf70	004ab601	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdf70
+0x00ace330	objectdata_complexop	table_header	00acdfa0	004ac40a	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace330	objectdata_complexop	table_header	00acdfa0	004ac405	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdfa0
+0x00ace340	objectdata_data	table_header	00acdfb8	004ab6ef	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace340	objectdata_data	table_header	00acdfb8	004ab6ea	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdfb8
+0x00ace350	objectdata_qjcond	table_header	00acdfd0	004ac1b0	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace350	objectdata_qjcond	table_header	00acdfd0	004ac1ab	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdfd0
+0x00ace360	objectdata_qjmp	table_header	00acdfe8	004ac227	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace360	objectdata_qjmp	table_header	00acdfe8	004ac222	004aad62	FUN_004aad62	DATA	MOV ECX,0xacdfe8
+0x00ace370	objectdata_qjtab	table_header	00ace000	004ac29e	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace370	objectdata_qjtab	table_header	00ace000	004ac299	004aad62	FUN_004aad62	DATA	MOV ECX,0xace000
+0x00ace380	objectdata_arithifi	table_header	00ace018	004ac315	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace380	objectdata_arithifi	table_header	00ace018	004ac310	004aad62	FUN_004aad62	DATA	MOV ECX,0xace018
+0x00ace390	objectdata_ifop	table_header	00ace030	004ac385	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace390	objectdata_ifop	table_header	00ace030	004ac380	004aad62	FUN_004aad62	DATA	MOV ECX,0xace030
+0x00ace3a0	objectdata_predcode	table_header	00ace048	004ac6c1	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace3a0	objectdata_predcode	table_header	00ace048	004ac6bc	004aad62	FUN_004aad62	DATA	MOV ECX,0xace048
+0x00ace3b0	objectdata_block	table_header	00ace060	004ab7c2	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace3b0	objectdata_block	table_header	00ace060	005f53f7	005f5370	FUN_005f5370	DATA	MOV dword ptr [EBP + 0xffffff40],EAX
+0x00ace3b0	objectdata_block	table_header	00ace060	004ab7bd	004aad62	FUN_004aad62	DATA	MOV ECX,0xace060
+0x00ace3b0	objectdata_block	table_header	00ace060	005f53f2	005f5370	FUN_005f5370	DATA	MOV EAX,0xace060
+0x00ace3d0	objectdata_fourop	table_header	00ace090	004ac55f	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace3d0	objectdata_fourop	table_header	00ace090	004ac55a	004aad62	FUN_004aad62	DATA	MOV ECX,0xace090
+0x00ace3e0	objectdata_casm	table_header	00ace0a8	004abca2	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace3e0	objectdata_casm	table_header	00ace0a8	004abc9d	004aad62	FUN_004aad62	DATA	MOV ECX,0xace0a8
+0x00ace3f0	objectdata_lineop	table_header	00ace0c0	004aba2f	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace3f0	objectdata_lineop	table_header	00ace0c0	004aba2a	004aad62	FUN_004aad62	DATA	MOV ECX,0xace0c0
+0x00ace400	objectdata_commentop	table_header	00ace0d8	004abacb	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace400	objectdata_commentop	table_header	00ace0d8	004abac6	004aad62	FUN_004aad62	DATA	MOV ECX,0xace0d8
+0x00ace410	objectdata_startscope	table_header	00ace0f0	004abb71	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace410	objectdata_startscope	table_header	00ace0f0	004abb6c	004aad62	FUN_004aad62	DATA	MOV ECX,0xace0f0
+0x00ace420	objectdata_leavescope	table_header	00ace108	004abc0e	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace420	objectdata_leavescope	table_header	00ace108	004abc09	004aad62	FUN_004aad62	DATA	MOV ECX,0xace108
+0x00ace440	objectdata_statexpr	table_header	00ace138	004ac74c	004aad62	FUN_004aad62	DATA	MOV dword ptr [EAX + 0x14],ECX
+0x00ace440	objectdata_statexpr	table_header	00ace138	004ac747	004aad62	FUN_004aad62	DATA	MOV ECX,0xace138
+0x00ace628	std::exception	table_header	00ace558	004e1d13	004e1cb1	FUN_004e1cb1	DATA	MOV dword ptr [EBP + -0x28],ECX
+0x00ace628	std::exception	table_header	00ace558	004e187c	004e17e7	FUN_004e17e7	DATA	MOV dword ptr [EBP + -0x28],ECX
+0x00ace628	std::exception	table_header	00ace558	004e104a	004e100f	FUN_004e100f	DATA	MOV ECX,0xace558
+0x00ace628	std::exception	table_header	00ace558	004e1877	004e17e7	FUN_004e17e7	DATA	MOV ECX,0xace558
+0x00ace628	std::exception	table_header	00ace558	004e1d0e	004e1cb1	FUN_004e1cb1	DATA	MOV ECX,0xace558
+0x00ace638	std::bad_alloc	table_header	00ace578	004e105a	004e100f	FUN_004e100f	DATA	MOV EAX,0xace578
+0x00ace648	std::logic_error	table_header	00ace598	004e1887	004e17e7	FUN_004e17e7	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00ace648	std::logic_error	table_header	00ace598	004e1882	004e17e7	FUN_004e17e7	DATA	MOV EAX,0xace598
+0x00ace658	std::out_of_range	table_header	00ace5b8	004e1aee	004e17e7	FUN_004e17e7	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00ace658	std::out_of_range	table_header	00ace5b8	004e1ae9	004e17e7	FUN_004e17e7	DATA	MOV EAX,0xace5b8
+0x00ace668	std::runtime_error	table_header	00ace5d8	004e1d1e	004e1cb1	FUN_004e1cb1	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00ace668	std::runtime_error	table_header	00ace5d8	004e1d19	004e1cb1	FUN_004e1cb1	DATA	MOV EAX,0xace5d8
+0x00ace678	std::overflow_error	table_header	00ace5f8	004e1f85	004e1cb1	FUN_004e1cb1	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00ace678	std::overflow_error	table_header	00ace5f8	004e1f80	004e1cb1	FUN_004e1cb1	DATA	MOV EAX,0xace5f8
+0x00acf300	InterblockDf	table_header	00acf278	00501088	00500fbc	run_liveness_dataflow	DATA	MOV dword ptr [EBP + -0x8],EAX
+0x00acf300	InterblockDf	table_header	00acf278	005010c3	00500fbc	run_liveness_dataflow	DATA	MOV dword ptr [EBP + -0x20],EAX
+0x00acf300	InterblockDf	table_header	00acf278	005010fe	00500fbc	run_liveness_dataflow	DATA	MOV dword ptr [EBP + -0x38],EAX
+0x00acf300	InterblockDf	table_header	00acf278	00501083	00500fbc	run_liveness_dataflow	DATA	MOV EAX,0xacf278
+0x00acf300	InterblockDf	table_header	00acf278	005010be	00500fbc	run_liveness_dataflow	DATA	MOV EAX,0xacf278
+0x00acf300	InterblockDf	table_header	00acf278	005010f9	00500fbc	run_liveness_dataflow	DATA	MOV EAX,0xacf278
+0x00acf6d0	TouchesDf	table_header	00acf688	00501097	00500fbc	run_liveness_dataflow	DATA	MOV dword ptr [EBP + -0x8],EAX
+0x00acf6d0	TouchesDf	table_header	00acf688	00501092	00500fbc	run_liveness_dataflow	DATA	MOV EAX,0xacf688
+0x00acf6e0	LivenessDf	table_header	00acf6a0	005010d2	00500fbc	run_liveness_dataflow	DATA	MOV dword ptr [EBP + -0x20],EAX
+0x00acf6e0	LivenessDf	table_header	00acf6a0	005010cd	00500fbc	run_liveness_dataflow	DATA	MOV EAX,0xacf6a0
+0x00acf6f0	PostLivenessDf	table_header	00acf6b8	0050110d	00500fbc	run_liveness_dataflow	DATA	MOV dword ptr [EBP + -0x38],EAX
+0x00acf6f0	PostLivenessDf	table_header	00acf6b8	00501108	00500fbc	run_liveness_dataflow	DATA	MOV EAX,0xacf6b8
+0x00afc4e0	backend_basetype	table_header	00afbb90	005bac3c	005bac03	FUN_005bac03	DATA	MOV dword ptr [EBX],EAX
+0x00afc4e0	backend_basetype	table_header	00afbb90	005bac37	005bac03	FUN_005bac03	DATA	MOV EAX,0xafbb90
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005eaa5b	005eaa4a	FUN_005eaa4a	DATA	MOV dword ptr [EBP + -0x18],EAX
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005dabd6	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005dabf9	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + -0x40],EAX
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005dac1c	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + -0x58],EAX
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005dac3f	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + -0x70],EAX
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005dae11	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005dae36	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + -0x40],EAX
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005dae60	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + -0x58],EAX
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005dae8a	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + -0x70],EAX
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005daeb4	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + 0xffffff78],EAX
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005daee8	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + 0xffffff60],EAX
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005daf1c	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + 0xffffff48],EAX
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005f7293	005f6efe	FUN_005f6efe	DATA	MOV dword ptr [EBP + 0xfffffeb4],EAX
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005fc837	005fc5a6	FUN_005fc5a6	DATA	MOV dword ptr [EBP + 0xffffff0c],EAX
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005dabd1	005da342	FUN_005da342	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005dabf4	005da342	FUN_005da342	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005dac17	005da342	FUN_005da342	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005dac3a	005da342	FUN_005da342	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005dae0c	005da342	FUN_005da342	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005dae31	005da342	FUN_005da342	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005dae5b	005da342	FUN_005da342	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005dae85	005da342	FUN_005da342	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005daeaf	005da342	FUN_005da342	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005daee3	005da342	FUN_005da342	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005daf17	005da342	FUN_005da342	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005eaa56	005eaa4a	FUN_005eaa4a	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005f728e	005f6efe	FUN_005f6efe	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005fc832	005fc5a6	FUN_005fc5a6	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005fd660	005fce8b	FUN_005fce8b	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005fd67e	005fce8b	FUN_005fce8b	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005fd69c	005fce8b	FUN_005fce8b	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005fd6ba	005fce8b	FUN_005fce8b	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005fd6df	005fce8b	FUN_005fce8b	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005fd6fd	005fce8b	FUN_005fce8b	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005fd71b	005fce8b	FUN_005fce8b	DATA	MOV EAX,0xafd2c0
+0x00afd5b8	InterblockDf	table_header	00afd2c0	005fd739	005fce8b	FUN_005fce8b	DATA	MOV EAX,0xafd2c0
+0x00afd638	DownSafetyDf	table_header	00afd388	005dae20	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00afd638	DownSafetyDf	table_header	00afd388	005dae1b	005da342	FUN_005da342	DATA	MOV EAX,0xafd388
+0x00afd648	UpSafetyDf	table_header	00afd3a0	005dabe5	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00afd648	UpSafetyDf	table_header	00afd3a0	005dae45	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + -0x40],EAX
+0x00afd648	UpSafetyDf	table_header	00afd3a0	005dabe0	005da342	FUN_005da342	DATA	MOV EAX,0xafd3a0
+0x00afd648	UpSafetyDf	table_header	00afd3a0	005dae40	005da342	FUN_005da342	DATA	MOV EAX,0xafd3a0
+0x00afd658	EarliestDf	table_header	00afd3b8	005dae6f	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + -0x58],EAX
+0x00afd658	EarliestDf	table_header	00afd3b8	005dae6a	005da342	FUN_005da342	DATA	MOV EAX,0xafd3b8
+0x00afd668	DelayedDf	table_header	00afd3d0	005dae99	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + -0x70],EAX
+0x00afd668	DelayedDf	table_header	00afd3d0	005dae94	005da342	FUN_005da342	DATA	MOV EAX,0xafd3d0
+0x00afd678	LatestDf	table_header	00afd3e8	005daefd	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + 0xffffff60],EAX
+0x00afd678	LatestDf	table_header	00afd3e8	005daef8	005da342	FUN_005da342	DATA	MOV EAX,0xafd3e8
+0x00afd688	IsolatedDf	table_header	00afd400	005daec9	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + 0xffffff78],EAX
+0x00afd688	IsolatedDf	table_header	00afd400	005daec4	005da342	FUN_005da342	DATA	MOV EAX,0xafd400
+0x00afd698	FinalDf	table_header	00afd418	005daf31	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + 0xffffff48],EAX
+0x00afd698	FinalDf	table_header	00afd418	005daf2c	005da342	FUN_005da342	DATA	MOV EAX,0xafd418
+0x00afd6a8	GcseSelectDf	table_header	00afd430	005dac08	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + -0x40],EAX
+0x00afd6a8	GcseSelectDf	table_header	00afd430	005dac03	005da342	FUN_005da342	DATA	MOV EAX,0xafd430
+0x00afd6b8	GcseLiveDf	table_header	00afd448	005dac2b	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + -0x58],EAX
+0x00afd6b8	GcseLiveDf	table_header	00afd448	005dac26	005da342	FUN_005da342	DATA	MOV EAX,0xafd448
+0x00afd6c8	GcseFinalDf	table_header	00afd460	005dac4e	005da342	FUN_005da342	DATA	MOV dword ptr [EBP + -0x70],EAX
+0x00afd6c8	GcseFinalDf	table_header	00afd460	005dac49	005da342	FUN_005da342	DATA	MOV EAX,0xafd460
+0x00afd738	HoistAvailDf	table_header	00afd4f8	005fd674	005fce8b	FUN_005fce8b	DATA	MOV EAX,0xafd4f8
+0x00afd748	HoistHelpfulDf	table_header	00afd510	005fd692	005fce8b	FUN_005fce8b	DATA	MOV EAX,0xafd510
+0x00afd758	HoistRedundantDf	table_header	00afd528	005fd6b0	005fce8b	FUN_005fce8b	DATA	MOV EAX,0xafd528
+0x00afd768	HoistFinalDf	table_header	00afd540	005fd6ce	005fce8b	FUN_005fce8b	DATA	MOV EAX,0xafd540
+0x00afd778	HoistDelayDf	table_header	00afd558	005fd6f3	005fce8b	FUN_005fce8b	DATA	MOV EAX,0xafd558
+0x00afd788	HoistFinal2Df	table_header	00afd570	005fd711	005fce8b	FUN_005fce8b	DATA	MOV EAX,0xafd570
+0x00afd798	HoistUsableDf	table_header	00afd588	005fd72f	005fce8b	FUN_005fce8b	DATA	MOV EAX,0xafd588
+0x00afd7a8	HoistFinal3Df	table_header	00afd5a0	005fd74d	005fce8b	FUN_005fce8b	DATA	MOV EAX,0xafd5a0
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005fb4ad	005faf93	FUN_005faf93	DATA	MOV dword ptr [EBX + 0x88],EAX
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005f8fca	005f8f9f	FUN_005f8f9f	DATA	MOV dword ptr [EBP + 0xffffff64],EAX
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005f9185	005f8f9f	FUN_005f8f9f	DATA	MOV dword ptr [EBP + -0x18],EAX
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005d881d	005d87cb	FUN_005d87cb	DATA	MOV dword ptr [EBP + -0x8],EAX
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005f814a	005f7add	FUN_005f7add	DATA	MOV dword ptr [EBP + 0xffffff34],EAX
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005e81af	005e7ea4	FUN_005e7ea4	DATA	MOV dword ptr [EBP + 0xffffff34],EAX
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005e836a	005e7ea4	FUN_005e7ea4	DATA	MOV dword ptr [EBP + -0x48],EAX
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005cf20e	005cf1dd	FUN_005cf1dd	DATA	MOV dword ptr [EBX + 0x80],EAX
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005f6f32	005f6efe	FUN_005f6efe	DATA	MOV dword ptr [EBP + 0xffffff40],EAX
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005f70ed	005f6efe	FUN_005f6efe	DATA	MOV dword ptr [EBP + -0x3c],EAX
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005d64f7	005d6287	FUN_005d6287	DATA	MOV dword ptr [EBP + -0xc],EAX
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005f446c	005f4329	FUN_005f4329	DATA	MOV dword ptr [EBP + -0x80],EAX
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005fc874	005fc5a6	FUN_005fc5a6	DATA	MOV dword ptr [EBP + -0x60],EAX
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005cf209	005cf1dd	FUN_005cf1dd	DATA	MOV EAX,0xafef5c
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005d64f2	005d6287	FUN_005d6287	DATA	MOV EAX,0xafef5c
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005d8818	005d87cb	FUN_005d87cb	DATA	MOV EAX,0xafef5c
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005e81aa	005e7ea4	FUN_005e7ea4	DATA	MOV EAX,0xafef5c
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005e8365	005e7ea4	FUN_005e7ea4	DATA	MOV EAX,0xafef5c
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005f4467	005f4329	FUN_005f4329	DATA	MOV EAX,0xafef5c
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005f6f2d	005f6efe	FUN_005f6efe	DATA	MOV EAX,0xafef5c
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005f70e8	005f6efe	FUN_005f6efe	DATA	MOV EAX,0xafef5c
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005f8145	005f7add	FUN_005f7add	DATA	MOV EAX,0xafef5c
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005f8fc5	005f8f9f	FUN_005f8f9f	DATA	MOV EAX,0xafef5c
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005f9180	005f8f9f	FUN_005f8f9f	DATA	MOV EAX,0xafef5c
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005fb4a8	005faf93	FUN_005faf93	DATA	MOV EAX,0xafef5c
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	005fc86f	005fc5a6	FUN_005fc5a6	DATA	MOV EAX,0xafef5c
+0x00aff0cc	AliasAnalyzer	table_header	00afef5c	0061b065	0061b062	FUN_0061b062	DATA	MOV EAX,0xafef5c
+0x00aff0dc	TimeAccurateAliasAnalyzer	table_header	00afef74	005d8954	005d87cb	FUN_005d87cb	DATA	MOV dword ptr [EBP + -0x8],EAX
+0x00aff0dc	TimeAccurateAliasAnalyzer	table_header	00afef74	005f4624	005f4329	FUN_005f4329	DATA	MOV dword ptr [EBP + -0x80],EAX
+0x00aff0dc	TimeAccurateAliasAnalyzer	table_header	00afef74	005fca11	005fc5a6	FUN_005fc5a6	DATA	MOV dword ptr [EBP + -0x60],EAX
+0x00aff0dc	TimeAccurateAliasAnalyzer	table_header	00afef74	005d894f	005d87cb	FUN_005d87cb	DATA	MOV EAX,0xafef74
+0x00aff0dc	TimeAccurateAliasAnalyzer	table_header	00afef74	005f461f	005f4329	FUN_005f4329	DATA	MOV EAX,0xafef74
+0x00aff0dc	TimeAccurateAliasAnalyzer	table_header	00afef74	005fca0c	005fc5a6	FUN_005fc5a6	DATA	MOV EAX,0xafef74
+0x00aff0ec	BooleanAccurateAliasAnalyzer	table_header	00afef8c	005d87c0	005d8667	FUN_005d8667	DATA	MOV dword ptr [EBX + 0xb0],EAX
+0x00aff0ec	BooleanAccurateAliasAnalyzer	table_header	00afef8c	005d87bb	005d8667	FUN_005d8667	DATA	MOV EAX,0xafef8c
+0x00aff16c	ValueNeededDf	table_header	00aff004	005eaa6a	005eaa4a	FUN_005eaa4a	DATA	MOV dword ptr [EBP + -0x18],EAX
+0x00aff16c	ValueNeededDf	table_header	00aff004	005eaa65	005eaa4a	FUN_005eaa4a	DATA	MOV EAX,0xaff004
+0x00aff19c	FCEReachingWriteDf	table_header	00aff04c	005f72a8	005f6efe	FUN_005f6efe	DATA	MOV dword ptr [EBP + 0xfffffeb4],EAX
+0x00aff19c	FCEReachingWriteDf	table_header	00aff04c	005f72a3	005f6efe	FUN_005f6efe	DATA	MOV EAX,0xaff04c
+0x00aff1ec	CopyPropDf	table_header	00aff0a4	005fc84c	005fc5a6	FUN_005fc5a6	DATA	MOV dword ptr [EBP + 0xffffff0c],EAX
+0x00aff1ec	CopyPropDf	table_header	00aff0a4	005fc847	005fc5a6	FUN_005fc5a6	DATA	MOV EAX,0xaff0a4
+0x00aff4ac	InterblockDf	table_header	00aff434	0061b256	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff434
+0x00aff4ec	Checker	table_header	00aff810	00619677	00618c72	FUN_00618c72	DATA	MOV dword ptr [EBP + 0xffffff3c],EAX
+0x00aff4ec	Checker	table_header	00aff810	00619672	00618c72	FUN_00618c72	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b274	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b2c8	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b38f	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b3e3	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b437	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b49c	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b501	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b566	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b5cb	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b630	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b695	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b6fa	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b75f	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b7c4	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b829	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b88e	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b8f3	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b958	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061b9bd	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061ba22	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061ba87	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4ec	Checker	table_header	00aff810	0061baec	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff810
+0x00aff4fc	CheckerIntStateLValue	table_header	00aff858	0061b552	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff858
+0x00aff4fc	CheckerIntStateLValue	table_header	00aff858	0061b5b7	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff858
+0x00aff4fc	CheckerIntStateLValue	table_header	00aff858	0061b6e6	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff858
+0x00aff4fc	CheckerIntStateLValue	table_header	00aff858	0061b74b	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff858
+0x00aff4fc	CheckerIntStateLValue	table_header	00aff858	0061b7b0	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff858
+0x00aff4fc	CheckerIntStateLValue	table_header	00aff858	0061b815	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff858
+0x00aff4fc	CheckerIntStateLValue	table_header	00aff858	0061b87a	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff858
+0x00aff4fc	CheckerIntStateLValue	table_header	00aff858	0061b9a9	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff858
+0x00aff50c	CheckerLValue	table_header	00aff8c0	0061b2b4	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff8c0
+0x00aff50c	CheckerLValue	table_header	00aff8c0	0061b308	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff8c0
+0x00aff50c	CheckerLValue	table_header	00aff8c0	0061b3cf	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff8c0
+0x00aff50c	CheckerLValue	table_header	00aff8c0	0061b423	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff8c0
+0x00aff51c	CheckerIntStateSafevar	table_header	00aff908	0061b488	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff908
+0x00aff51c	CheckerIntStateSafevar	table_header	00aff908	0061b4ed	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff908
+0x00aff51c	CheckerIntStateSafevar	table_header	00aff908	0061b8df	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff908
+0x00aff51c	CheckerIntStateSafevar	table_header	00aff908	0061b944	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff908
+0x00aff51c	CheckerIntStateSafevar	table_header	00aff908	0061ba0e	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff908
+0x00aff51c	CheckerIntStateSafevar	table_header	00aff908	0061ba73	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff908
+0x00aff52c	CheckerIntStateAll	table_header	00aff970	006196cc	00618c72	FUN_00618c72	DATA	MOV dword ptr [EBP + 0xffffff3c],EAX
+0x00aff52c	CheckerIntStateAll	table_header	00aff970	006196c7	00618c72	FUN_00618c72	DATA	MOV EAX,0xaff970
+0x00aff52c	CheckerIntStateAll	table_header	00aff970	0061b61c	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff970
+0x00aff52c	CheckerIntStateAll	table_header	00aff970	0061b681	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff970
+0x00aff52c	CheckerIntStateAll	table_header	00aff970	0061bad8	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff970
+0x00aff52c	CheckerIntStateAll	table_header	00aff970	0061bb3d	0061b062	FUN_0061b062	DATA	MOV EAX,0xaff970
+0x00b01680	CheckerFlow	table_header	00b00d14	0061b26a	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d14
+0x00b01690	CheckerIntState	table_header	00b00d2c	006196ba	00618c72	FUN_00618c72	DATA	MOV dword ptr [EBP + 0xffffff3c],EAX
+0x00b01690	CheckerIntState	table_header	00b00d2c	006196b5	00618c72	FUN_00618c72	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061b477	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061b4dc	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061b541	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061b5a6	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061b60b	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061b670	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061b6d5	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061b73a	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061b79f	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061b804	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061b869	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061b8ce	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061b933	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061b998	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061b9fd	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061ba62	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061bac7	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b01690	CheckerIntState	table_header	00b00d2c	0061bb2c	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d2c
+0x00b016a0	ConstChecker	table_header	00b00d94	0061b2be	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00d94
+0x00b016b0	EquivChecker	table_header	00b00ddc	0061b312	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00ddc
+0x00b016c0	UninitMemChecker	table_header	00b00e24	0061b3d9	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00e24
+0x00b016d0	RangeChecker	table_header	00b00e6c	0061b42d	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00e6c
+0x00b016e0	MemLeakChecker	table_header	00b00eb4	0061b492	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00eb4
+0x00b016f0	MemLeakCheckerBackwards	table_header	00b00f1c	0061b4f7	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00f1c
+0x00b01700	NULLCheckChecker	table_header	00b00f84	0061b55c	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00f84
+0x00b01710	NULLCheckCheckerBackwards	table_header	00b00fec	0061b5c1	0061b062	FUN_0061b062	DATA	MOV EAX,0xb00fec
+0x00b01720	FreeChecker	table_header	00b01054	0061b626	0061b062	FUN_0061b062	DATA	MOV EAX,0xb01054
+0x00b01730	FreeCheckerBackwards	table_header	00b010bc	0061b68b	0061b062	FUN_0061b062	DATA	MOV EAX,0xb010bc
+0x00b01740	DerefNULLChecker	table_header	00b01124	0061b6f0	0061b062	FUN_0061b062	DATA	MOV EAX,0xb01124
+0x00b01750	LocalScopeChecker	table_header	00b0118c	0061b755	0061b062	FUN_0061b062	DATA	MOV EAX,0xb0118c
+0x00b01760	ReadOnlyWriteChecker	table_header	00b011f4	0061b7ba	0061b062	FUN_0061b062	DATA	MOV EAX,0xb011f4
+0x00b01770	NewSingleChecker	table_header	00b0125c	0061b81f	0061b062	FUN_0061b062	DATA	MOV EAX,0xb0125c
+0x00b01780	NewArrayChecker	table_header	00b012c4	0061b884	0061b062	FUN_0061b062	DATA	MOV EAX,0xb012c4
+0x00b01790	NoReturnChecker	table_header	00b0132c	006196d7	00618c72	FUN_00618c72	DATA	MOV dword ptr [EBP + 0xffffff3c],EAX
+0x00b01790	NoReturnChecker	table_header	00b0132c	006196d2	00618c72	FUN_00618c72	DATA	MOV EAX,0xb0132c
+0x00b017a0	UnreadChecker	table_header	00b01394	0061b8e9	0061b062	FUN_0061b062	DATA	MOV EAX,0xb01394
+0x00b017b0	UnreadCheckerBackwards	table_header	00b013fc	0061b94e	0061b062	FUN_0061b062	DATA	MOV EAX,0xb013fc
+0x00b017c0	NULLCheckDerefChecker	table_header	00b01464	0061b9b3	0061b062	FUN_0061b062	DATA	MOV EAX,0xb01464
+0x00b017d0	UninitReadChecker	table_header	00b014cc	0061ba18	0061b062	FUN_0061b062	DATA	MOV EAX,0xb014cc
+0x00b017e0	UninitReadCheckerBackwards	table_header	00b01534	0061ba7d	0061b062	FUN_0061b062	DATA	MOV EAX,0xb01534
+0x00b017f0	NoFlowChecker	table_header	00b0159c	0061bae2	0061b062	FUN_0061b062	DATA	MOV EAX,0xb0159c
+0x00b01800	StrictUninitChecker	table_header	00b01604	0061bb47	0061b062	FUN_0061b062	DATA	MOV EAX,0xb01604
+0x00b01e58	peep_transformer	table_header	00b01cc8	0061e68a	0061e640	FUN_0061e640	DATA	MOV dword ptr [EAX + 0xc],ECX
+0x00b01e58	peep_transformer	table_header	00b01cc8	0061e6f6	0061e640	FUN_0061e640	DATA	MOV dword ptr [EAX + 0xc],ECX
+0x00b01e58	peep_transformer	table_header	00b01cc8	0061e788	0061e640	FUN_0061e640	DATA	MOV dword ptr [EAX + 0xc],ECX
+0x00b01e58	peep_transformer	table_header	00b01cc8	0061e7e5	0061e640	FUN_0061e640	DATA	MOV dword ptr [EAX + 0xc],ECX
+0x00b01e58	peep_transformer	table_header	00b01cc8	0061e685	0061e640	FUN_0061e640	DATA	MOV ECX,0xb01cc8
+0x00b01e58	peep_transformer	table_header	00b01cc8	0061e6f1	0061e640	FUN_0061e640	DATA	MOV ECX,0xb01cc8
+0x00b01e58	peep_transformer	table_header	00b01cc8	0061e783	0061e640	FUN_0061e640	DATA	MOV ECX,0xb01cc8
+0x00b01e58	peep_transformer	table_header	00b01cc8	0061e7e0	0061e640	FUN_0061e640	DATA	MOV ECX,0xb01cc8
+0x00b01e68	pt_condcodes	table_header	00b01d18	0061e692	0061e640	FUN_0061e640	DATA	MOV dword ptr [EAX + 0xc],ECX
+0x00b01e68	pt_condcodes	table_header	00b01d18	0061e68d	0061e640	FUN_0061e640	DATA	MOV ECX,0xb01d18
+0x00b01e78	pt_dead	table_header	00b01d68	0061e6fe	0061e640	FUN_0061e640	DATA	MOV dword ptr [EAX + 0xc],ECX
+0x00b01e78	pt_dead	table_header	00b01d68	0061e6f9	0061e640	FUN_0061e640	DATA	MOV ECX,0xb01d68
+0x00b01e88	pt_alias	table_header	00b01db8	0061e790	0061e640	FUN_0061e640	DATA	MOV dword ptr [EAX + 0xc],ECX
+0x00b01e88	pt_alias	table_header	00b01db8	0061e78b	0061e640	FUN_0061e640	DATA	MOV ECX,0xb01db8
+0x00b01e98	pt_const	table_header	00b01e08	0061e7ed	0061e640	FUN_0061e640	DATA	MOV dword ptr [EAX + 0xc],ECX
+0x00b01e98	pt_const	table_header	00b01e08	0061e7e8	0061e640	FUN_0061e640	DATA	MOV ECX,0xb01e08
+0x00b020a0	nonstandard_type_handler	table_header	00b02060	00620d4c	00620d20	FUN_00620d20	DATA	MOV dword ptr [EBP + -0xc],EAX
+0x00b020a0	nonstandard_type_handler	table_header	00b02060	00620d47	00620d20	FUN_00620d20	DATA	MOV EAX,0xb02060
+0x00b020b0	bytereverser	table_header	00b02080	00620d5c	00620d20	FUN_00620d20	DATA	MOV dword ptr [EBP + -0xc],EAX
+0x00b020b0	bytereverser	table_header	00b02080	00620d57	00620d20	FUN_00620d20	DATA	MOV EAX,0xb02080
+0x00b05b34	vn_advisor_consol	table_header	00b05934	0066a3b4	0066a370	FUN_0066a370	DATA	MOV dword ptr [EAX + 0x8],ECX
+0x00b05b34	vn_advisor_consol	table_header	00b05934	0066a41e	0066a370	FUN_0066a370	DATA	MOV dword ptr [EAX + 0x8],ECX
+0x00b05b34	vn_advisor_consol	table_header	00b05934	0040153b	004014f7	FUN_004014f7	DATA	MOV dword ptr [EAX + 0x8],ECX
+0x00b05b34	vn_advisor_consol	table_header	00b05934	00401536	004014f7	FUN_004014f7	DATA	MOV ECX,0xb05934
+0x00b05b34	vn_advisor_consol	table_header	00b05934	0066a3af	0066a370	FUN_0066a370	DATA	MOV ECX,0xb05934
+0x00b05b34	vn_advisor_consol	table_header	00b05934	0066a419	0066a370	FUN_0066a370	DATA	MOV ECX,0xb05934
+0x00b05b44	vn_advisor_consoladd	table_header	00b05974	0066a3bc	0066a370	FUN_0066a370	DATA	MOV dword ptr [EAX + 0x8],ECX
+0x00b05b44	vn_advisor_consoladd	table_header	00b05974	0066a3b7	0066a370	FUN_0066a370	DATA	MOV ECX,0xb05974
+0x00b05b54	vn_advisor_consolshift	table_header	00b059b4	0066a426	0066a370	FUN_0066a370	DATA	MOV dword ptr [EAX + 0x8],ECX
+0x00b05b54	vn_advisor_consolshift	table_header	00b059b4	00401543	004014f7	FUN_004014f7	DATA	MOV dword ptr [EAX + 0x8],ECX
+0x00b05b54	vn_advisor_consolshift	table_header	00b059b4	0040153e	004014f7	FUN_004014f7	DATA	MOV ECX,0xb059b4
+0x00b05b54	vn_advisor_consolshift	table_header	00b059b4	0066a421	0066a370	FUN_0066a370	DATA	MOV ECX,0xb059b4
+0x00b06c2c	MachopVisitor	table_header	00b06bbc	006ac362	006ac354	FUN_006ac354	DATA	MOV dword ptr [EBP + -0x8],EAX
+0x00b06c2c	MachopVisitor	table_header	00b06bbc	006ac6b3	006ac5cd	FUN_006ac5cd	DATA	MOV dword ptr [EBP + -0x14],EAX
+0x00b06c2c	MachopVisitor	table_header	00b06bbc	006ac35d	006ac354	FUN_006ac354	DATA	MOV EAX,0xb06bbc
+0x00b06c2c	MachopVisitor	table_header	00b06bbc	006ac6ae	006ac5cd	FUN_006ac5cd	DATA	MOV EAX,0xb06bbc
+0x00b06c5c	Split64TestVisitor	table_header	00b06bfc	006ac36a	006ac354	FUN_006ac354	DATA	MOV dword ptr [EBP + -0x8],EAX
+0x00b06c5c	Split64TestVisitor	table_header	00b06bfc	006ac365	006ac354	FUN_006ac354	DATA	MOV EAX,0xb06bfc
+0x00b06c6c	std::exception	table_header	00b06b2c	006c6a9b	006c6a0b	FUN_006c6a0b	DATA	MOV dword ptr [EBP + -0x2c],ECX
+0x00b06c6c	std::exception	table_header	00b06b2c	006c61e0	006c6104	FUN_006c6104	DATA	MOV dword ptr [EBP + -0x34],ECX
+0x00b06c6c	std::exception	table_header	00b06b2c	006c6549	006c6104	FUN_006c6104	DATA	MOV dword ptr [EBP + -0x74],ECX
+0x00b06c6c	std::exception	table_header	00b06b2c	00696230	0069619b	FUN_0069619b	DATA	MOV dword ptr [EBP + -0x28],ECX
+0x00b06c6c	std::exception	table_header	00b06b2c	00695aaf	00695a74	FUN_00695a74	DATA	MOV ECX,0xb06b2c
+0x00b06c6c	std::exception	table_header	00b06b2c	0069622b	0069619b	FUN_0069619b	DATA	MOV ECX,0xb06b2c
+0x00b06c6c	std::exception	table_header	00b06b2c	006c61db	006c6104	FUN_006c6104	DATA	MOV ECX,0xb06b2c
+0x00b06c6c	std::exception	table_header	00b06b2c	006c6544	006c6104	FUN_006c6104	DATA	MOV ECX,0xb06b2c
+0x00b06c6c	std::exception	table_header	00b06b2c	006c6a96	006c6a0b	FUN_006c6a0b	DATA	MOV ECX,0xb06b2c
+0x00b06c7c	std::bad_alloc	table_header	00b06b4c	00695abf	00695a74	FUN_00695a74	DATA	MOV EAX,0xb06b4c
+0x00b06c8c	std::logic_error	table_header	00b06b6c	006c6aa6	006c6a0b	FUN_006c6a0b	DATA	MOV dword ptr [EBP + -0x2c],EAX
+0x00b06c8c	std::logic_error	table_header	00b06b6c	006c61eb	006c6104	FUN_006c6104	DATA	MOV dword ptr [EBP + -0x34],EAX
+0x00b06c8c	std::logic_error	table_header	00b06b6c	006c6554	006c6104	FUN_006c6104	DATA	MOV dword ptr [EBP + -0x74],EAX
+0x00b06c8c	std::logic_error	table_header	00b06b6c	0069623b	0069619b	FUN_0069619b	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b06c8c	std::logic_error	table_header	00b06b6c	00696236	0069619b	FUN_0069619b	DATA	MOV EAX,0xb06b6c
+0x00b06c8c	std::logic_error	table_header	00b06b6c	006c61e6	006c6104	FUN_006c6104	DATA	MOV EAX,0xb06b6c
+0x00b06c8c	std::logic_error	table_header	00b06b6c	006c654f	006c6104	FUN_006c6104	DATA	MOV EAX,0xb06b6c
+0x00b06c8c	std::logic_error	table_header	00b06b6c	006c6aa1	006c6a0b	FUN_006c6a0b	DATA	MOV EAX,0xb06b6c
+0x00b06c9c	std::out_of_range	table_header	00b06b8c	006c6d0d	006c6a0b	FUN_006c6a0b	DATA	MOV dword ptr [EBP + -0x2c],EAX
+0x00b06c9c	std::out_of_range	table_header	00b06b8c	006c6454	006c6104	FUN_006c6104	DATA	MOV dword ptr [EBP + -0x34],EAX
+0x00b06c9c	std::out_of_range	table_header	00b06b8c	006c67c7	006c6104	FUN_006c6104	DATA	MOV dword ptr [EBP + -0x74],EAX
+0x00b06c9c	std::out_of_range	table_header	00b06b8c	006964a2	0069619b	FUN_0069619b	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b06c9c	std::out_of_range	table_header	00b06b8c	0069649d	0069619b	FUN_0069619b	DATA	MOV EAX,0xb06b8c
+0x00b06c9c	std::out_of_range	table_header	00b06b8c	006c644f	006c6104	FUN_006c6104	DATA	MOV EAX,0xb06b8c
+0x00b06c9c	std::out_of_range	table_header	00b06b8c	006c67c2	006c6104	FUN_006c6104	DATA	MOV EAX,0xb06b8c
+0x00b06c9c	std::out_of_range	table_header	00b06b8c	006c6d08	006c6a0b	FUN_006c6a0b	DATA	MOV EAX,0xb06b8c
+0x00b07ef0	Split64DoVisitor	table_header	00b07e3c	006ac6bb	006ac5cd	FUN_006ac5cd	DATA	MOV dword ptr [EBP + -0x14],EAX
+0x00b07ef0	Split64DoVisitor	table_header	00b07e3c	006ac6b6	006ac5cd	FUN_006ac5cd	DATA	MOV EAX,0xb07e3c
+0x00b080a0	MachopVisitor	table_header	00b08040	006d7824	006d7818	FUN_006d7818	DATA	MOV dword ptr [EBP + -0x8],EAX
+0x00b080a0	MachopVisitor	table_header	00b08040	006d7f35	006d7f2a	FUN_006d7f2a	DATA	MOV dword ptr [EBP + -0x4],EAX
+0x00b080a0	MachopVisitor	table_header	00b08040	006d781f	006d7818	FUN_006d7818	DATA	MOV EAX,0xb08040
+0x00b080a0	MachopVisitor	table_header	00b08040	006d7f30	006d7f2a	FUN_006d7f2a	DATA	MOV EAX,0xb08040
+0x00b080b0	MachopObjectInvalidator	table_header	00b08060	006d782c	006d7818	FUN_006d7818	DATA	MOV dword ptr [EBP + -0x8],EAX
+0x00b080b0	MachopObjectInvalidator	table_header	00b08060	006d7827	006d7818	FUN_006d7818	DATA	MOV EAX,0xb08060
+0x00b080c0	MachopImmpropClearer	table_header	00b08080	006d7f3d	006d7f2a	FUN_006d7f2a	DATA	MOV dword ptr [EBP + -0x4],EAX
+0x00b080c0	MachopImmpropClearer	table_header	00b08080	006d7f38	006d7f2a	FUN_006d7f2a	DATA	MOV EAX,0xb08080
+0x00b09ac8	MachopVisitor	table_header	00b09a48	007013c0	007013b3	FUN_007013b3	DATA	MOV dword ptr [EBP + -0x4],EAX
+0x00b09ac8	MachopVisitor	table_header	00b09a48	0070072c	007006e7	FUN_007006e7	DATA	MOV dword ptr [EBP + -0x18],EAX
+0x00b09ac8	MachopVisitor	table_header	00b09a48	00700727	007006e7	FUN_007006e7	DATA	MOV EAX,0xb09a48
+0x00b09ac8	MachopVisitor	table_header	00b09a48	007013bb	007013b3	FUN_007013b3	DATA	MOV EAX,0xb09a48
+0x00b09ac8	MachopVisitor	table_header	00b09a48	007016d9	007016d6	FUN_007016d6	DATA	MOV EAX,0xb09a48
+0x00b09ad8	MachopChecker	table_header	00b09a68	00700734	007006e7	FUN_007006e7	DATA	MOV dword ptr [EBP + -0x18],EAX
+0x00b09ad8	MachopChecker	table_header	00b09a68	0070072f	007006e7	FUN_007006e7	DATA	MOV EAX,0xb09a68
+0x00b09ae8	MachopBitoffsetClearer	table_header	00b09a88	007013c8	007013b3	FUN_007013b3	DATA	MOV dword ptr [EBP + -0x4],EAX
+0x00b09ae8	MachopBitoffsetClearer	table_header	00b09a88	007013c3	007013b3	FUN_007013b3	DATA	MOV EAX,0xb09a88
+0x00b09af8	AddMachopVisitor	table_header	00b09aa8	007016e3	007016d6	FUN_007016d6	DATA	MOV EAX,0xb09aa8
+0x00b0a500	alloc_table	table_header	00b0a4d8	0071e10b	0071e0e0	FUN_0071e0e0	DATA	MOV dword ptr [EBX + 0x4],EAX
+0x00b0a500	alloc_table	table_header	00b0a4d8	0071df41	0071df17	FUN_0071df17	DATA	MOV dword ptr [EBX + 0x4],EAX
+0x00b0a500	alloc_table	table_header	00b0a4d8	0071dfba	0071df90	FUN_0071df90	DATA	MOV dword ptr [EBX + 0x4],EAX
+0x00b0a500	alloc_table	table_header	00b0a4d8	0071df3c	0071df17	FUN_0071df17	DATA	MOV EAX,0xb0a4d8
+0x00b0a500	alloc_table	table_header	00b0a4d8	0071dfb5	0071df90	FUN_0071df90	DATA	MOV EAX,0xb0a4d8
+0x00b0a500	alloc_table	table_header	00b0a4d8	0071e106	0071e0e0	FUN_0071e0e0	DATA	MOV EAX,0xb0a4d8
+0x00b0a5c8	alloc_table_hash	table_header	00b0a550	0071df4f	0071df17	FUN_0071df17	DATA	MOV dword ptr [EBX + 0x4],EAX
+0x00b0a5c8	alloc_table_hash	table_header	00b0a550	0071dff4	0071dfdd	FUN_0071dfdd	DATA	MOV dword ptr [EBX + 0x4],EAX
+0x00b0a5c8	alloc_table_hash	table_header	00b0a550	0071df4a	0071df17	FUN_0071df17	DATA	MOV EAX,0xb0a550
+0x00b0a5c8	alloc_table_hash	table_header	00b0a550	0071dfef	0071dfdd	FUN_0071dfdd	DATA	MOV EAX,0xb0a550
+0x00b0a5d8	alloc_table_btree	table_header	00b0a578	0071e0b9	0071e0a4	FUN_0071e0a4	DATA	MOV dword ptr [EBX + 0x4],EAX
+0x00b0a5d8	alloc_table_btree	table_header	00b0a578	0071dfc8	0071df90	FUN_0071df90	DATA	MOV dword ptr [EBX + 0x4],EAX
+0x00b0a5d8	alloc_table_btree	table_header	00b0a578	0071dfc3	0071df90	FUN_0071df90	DATA	MOV EAX,0xb0a578
+0x00b0a5d8	alloc_table_btree	table_header	00b0a578	0071e0b4	0071e0a4	FUN_0071e0a4	DATA	MOV EAX,0xb0a578
+0x00b0a5e8	alloc_table_bcl	table_header	00b0a5a0	0071e119	0071e0e0	FUN_0071e0e0	DATA	MOV dword ptr [EBX + 0x4],EAX
+0x00b0a5e8	alloc_table_bcl	table_header	00b0a5a0	0071e1b5	0071e19f	FUN_0071e19f	DATA	MOV dword ptr [EBX + 0x4],EAX
+0x00b0a5e8	alloc_table_bcl	table_header	00b0a5a0	0071e114	0071e0e0	FUN_0071e0e0	DATA	MOV EAX,0xb0a5a0
+0x00b0a5e8	alloc_table_bcl	table_header	00b0a5a0	0071e1b0	0071e19f	FUN_0071e19f	DATA	MOV EAX,0xb0a5a0
+0x00b0b784	backend_basetype2	table_header	00b0af4c	00424e1a	00424ceb	FUN_00424ceb	DATA	MOV dword ptr [EBX],EAX
+0x00b0b784	backend_basetype2	table_header	00b0af4c	00424e15	00424ceb	FUN_00424ceb	DATA	MOV EAX,0xb0af4c
+0x00b0b7b8	ws_interface	table_header	00b0b828	0073a46d	0073a363	schedule_pass_3	DATA	MOV dword ptr [EBP + -0x34],EAX
+0x00b0b7b8	ws_interface	table_header	00b0b828	0073a468	0073a363	schedule_pass_3	DATA	MOV EAX,0xb0b828
+0x00b0c0e4	list_scheduler	table_header	00b0bf40	0073616c	00736142	FUN_00736142	DATA	MOV dword ptr [EBX + 0x3c],EAX
+0x00b0c0e4	list_scheduler	table_header	00b0bf40	00736167	00736142	FUN_00736142	DATA	MOV EAX,0xb0bf40
+0x00b0c0f4	resource_model_scheduler	table_header	00b0bfa0	00738737	007386ff	FUN_007386ff	DATA	MOV dword ptr [EBX + 0x3c],EAX
+0x00b0c0f4	resource_model_scheduler	table_header	00b0bfa0	00738732	007386ff	FUN_007386ff	DATA	MOV EAX,0xb0bfa0
+0x00b0c104	compat_list_scheduler	table_header	00b0c084	0073a6b2	0073a67d	FUN_0073a67d	DATA	MOV dword ptr [EBX + 0x3c],EAX
+0x00b0c104	compat_list_scheduler	table_header	00b0c084	0073a6ad	0073a67d	FUN_0073a67d	DATA	MOV EAX,0xb0c084
+0x00b0c114	ls_window_scheduler	table_header	00b0c010	0073a475	0073a363	schedule_pass_3	DATA	MOV dword ptr [EBP + -0x34],EAX
+0x00b0c114	ls_window_scheduler	table_header	00b0c010	0073a470	0073a363	schedule_pass_3	DATA	MOV EAX,0xb0c010
+0x00b0c328	empty	table_header	00b0c35c	00745be0	00745a76	FUN_00745a76	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b0c328	empty	table_header	00b0c35c	00745bdb	00745a76	FUN_00745a76	DATA	MOV EAX,0xb0c35c
+0x00b0c7cc	operand_parser	table_header	00b0c64c	0078ac00	0078abd5	FUN_0078abd5	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b0c7cc	operand_parser	table_header	00b0c64c	0078abfb	0078abd5	FUN_0078abd5	DATA	MOV EAX,0xb0c64c
+0x00b0c7dc	immediate_implicit	table_header	00b0c70c	0078daff	0078daa3	FUN_0078daa3	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b0c7dc	immediate_implicit	table_header	00b0c70c	0078dafa	0078daa3	FUN_0078daa3	DATA	MOV EAX,0xb0c70c
+0x00b0c89c	Val	table_header	00b0c92c	0074966c	0074959c	FUN_0074959c	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c89c	Val	table_header	00b0c92c	00748c03	00748b94	FUN_00748b94	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c89c	Val	table_header	00b0c92c	0074870e	0074857f	FUN_0074857f	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c89c	Val	table_header	00b0c92c	0074806d	00747f96	FUN_00747f96	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c89c	Val	table_header	00b0c92c	00748068	00747f96	FUN_00747f96	DATA	MOV ECX,0xb0c92c
+0x00b0c89c	Val	table_header	00b0c92c	00748709	0074857f	FUN_0074857f	DATA	MOV ECX,0xb0c92c
+0x00b0c89c	Val	table_header	00b0c92c	00748bfe	00748b94	FUN_00748b94	DATA	MOV ECX,0xb0c92c
+0x00b0c89c	Val	table_header	00b0c92c	00749667	0074959c	FUN_0074959c	DATA	MOV ECX,0xb0c92c
+0x00b0c8ac	Num	table_header	00b0c9fc	00749674	0074959c	FUN_0074959c	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c8ac	Num	table_header	00b0c9fc	00748716	0074857f	FUN_0074857f	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c8ac	Num	table_header	00b0c9fc	00748711	0074857f	FUN_0074857f	DATA	MOV ECX,0xb0c9fc
+0x00b0c8ac	Num	table_header	00b0c9fc	0074966f	0074959c	FUN_0074959c	DATA	MOV ECX,0xb0c9fc
+0x00b0c8bc	Unk	table_header	00b0cacc	00748c0b	00748b94	FUN_00748b94	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c8bc	Unk	table_header	00b0cacc	00748075	00747f96	FUN_00747f96	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c8bc	Unk	table_header	00b0cacc	00748070	00747f96	FUN_00747f96	DATA	MOV ECX,0xb0cacc
+0x00b0c8bc	Unk	table_header	00b0cacc	00748c06	00748b94	FUN_00748b94	DATA	MOV ECX,0xb0cacc
+0x00b0c8cc	Bot	table_header	00b0cba4	00748c13	00748b94	FUN_00748b94	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c8cc	Bot	table_header	00b0cba4	00748c0e	00748b94	FUN_00748b94	DATA	MOV ECX,0xb0cba4
+0x00b0c8dc	Mem	table_header	00b0cc7c	0074807d	00747f96	FUN_00747f96	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c8dc	Mem	table_header	00b0cc7c	00748078	00747f96	FUN_00747f96	DATA	MOV ECX,0xb0cc7c
+0x00b0c8ec	Alu	table_header	00b0cd54	007488ea	00748805	FUN_00748805	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c8ec	Alu	table_header	00b0cd54	007489f4	00748931	FUN_00748931	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c8ec	Alu	table_header	00b0cd54	00748aae	00748a3e	FUN_00748a3e	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c8ec	Alu	table_header	00b0cd54	00748b60	00748af0	FUN_00748af0	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c8ec	Alu	table_header	00b0cd54	007488e5	00748805	FUN_00748805	DATA	MOV ECX,0xb0cd54
+0x00b0c8ec	Alu	table_header	00b0cd54	007489ef	00748931	FUN_00748931	DATA	MOV ECX,0xb0cd54
+0x00b0c8ec	Alu	table_header	00b0cd54	00748aa9	00748a3e	FUN_00748a3e	DATA	MOV ECX,0xb0cd54
+0x00b0c8ec	Alu	table_header	00b0cd54	00748b5b	00748af0	FUN_00748af0	DATA	MOV ECX,0xb0cd54
+0x00b0c8fc	Bop	table_header	00b0ce24	007488f2	00748805	FUN_00748805	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c8fc	Bop	table_header	00b0ce24	007489fc	00748931	FUN_00748931	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c8fc	Bop	table_header	00b0ce24	00748ab6	00748a3e	FUN_00748a3e	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c8fc	Bop	table_header	00b0ce24	007488ed	00748805	FUN_00748805	DATA	MOV ECX,0xb0ce24
+0x00b0c8fc	Bop	table_header	00b0ce24	007489f7	00748931	FUN_00748931	DATA	MOV ECX,0xb0ce24
+0x00b0c8fc	Bop	table_header	00b0ce24	00748ab1	00748a3e	FUN_00748a3e	DATA	MOV ECX,0xb0ce24
+0x00b0c90c	Ncm	table_header	00b0cefc	00748abe	00748a3e	FUN_00748a3e	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c90c	Ncm	table_header	00b0cefc	00748ab9	00748a3e	FUN_00748a3e	DATA	MOV ECX,0xb0cefc
+0x00b0c91c	Uop	table_header	00b0cfd4	00748b68	00748af0	FUN_00748af0	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0c91c	Uop	table_header	00b0cfd4	00748b63	00748af0	FUN_00748af0	DATA	MOV ECX,0xb0cfd4
+0x00b0d2d4	Exp	table_header	00b0d134	00749664	0074959c	FUN_0074959c	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0d2d4	Exp	table_header	00b0d134	007488e2	00748805	FUN_00748805	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0d2d4	Exp	table_header	00b0d134	007489ec	00748931	FUN_00748931	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0d2d4	Exp	table_header	00b0d134	00748aa6	00748a3e	FUN_00748a3e	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0d2d4	Exp	table_header	00b0d134	00748b58	00748af0	FUN_00748af0	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0d2d4	Exp	table_header	00b0d134	00748bfb	00748b94	FUN_00748b94	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0d2d4	Exp	table_header	00b0d134	00748706	0074857f	FUN_0074857f	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0d2d4	Exp	table_header	00b0d134	00748065	00747f96	FUN_00747f96	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0d2d4	Exp	table_header	00b0d134	00748060	00747f96	FUN_00747f96	DATA	MOV ECX,0xb0d134
+0x00b0d2d4	Exp	table_header	00b0d134	00748701	0074857f	FUN_0074857f	DATA	MOV ECX,0xb0d134
+0x00b0d2d4	Exp	table_header	00b0d134	007488dd	00748805	FUN_00748805	DATA	MOV ECX,0xb0d134
+0x00b0d2d4	Exp	table_header	00b0d134	007489e7	00748931	FUN_00748931	DATA	MOV ECX,0xb0d134
+0x00b0d2d4	Exp	table_header	00b0d134	00748aa1	00748a3e	FUN_00748a3e	DATA	MOV ECX,0xb0d134
+0x00b0d2d4	Exp	table_header	00b0d134	00748b53	00748af0	FUN_00748af0	DATA	MOV ECX,0xb0d134
+0x00b0d2d4	Exp	table_header	00b0d134	00748bf6	00748b94	FUN_00748b94	DATA	MOV ECX,0xb0d134
+0x00b0d2d4	Exp	table_header	00b0d134	0074965f	0074959c	FUN_0074959c	DATA	MOV ECX,0xb0d134
+0x00b0d2e4	Cmm	table_header	00b0d1fc	007488fa	00748805	FUN_00748805	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0d2e4	Cmm	table_header	00b0d1fc	00748a04	00748931	FUN_00748931	DATA	MOV dword ptr [EAX + 0x4],ECX
+0x00b0d2e4	Cmm	table_header	00b0d1fc	007488f5	00748805	FUN_00748805	DATA	MOV ECX,0xb0d1fc
+0x00b0d2e4	Cmm	table_header	00b0d1fc	007489ff	00748931	FUN_00748931	DATA	MOV ECX,0xb0d1fc
+0x00b0d3b8	obj_iter	table_header	00b0d578	0074ab96	0074ab40	FUN_0074ab40	DATA	MOV dword ptr [EAX],ECX
+0x00b0d3b8	obj_iter	table_header	00b0d578	0074ac1c	0074ab40	FUN_0074ab40	DATA	MOV dword ptr [EAX],ECX
+0x00b0d3b8	obj_iter	table_header	00b0d578	0074a0b6	0074a060	FUN_0074a060	DATA	MOV dword ptr [EAX],ECX
+0x00b0d3b8	obj_iter	table_header	00b0d578	0074a13c	0074a060	FUN_0074a060	DATA	MOV dword ptr [EAX],ECX
+0x00b0d3b8	obj_iter	table_header	00b0d578	0074a1aa	0074a154	FUN_0074a154	DATA	MOV dword ptr [EAX],ECX
+0x00b0d3b8	obj_iter	table_header	00b0d578	0074a230	0074a154	FUN_0074a154	DATA	MOV dword ptr [EAX],ECX
+0x00b0d3b8	obj_iter	table_header	00b0d578	0074a0b1	0074a060	FUN_0074a060	DATA	MOV ECX,0xb0d578
+0x00b0d3b8	obj_iter	table_header	00b0d578	0074a137	0074a060	FUN_0074a060	DATA	MOV ECX,0xb0d578
+0x00b0d3b8	obj_iter	table_header	00b0d578	0074a1a5	0074a154	FUN_0074a154	DATA	MOV ECX,0xb0d578
+0x00b0d3b8	obj_iter	table_header	00b0d578	0074a22b	0074a154	FUN_0074a154	DATA	MOV ECX,0xb0d578
+0x00b0d3b8	obj_iter	table_header	00b0d578	0074ab91	0074ab40	FUN_0074ab40	DATA	MOV ECX,0xb0d578
+0x00b0d3b8	obj_iter	table_header	00b0d578	0074ac17	0074ab40	FUN_0074ab40	DATA	MOV ECX,0xb0d578
+0x00b0d3c8	singleton_iter	table_header	00b0d328	0074a0bd	0074a060	FUN_0074a060	DATA	MOV dword ptr [EAX],ECX
+0x00b0d3c8	singleton_iter	table_header	00b0d328	0074a143	0074a060	FUN_0074a060	DATA	MOV dword ptr [EAX],ECX
+0x00b0d3c8	singleton_iter	table_header	00b0d328	0074a0b8	0074a060	FUN_0074a060	DATA	MOV ECX,0xb0d328
+0x00b0d3c8	singleton_iter	table_header	00b0d328	0074a13e	0074a060	FUN_0074a060	DATA	MOV ECX,0xb0d328
+0x00b0d3d8	var_multimap	table_header	00b0d4c8	0074a98a	0074a948	FUN_0074a948	DATA	MOV dword ptr [EAX],ECX
+0x00b0d3d8	var_multimap	table_header	00b0d4c8	0074a985	0074a948	FUN_0074a948	DATA	MOV ECX,0xb0d4c8
+0x00b0d3e8	var_disjointsets	table_header	00b0d368	0074a913	0074a8cd	FUN_0074a8cd	DATA	MOV dword ptr [EAX],ECX
+0x00b0d3e8	var_disjointsets	table_header	00b0d368	0074a90e	0074a8cd	FUN_0074a8cd	DATA	MOV ECX,0xb0d368
+0x00b0d3f8	objectlist_iter	table_header	00b0d348	0074a1b1	0074a154	FUN_0074a154	DATA	MOV dword ptr [EAX],ECX
+0x00b0d3f8	objectlist_iter	table_header	00b0d348	0074a237	0074a154	FUN_0074a154	DATA	MOV dword ptr [EAX],ECX
+0x00b0d3f8	objectlist_iter	table_header	00b0d348	0074a1ac	0074a154	FUN_0074a154	DATA	MOV ECX,0xb0d348
+0x00b0d3f8	objectlist_iter	table_header	00b0d348	0074a232	0074a154	FUN_0074a154	DATA	MOV ECX,0xb0d348
+0x00b0d408	var_multimap_impl	table_header	00b0d520	0074a991	0074a948	FUN_0074a948	DATA	MOV dword ptr [EAX],ECX
+0x00b0d408	var_multimap_impl	table_header	00b0d520	0074a98c	0074a948	FUN_0074a948	DATA	MOV ECX,0xb0d520
+0x00b0d418	var_map<objectlist>::var_map_iter	table_header	00b0d598	0074ab9d	0074ab40	FUN_0074ab40	DATA	MOV dword ptr [EAX],ECX
+0x00b0d418	var_map<objectlist>::var_map_iter	table_header	00b0d598	0074ac23	0074ab40	FUN_0074ab40	DATA	MOV dword ptr [EAX],ECX
+0x00b0d418	var_map<objectlist>::var_map_iter	table_header	00b0d598	0074ab98	0074ab40	FUN_0074ab40	DATA	MOV ECX,0xb0d598
+0x00b0d418	var_map<objectlist>::var_map_iter	table_header	00b0d598	0074ac1e	0074ab40	FUN_0074ab40	DATA	MOV ECX,0xb0d598
+0x00b0d428	var_disjointsets_impl	table_header	00b0d390	0074a91a	0074a8cd	FUN_0074a8cd	DATA	MOV dword ptr [EAX],ECX
+0x00b0d428	var_disjointsets_impl	table_header	00b0d390	0074a915	0074a8cd	FUN_0074a8cd	DATA	MOV ECX,0xb0d390
+0x00b0d680	obj_iter	table_header	00b0d640	0074af06	0074aeb0	FUN_0074aeb0	DATA	MOV dword ptr [EAX],ECX
+0x00b0d680	obj_iter	table_header	00b0d640	0074af8c	0074aeb0	FUN_0074aeb0	DATA	MOV dword ptr [EAX],ECX
+0x00b0d680	obj_iter	table_header	00b0d640	0074af01	0074aeb0	FUN_0074aeb0	DATA	MOV ECX,0xb0d640
+0x00b0d680	obj_iter	table_header	00b0d640	0074af87	0074aeb0	FUN_0074aeb0	DATA	MOV ECX,0xb0d640
+0x00b0d8b8	objpairlist_searchiter	table_header	00b0d898	0074af0d	0074aeb0	FUN_0074aeb0	DATA	MOV dword ptr [EAX],ECX
+0x00b0d8b8	objpairlist_searchiter	table_header	00b0d898	0074af93	0074aeb0	FUN_0074aeb0	DATA	MOV dword ptr [EAX],ECX
+0x00b0d8b8	objpairlist_searchiter	table_header	00b0d898	0074af08	0074aeb0	FUN_0074aeb0	DATA	MOV ECX,0xb0d898
+0x00b0d8b8	objpairlist_searchiter	table_header	00b0d898	0074af8e	0074aeb0	FUN_0074aeb0	DATA	MOV ECX,0xb0d898
+0x00b0d908	InterblockDf	table_header	00b0d8f0	007723af	0077233a	FUN_0077233a	DATA	MOV EAX,0xb0d8f0
+0x00b0d908	InterblockDf	table_header	00b0d8f0	007724b1	0077233a	FUN_0077233a	DATA	MOV EAX,0xb0d8f0
+0x00b0d908	InterblockDf	table_header	00b0d8f0	007724f5	0077233a	FUN_0077233a	DATA	MOV EAX,0xb0d8f0
+0x00b0e82c	backend_dataflow	table_header	00b0e53c	005bac35	005bac03	FUN_005bac03	DATA	MOV dword ptr [EBX],EAX
+0x00b0e82c	backend_dataflow	table_header	00b0e53c	005bac30	005bac03	FUN_005bac03	DATA	MOV EAX,0xb0e53c
+0x00b0e83c	IndDataFlow	table_header	00b0e624	00779dcf	00779d93	FUN_00779d93	DATA	MOV dword ptr [EBX + 0x14],EAX
+0x00b0e83c	IndDataFlow	table_header	00b0e624	007723c3	0077233a	FUN_0077233a	DATA	MOV EAX,0xb0e624
+0x00b0e83c	IndDataFlow	table_header	00b0e624	007724c5	0077233a	FUN_0077233a	DATA	MOV EAX,0xb0e624
+0x00b0e83c	IndDataFlow	table_header	00b0e624	00772509	0077233a	FUN_0077233a	DATA	MOV EAX,0xb0e624
+0x00b0e83c	IndDataFlow	table_header	00b0e624	00779dca	00779d93	FUN_00779d93	DATA	MOV EAX,0xb0e624
+0x00b0e84c	RBFwdDataFlow	table_header	00b0e6a4	007723e2	0077233a	FUN_0077233a	DATA	MOV EAX,0xb0e6a4
+0x00b0e85c	RBBkwdDataFlow	table_header	00b0e724	007724e4	0077233a	FUN_0077233a	DATA	MOV EAX,0xb0e724
+0x00b0e86c	RegReNameBkwdDataFlow	table_header	00b0e7a4	00772528	0077233a	FUN_0077233a	DATA	MOV EAX,0xb0e7a4
+0x00b0e91c	InterblockDf	table_header	00b0e8d4	00779dc0	00779d93	FUN_00779d93	DATA	MOV dword ptr [EBX + 0x14],EAX
+0x00b0e91c	InterblockDf	table_header	00b0e8d4	00779dbb	00779d93	FUN_00779d93	DATA	MOV EAX,0xb0e8d4
+0x00b0ed44	VNFwdDataFlow	table_header	00b0ecb0	00779de3	00779d93	FUN_00779d93	DATA	MOV dword ptr [EBX + 0x14],EAX
+0x00b0ed44	VNFwdDataFlow	table_header	00b0ecb0	00779dde	00779d93	FUN_00779d93	DATA	MOV EAX,0xb0ecb0
+0x00b0edf0	ScavengingFixup	table_header	00b0ed90	00781c83	00781c4e	FUN_00781c4e	DATA	MOV dword ptr [EBX + 0x1c],EAX
+0x00b0edf0	ScavengingFixup	table_header	00b0ed90	00781c7e	00781c4e	FUN_00781c4e	DATA	MOV EAX,0xb0ed90
+0x00b0f1ec	std::exception	table_header	00b0f16c	00786195	00786132	FUN_00786132	DATA	MOV dword ptr [EBP + -0x24],ECX
+0x00b0f1ec	std::exception	table_header	00b0f16c	007859bb	00785980	FUN_00785980	DATA	MOV ECX,0xb0f16c
+0x00b0f1ec	std::exception	table_header	00b0f16c	00785a36	007859fb	FUN_007859fb	DATA	MOV ECX,0xb0f16c
+0x00b0f1ec	std::exception	table_header	00b0f16c	00786190	00786132	FUN_00786132	DATA	MOV ECX,0xb0f16c
+0x00b0f1fc	std::bad_alloc	table_header	00b0f18c	007859cb	00785980	FUN_00785980	DATA	MOV EAX,0xb0f18c
+0x00b0f1fc	std::bad_alloc	table_header	00b0f18c	00785a46	007859fb	FUN_007859fb	DATA	MOV EAX,0xb0f18c
+0x00b0f20c	std::logic_error	table_header	00b0f1ac	007861a0	00786132	FUN_00786132	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b0f20c	std::logic_error	table_header	00b0f1ac	0078619b	00786132	FUN_00786132	DATA	MOV EAX,0xb0f1ac
+0x00b0f21c	std::length_error	table_header	00b0f1cc	00786407	00786132	FUN_00786132	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b0f21c	std::length_error	table_header	00b0f1cc	00786402	00786132	FUN_00786132	DATA	MOV EAX,0xb0f1cc
+0x00b0f5dc	std::exception	table_header	00b0f53c	0078b98a	0078b927	FUN_0078b927	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b0f5dc	std::exception	table_header	00b0f53c	0078be69	0078be11	FUN_0078be11	DATA	MOV dword ptr [EBP + -0x28],ECX
+0x00b0f5dc	std::exception	table_header	00b0f53c	0078afb0	0078af4d	FUN_0078af4d	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b0f5dc	std::exception	table_header	00b0f53c	0078a2d5	0078a272	FUN_0078a272	DATA	MOV dword ptr [EBP + -0x24],ECX
+0x00b0f5dc	std::exception	table_header	00b0f53c	00789b84	00789ad0	FUN_00789ad0	DATA	MOV dword ptr [EBP + -0x2c],ECX
+0x00b0f5dc	std::exception	table_header	00b0f53c	00789559	007894a5	FUN_007894a5	DATA	MOV dword ptr [EBP + -0x2c],ECX
+0x00b0f5dc	std::exception	table_header	00b0f53c	00788b7c	00788af7	FUN_00788af7	DATA	MOV dword ptr [EBP + -0x24],ECX
+0x00b0f5dc	std::exception	table_header	00b0f53c	00788f2e	00788e7a	FUN_00788e7a	DATA	MOV dword ptr [EBP + -0x2c],ECX
+0x00b0f5dc	std::exception	table_header	00b0f53c	00788476	007883f1	FUN_007883f1	DATA	MOV dword ptr [EBP + -0x24],ECX
+0x00b0f5dc	std::exception	table_header	00b0f53c	007887f9	00788774	FUN_00788774	DATA	MOV dword ptr [EBP + -0x24],ECX
+0x00b0f5dc	std::exception	table_header	00b0f53c	007878ab	00787870	FUN_00787870	DATA	MOV ECX,0xb0f53c
+0x00b0f5dc	std::exception	table_header	00b0f53c	0078792b	007878f0	FUN_007878f0	DATA	MOV ECX,0xb0f53c
+0x00b0f5dc	std::exception	table_header	00b0f53c	007879ab	00787970	FUN_00787970	DATA	MOV ECX,0xb0f53c
+0x00b0f5dc	std::exception	table_header	00b0f53c	00787a36	007879fb	FUN_007879fb	DATA	MOV ECX,0xb0f53c
+0x00b0f5dc	std::exception	table_header	00b0f53c	00787ab6	00787a7b	FUN_00787a7b	DATA	MOV ECX,0xb0f53c
+0x00b0f5dc	std::exception	table_header	00b0f53c	00787b31	00787af6	FUN_00787af6	DATA	MOV ECX,0xb0f53c
+0x00b0f5dc	std::exception	table_header	00b0f53c	00787bbc	00787b81	FUN_00787b81	DATA	MOV ECX,0xb0f53c
+0x00b0f5dc	std::exception	table_header	00b0f53c	00788471	007883f1	FUN_007883f1	DATA	MOV ECX,0xb0f53c
+0x00b0f5dc	std::exception	table_header	00b0f53c	007887f4	00788774	FUN_00788774	DATA	MOV ECX,0xb0f53c
+0x00b0f5dc	std::exception	table_header	00b0f53c	00788b77	00788af7	FUN_00788af7	DATA	MOV ECX,0xb0f53c
+0x00b0f5dc	std::exception	table_header	00b0f53c	00788f29	00788e7a	FUN_00788e7a	DATA	MOV ECX,0xb0f53c
+0x00b0f5dc	std::exception	table_header	00b0f53c	00789554	007894a5	FUN_007894a5	DATA	MOV ECX,0xb0f53c
+0x00b0f5dc	std::exception	table_header	00b0f53c	00789b7f	00789ad0	FUN_00789ad0	DATA	MOV ECX,0xb0f53c
+0x00b0f5dc	std::exception	table_header	00b0f53c	0078a2d0	0078a272	FUN_0078a272	DATA	MOV ECX,0xb0f53c
+0x00b0f5dc	std::exception	table_header	00b0f53c	0078afab	0078af4d	FUN_0078af4d	DATA	MOV EAX,0xb0f53c
+0x00b0f5dc	std::exception	table_header	00b0f53c	0078b985	0078b927	FUN_0078b927	DATA	MOV EAX,0xb0f53c
+0x00b0f5dc	std::exception	table_header	00b0f53c	0078be64	0078be11	FUN_0078be11	DATA	MOV ECX,0xb0f53c
+0x00b0f5ec	std::bad_alloc	table_header	00b0f55c	007878bb	00787870	FUN_00787870	DATA	MOV EAX,0xb0f55c
+0x00b0f5ec	std::bad_alloc	table_header	00b0f55c	0078793b	007878f0	FUN_007878f0	DATA	MOV EAX,0xb0f55c
+0x00b0f5ec	std::bad_alloc	table_header	00b0f55c	007879bb	00787970	FUN_00787970	DATA	MOV EAX,0xb0f55c
+0x00b0f5ec	std::bad_alloc	table_header	00b0f55c	00787a46	007879fb	FUN_007879fb	DATA	MOV EAX,0xb0f55c
+0x00b0f5ec	std::bad_alloc	table_header	00b0f55c	00787ac6	00787a7b	FUN_00787a7b	DATA	MOV EAX,0xb0f55c
+0x00b0f5ec	std::bad_alloc	table_header	00b0f55c	00787b41	00787af6	FUN_00787af6	DATA	MOV EAX,0xb0f55c
+0x00b0f5ec	std::bad_alloc	table_header	00b0f55c	00787bcc	00787b81	FUN_00787b81	DATA	MOV EAX,0xb0f55c
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	0078b995	0078b927	FUN_0078b927	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	0078be74	0078be11	FUN_0078be11	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	0078afbb	0078af4d	FUN_0078af4d	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	0078a2e0	0078a272	FUN_0078a272	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	00789b8f	00789ad0	FUN_00789ad0	DATA	MOV dword ptr [EBP + -0x2c],EAX
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	00789564	007894a5	FUN_007894a5	DATA	MOV dword ptr [EBP + -0x2c],EAX
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	00788b87	00788af7	FUN_00788af7	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	00788f39	00788e7a	FUN_00788e7a	DATA	MOV dword ptr [EBP + -0x2c],EAX
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	00788481	007883f1	FUN_007883f1	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	00788804	00788774	FUN_00788774	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	0078847c	007883f1	FUN_007883f1	DATA	MOV EAX,0xb0f57c
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	007887ff	00788774	FUN_00788774	DATA	MOV EAX,0xb0f57c
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	00788b82	00788af7	FUN_00788af7	DATA	MOV EAX,0xb0f57c
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	00788f34	00788e7a	FUN_00788e7a	DATA	MOV EAX,0xb0f57c
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	0078955f	007894a5	FUN_007894a5	DATA	MOV EAX,0xb0f57c
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	00789b8a	00789ad0	FUN_00789ad0	DATA	MOV EAX,0xb0f57c
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	0078a2db	0078a272	FUN_0078a272	DATA	MOV EAX,0xb0f57c
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	0078afb6	0078af4d	FUN_0078af4d	DATA	MOV EAX,0xb0f57c
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	0078b990	0078b927	FUN_0078b927	DATA	MOV EAX,0xb0f57c
+0x00b0f5fc	std::logic_error	table_header	00b0f57c	0078be6f	0078be11	FUN_0078be11	DATA	MOV EAX,0xb0f57c
+0x00b0f60c	std::length_error	table_header	00b0f59c	0078a547	0078a272	FUN_0078a272	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b0f60c	std::length_error	table_header	00b0f59c	00789df6	00789ad0	FUN_00789ad0	DATA	MOV dword ptr [EBP + -0x2c],EAX
+0x00b0f60c	std::length_error	table_header	00b0f59c	007897cb	007894a5	FUN_007894a5	DATA	MOV dword ptr [EBP + -0x2c],EAX
+0x00b0f60c	std::length_error	table_header	00b0f59c	00788dee	00788af7	FUN_00788af7	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b0f60c	std::length_error	table_header	00b0f59c	007891a0	00788e7a	FUN_00788e7a	DATA	MOV dword ptr [EBP + -0x2c],EAX
+0x00b0f60c	std::length_error	table_header	00b0f59c	007886e8	007883f1	FUN_007883f1	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b0f60c	std::length_error	table_header	00b0f59c	00788a6b	00788774	FUN_00788774	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b0f60c	std::length_error	table_header	00b0f59c	007886e3	007883f1	FUN_007883f1	DATA	MOV EAX,0xb0f59c
+0x00b0f60c	std::length_error	table_header	00b0f59c	00788a66	00788774	FUN_00788774	DATA	MOV EAX,0xb0f59c
+0x00b0f60c	std::length_error	table_header	00b0f59c	00788de9	00788af7	FUN_00788af7	DATA	MOV EAX,0xb0f59c
+0x00b0f60c	std::length_error	table_header	00b0f59c	0078919b	00788e7a	FUN_00788e7a	DATA	MOV EAX,0xb0f59c
+0x00b0f60c	std::length_error	table_header	00b0f59c	007897c6	007894a5	FUN_007894a5	DATA	MOV EAX,0xb0f59c
+0x00b0f60c	std::length_error	table_header	00b0f59c	00789df1	00789ad0	FUN_00789ad0	DATA	MOV EAX,0xb0f59c
+0x00b0f60c	std::length_error	table_header	00b0f59c	0078a542	0078a272	FUN_0078a272	DATA	MOV EAX,0xb0f59c
+0x00b0f61c	std::out_of_range	table_header	00b0f5bc	0078bbfc	0078b927	FUN_0078b927	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b0f61c	std::out_of_range	table_header	00b0f5bc	0078c0dd	0078be11	FUN_0078be11	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b0f61c	std::out_of_range	table_header	00b0f5bc	0078b222	0078af4d	FUN_0078af4d	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b0f61c	std::out_of_range	table_header	00b0f5bc	0078b21d	0078af4d	FUN_0078af4d	DATA	MOV EAX,0xb0f5bc
+0x00b0f61c	std::out_of_range	table_header	00b0f5bc	0078bbf7	0078b927	FUN_0078b927	DATA	MOV EAX,0xb0f5bc
+0x00b0f61c	std::out_of_range	table_header	00b0f5bc	0078c0d8	0078be11	FUN_0078be11	DATA	MOV EAX,0xb0f5bc
+0x00b10d30	register_range	table_header	00b105b0	0078aca3	0078ac6b	FUN_0078ac6b	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b10d30	register_range	table_header	00b105b0	0078ac9e	0078ac6b	FUN_0078ac6b	DATA	MOV EAX,0xb105b0
+0x00b10d40	register_set	table_header	00b10068	0078b416	0078b3d6	FUN_0078b3d6	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b10d40	register_set	table_header	00b10068	0078b411	0078b3d6	FUN_0078b3d6	DATA	MOV EAX,0xb10068
+0x00b10d50	register_implicit	table_header	00b10670	0078bde8	0078bdb0	FUN_0078bdb0	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b10d50	register_implicit	table_header	00b10670	0078bde3	0078bdb0	FUN_0078bdb0	DATA	MOV EAX,0xb10670
+0x00b10d60	textset	table_header	00b10128	0078ded2	0078de90	FUN_0078de90	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b10d60	textset	table_header	00b10128	0078decd	0078de90	FUN_0078de90	DATA	MOV EAX,0xb10128
+0x00b10d70	immediate	table_header	00b101e8	0078c1e6	0078c194	FUN_0078c194	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b10d70	immediate	table_header	00b101e8	0078c1e1	0078c194	FUN_0078c194	DATA	MOV EAX,0xb101e8
+0x00b10d80	register_list	table_header	00b10a30	0079054c	00790514	FUN_00790514	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b10d80	register_list	table_header	00b10a30	00790547	00790514	FUN_00790514	DATA	MOV EAX,0xb10a30
+0x00b10d90	statictext	table_header	00b102a8	0078db59	0078db21	FUN_0078db21	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b10d90	statictext	table_header	00b102a8	0078db54	0078db21	FUN_0078db21	DATA	MOV EAX,0xb102a8
+0x00b10da0	hardcode	table_header	00b10368	0078ddda	0078dda2	FUN_0078dda2	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b10da0	hardcode	table_header	00b10368	0078ddd5	0078dda2	FUN_0078dda2	DATA	MOV EAX,0xb10368
+0x00b10db0	compose	table_header	00b107f0	0078e2ee	0078e2ac	FUN_0078e2ac	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b10db0	compose	table_header	00b107f0	0078e2e9	0078e2ac	FUN_0078e2ac	DATA	MOV EAX,0xb107f0
+0x00b10dc0	choose	table_header	00b10428	0078f49e	0078f45c	FUN_0078f45c	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b10dc0	choose	table_header	00b10428	0078f499	0078f45c	FUN_0078f45c	DATA	MOV EAX,0xb10428
+0x00b10dd0	multiple_fields	table_header	00b104e8	0078feea	0078feb2	FUN_0078feb2	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b10dd0	multiple_fields	table_header	00b104e8	0078fee5	0078feb2	FUN_0078feb2	DATA	MOV EAX,0xb104e8
+0x00b10de0	split_fields	table_header	00b10970	00790218	007901d6	FUN_007901d6	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b10de0	split_fields	table_header	00b10970	00790213	007901d6	FUN_007901d6	DATA	MOV EAX,0xb10970
+0x00b10df0	suffix	table_header	00b10c70	007912ab	00791273	FUN_00791273	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b10df0	suffix	table_header	00b10c70	007912a6	00791273	FUN_00791273	DATA	MOV EAX,0xb10c70
+0x00b10e00	join	table_header	00b10bb0	00790af5	00790abd	FUN_00790abd	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b10e00	join	table_header	00b10bb0	00790af0	00790abd	FUN_00790abd	DATA	MOV EAX,0xb10bb0
+0x00b10e10	sameas	table_header	00b108b0	00790a66	00790a2e	FUN_00790a2e	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b10e10	sameas	table_header	00b108b0	00790a61	00790a2e	FUN_00790a2e	DATA	MOV EAX,0xb108b0
+0x00b10e20	ignore	table_header	00b10730	0078dd7a	0078dd43	FUN_0078dd43	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b10e20	ignore	table_header	00b10730	0078dd75	0078dd43	FUN_0078dd43	DATA	MOV EAX,0xb10730
+0x00b10e30	mnemonic_placeholder	table_header	00b10af0	00790a06	007909cf	FUN_007909cf	DATA	MOV dword ptr [EBX + 0x2c],EAX
+0x00b10e30	mnemonic_placeholder	table_header	00b10af0	00790a01	007909cf	FUN_007909cf	DATA	MOV EAX,0xb10af0
+0x00b10f10	std::exception	table_header	00b10e70	00793993	0079392c	FUN_0079392c	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b10f10	std::exception	table_header	00b10e70	0079330a	007932a3	FUN_007932a3	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b10f10	std::exception	table_header	00b10e70	00792942	007928f3	FUN_007928f3	DATA	MOV dword ptr [EBP + -0x28],ECX
+0x00b10f10	std::exception	table_header	00b10e70	007999af	007991de	FUN_007991de	DATA	MOV dword ptr [EBP + 0xffffff44],ECX
+0x00b10f10	std::exception	table_header	00b10e70	0079a4ef	007991de	FUN_007991de	DATA	MOV dword ptr [EBP + 0xfffffec4],ECX
+0x00b10f10	std::exception	table_header	00b10e70	0079a045	007991de	FUN_007991de	DATA	MOV dword ptr [EBP + 0xffffff04],ECX
+0x00b10f10	std::exception	table_header	00b10e70	0079863c	00797bb6	FUN_00797bb6	DATA	MOV dword ptr [EBP + 0xffffff70],ECX
+0x00b10f10	std::exception	table_header	00b10e70	007952c2	0079525f	FUN_0079525f	DATA	MOV dword ptr [EBP + -0x24],ECX
+0x00b10f10	std::exception	table_header	00b10e70	00795603	007955a0	FUN_007955a0	DATA	MOV dword ptr [EBP + -0x24],ECX
+0x00b10f10	std::exception	table_header	00b10e70	00794ae4	00794a30	FUN_00794a30	DATA	MOV dword ptr [EBP + -0x2c],ECX
+0x00b10f10	std::exception	table_header	00b10e70	007943a4	0079431f	FUN_0079431f	DATA	MOV dword ptr [EBP + -0x24],ECX
+0x00b10f10	std::exception	table_header	00b10e70	00794732	007946ad	FUN_007946ad	DATA	MOV dword ptr [EBP + -0x24],ECX
+0x00b10f10	std::exception	table_header	00b10e70	0079196b	00791930	FUN_00791930	DATA	MOV ECX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	007919eb	007919b0	FUN_007919b0	DATA	MOV ECX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	00791a72	00791a37	FUN_00791a37	DATA	MOV ECX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	00791afd	00791ac2	FUN_00791ac2	DATA	MOV ECX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	00791b88	00791b4d	FUN_00791b4d	DATA	MOV ECX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	00791c13	00791bd8	FUN_00791bd8	DATA	MOV ECX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	00791c9e	00791c63	FUN_00791c63	DATA	MOV ECX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	0079293d	007928f3	FUN_007928f3	DATA	MOV ECX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	00793305	007932a3	FUN_007932a3	DATA	MOV EAX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	0079398e	0079392c	FUN_0079392c	DATA	MOV EAX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	0079439f	0079431f	FUN_0079431f	DATA	MOV ECX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	0079472d	007946ad	FUN_007946ad	DATA	MOV ECX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	00794adf	00794a30	FUN_00794a30	DATA	MOV ECX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	007952bd	0079525f	FUN_0079525f	DATA	MOV ECX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	007955fe	007955a0	FUN_007955a0	DATA	MOV ECX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	00798637	00797bb6	FUN_00797bb6	DATA	MOV ECX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	007999aa	007991de	FUN_007991de	DATA	MOV ECX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	0079a040	007991de	FUN_007991de	DATA	MOV ECX,0xb10e70
+0x00b10f10	std::exception	table_header	00b10e70	0079a4ea	007991de	FUN_007991de	DATA	MOV ECX,0xb10e70
+0x00b10f20	std::bad_alloc	table_header	00b10e90	0079197b	00791930	FUN_00791930	DATA	MOV EAX,0xb10e90
+0x00b10f20	std::bad_alloc	table_header	00b10e90	007919fb	007919b0	FUN_007919b0	DATA	MOV EAX,0xb10e90
+0x00b10f20	std::bad_alloc	table_header	00b10e90	00791a82	00791a37	FUN_00791a37	DATA	MOV EAX,0xb10e90
+0x00b10f20	std::bad_alloc	table_header	00b10e90	00791b0d	00791ac2	FUN_00791ac2	DATA	MOV EAX,0xb10e90
+0x00b10f20	std::bad_alloc	table_header	00b10e90	00791b98	00791b4d	FUN_00791b4d	DATA	MOV EAX,0xb10e90
+0x00b10f20	std::bad_alloc	table_header	00b10e90	00791c23	00791bd8	FUN_00791bd8	DATA	MOV EAX,0xb10e90
+0x00b10f20	std::bad_alloc	table_header	00b10e90	00791cae	00791c63	FUN_00791c63	DATA	MOV EAX,0xb10e90
+0x00b10f30	std::logic_error	table_header	00b10eb0	0079399e	0079392c	FUN_0079392c	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b10f30	std::logic_error	table_header	00b10eb0	00793315	007932a3	FUN_007932a3	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b10f30	std::logic_error	table_header	00b10eb0	0079294d	007928f3	FUN_007928f3	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b10f30	std::logic_error	table_header	00b10eb0	007999c0	007991de	FUN_007991de	DATA	MOV dword ptr [EBP + 0xffffff44],ECX
+0x00b10f30	std::logic_error	table_header	00b10eb0	0079a500	007991de	FUN_007991de	DATA	MOV dword ptr [EBP + 0xfffffec4],ECX
+0x00b10f30	std::logic_error	table_header	00b10eb0	0079a056	007991de	FUN_007991de	DATA	MOV dword ptr [EBP + 0xffffff04],ECX
+0x00b10f30	std::logic_error	table_header	00b10eb0	0079864d	00797bb6	FUN_00797bb6	DATA	MOV dword ptr [EBP + 0xffffff70],ECX
+0x00b10f30	std::logic_error	table_header	00b10eb0	007952cd	0079525f	FUN_0079525f	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b10f30	std::logic_error	table_header	00b10eb0	0079560e	007955a0	FUN_007955a0	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b10f30	std::logic_error	table_header	00b10eb0	00794aef	00794a30	FUN_00794a30	DATA	MOV dword ptr [EBP + -0x2c],EAX
+0x00b10f30	std::logic_error	table_header	00b10eb0	007943af	0079431f	FUN_0079431f	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b10f30	std::logic_error	table_header	00b10eb0	0079473d	007946ad	FUN_007946ad	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b10f30	std::logic_error	table_header	00b10eb0	00792948	007928f3	FUN_007928f3	DATA	MOV EAX,0xb10eb0
+0x00b10f30	std::logic_error	table_header	00b10eb0	00793310	007932a3	FUN_007932a3	DATA	MOV EAX,0xb10eb0
+0x00b10f30	std::logic_error	table_header	00b10eb0	00793999	0079392c	FUN_0079392c	DATA	MOV EAX,0xb10eb0
+0x00b10f30	std::logic_error	table_header	00b10eb0	007943aa	0079431f	FUN_0079431f	DATA	MOV EAX,0xb10eb0
+0x00b10f30	std::logic_error	table_header	00b10eb0	00794738	007946ad	FUN_007946ad	DATA	MOV EAX,0xb10eb0
+0x00b10f30	std::logic_error	table_header	00b10eb0	00794aea	00794a30	FUN_00794a30	DATA	MOV EAX,0xb10eb0
+0x00b10f30	std::logic_error	table_header	00b10eb0	007952c8	0079525f	FUN_0079525f	DATA	MOV EAX,0xb10eb0
+0x00b10f30	std::logic_error	table_header	00b10eb0	00795609	007955a0	FUN_007955a0	DATA	MOV EAX,0xb10eb0
+0x00b10f30	std::logic_error	table_header	00b10eb0	00798648	00797bb6	FUN_00797bb6	DATA	MOV ECX,0xb10eb0
+0x00b10f30	std::logic_error	table_header	00b10eb0	007999bb	007991de	FUN_007991de	DATA	MOV ECX,0xb10eb0
+0x00b10f30	std::logic_error	table_header	00b10eb0	0079a051	007991de	FUN_007991de	DATA	MOV ECX,0xb10eb0
+0x00b10f30	std::logic_error	table_header	00b10eb0	0079a4fb	007991de	FUN_007991de	DATA	MOV ECX,0xb10eb0
+0x00b10f40	std::length_error	table_header	00b10ed0	00793c13	0079392c	FUN_0079392c	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b10f40	std::length_error	table_header	00b10ed0	00793588	007932a3	FUN_007932a3	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b10f40	std::length_error	table_header	00b10ed0	00795534	0079525f	FUN_0079525f	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b10f40	std::length_error	table_header	00b10ed0	00795875	007955a0	FUN_007955a0	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b10f40	std::length_error	table_header	00b10ed0	00794d56	00794a30	FUN_00794a30	DATA	MOV dword ptr [EBP + -0x2c],EAX
+0x00b10f40	std::length_error	table_header	00b10ed0	00794616	0079431f	FUN_0079431f	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b10f40	std::length_error	table_header	00b10ed0	007949a4	007946ad	FUN_007946ad	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b10f40	std::length_error	table_header	00b10ed0	00793583	007932a3	FUN_007932a3	DATA	MOV EAX,0xb10ed0
+0x00b10f40	std::length_error	table_header	00b10ed0	00793c0e	0079392c	FUN_0079392c	DATA	MOV EAX,0xb10ed0
+0x00b10f40	std::length_error	table_header	00b10ed0	00794611	0079431f	FUN_0079431f	DATA	MOV EAX,0xb10ed0
+0x00b10f40	std::length_error	table_header	00b10ed0	0079499f	007946ad	FUN_007946ad	DATA	MOV EAX,0xb10ed0
+0x00b10f40	std::length_error	table_header	00b10ed0	00794d51	00794a30	FUN_00794a30	DATA	MOV EAX,0xb10ed0
+0x00b10f40	std::length_error	table_header	00b10ed0	0079552f	0079525f	FUN_0079525f	DATA	MOV EAX,0xb10ed0
+0x00b10f40	std::length_error	table_header	00b10ed0	00795870	007955a0	FUN_007955a0	DATA	MOV EAX,0xb10ed0
+0x00b10f50	std::out_of_range	table_header	00b10ef0	00792bbc	007928f3	FUN_007928f3	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00b10f50	std::out_of_range	table_header	00b10ef0	00799cb8	007991de	FUN_007991de	DATA	MOV dword ptr [EBP + 0xffffff44],ECX
+0x00b10f50	std::out_of_range	table_header	00b10ef0	0079a7eb	007991de	FUN_007991de	DATA	MOV dword ptr [EBP + 0xfffffec4],ECX
+0x00b10f50	std::out_of_range	table_header	00b10ef0	0079a343	007991de	FUN_007991de	DATA	MOV dword ptr [EBP + 0xffffff04],ECX
+0x00b10f50	std::out_of_range	table_header	00b10ef0	0079890c	00797bb6	FUN_00797bb6	DATA	MOV dword ptr [EBP + 0xffffff70],ECX
+0x00b10f50	std::out_of_range	table_header	00b10ef0	00792bb7	007928f3	FUN_007928f3	DATA	MOV EAX,0xb10ef0
+0x00b10f50	std::out_of_range	table_header	00b10ef0	00798907	00797bb6	FUN_00797bb6	DATA	MOV ECX,0xb10ef0
+0x00b10f50	std::out_of_range	table_header	00b10ef0	00799cb3	007991de	FUN_007991de	DATA	MOV ECX,0xb10ef0
+0x00b10f50	std::out_of_range	table_header	00b10ef0	0079a33e	007991de	FUN_007991de	DATA	MOV ECX,0xb10ef0
+0x00b10f50	std::out_of_range	table_header	00b10ef0	0079a7e6	007991de	FUN_007991de	DATA	MOV ECX,0xb10ef0
+0x00b1155c	Disassembler	table_header	00b114b4	007968c9	00796899	FUN_00796899	DATA	MOV dword ptr [EBX + 0x120],EAX
+0x00b1155c	Disassembler	table_header	00b114b4	007968c4	00796899	FUN_00796899	DATA	MOV EAX,0xb114b4
+0x00b11aa8	std::exception	table_header	00b11a28	0079d439	0079d3d6	FUN_0079d3d6	DATA	MOV dword ptr [EBP + -0x24],ECX
+0x00b11aa8	std::exception	table_header	00b11a28	0079cc5f	0079cc24	FUN_0079cc24	DATA	MOV ECX,0xb11a28
+0x00b11aa8	std::exception	table_header	00b11a28	0079ccda	0079cc9f	FUN_0079cc9f	DATA	MOV ECX,0xb11a28
+0x00b11aa8	std::exception	table_header	00b11a28	0079d434	0079d3d6	FUN_0079d3d6	DATA	MOV ECX,0xb11a28
+0x00b11ab8	std::bad_alloc	table_header	00b11a48	0079cc6f	0079cc24	FUN_0079cc24	DATA	MOV EAX,0xb11a48
+0x00b11ab8	std::bad_alloc	table_header	00b11a48	0079ccea	0079cc9f	FUN_0079cc9f	DATA	MOV EAX,0xb11a48
+0x00b11ac8	std::logic_error	table_header	00b11a68	0079d444	0079d3d6	FUN_0079d3d6	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b11ac8	std::logic_error	table_header	00b11a68	0079d43f	0079d3d6	FUN_0079d3d6	DATA	MOV EAX,0xb11a68
+0x00b11ad8	std::length_error	table_header	00b11a88	0079d6ab	0079d3d6	FUN_0079d3d6	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b11ad8	std::length_error	table_header	00b11a88	0079d6a6	0079d3d6	FUN_0079d3d6	DATA	MOV EAX,0xb11a88
+0x00b11f18	IndInst::instop	table_header	00b11e78	0079d8c1	0079d894	FUN_0079d894	DATA	MOV dword ptr [EAX + 0x10],ECX
+0x00b11f18	IndInst::instop	table_header	00b11e78	0079d9d4	0079d993	FUN_0079d993	DATA	MOV dword ptr [EAX + 0x10],ECX
+0x00b11f18	IndInst::instop	table_header	00b11e78	0079daf0	0079daaf	FUN_0079daaf	DATA	MOV dword ptr [EAX + 0x10],ECX
+0x00b11f18	IndInst::instop	table_header	00b11e78	0079df36	0079deed	FUN_0079deed	DATA	MOV dword ptr [EBX + 0x10],EAX
+0x00b11f18	IndInst::instop	table_header	00b11e78	0079d7b6	0079d78c	FUN_0079d78c	DATA	MOV dword ptr [EBX + 0x10],EAX
+0x00b11f18	IndInst::instop	table_header	00b11e78	0079d7b1	0079d78c	FUN_0079d78c	DATA	MOV EAX,0xb11e78
+0x00b11f18	IndInst::instop	table_header	00b11e78	0079d8bc	0079d894	FUN_0079d894	DATA	MOV ECX,0xb11e78
+0x00b11f18	IndInst::instop	table_header	00b11e78	0079d9cf	0079d993	FUN_0079d993	DATA	MOV ECX,0xb11e78
+0x00b11f18	IndInst::instop	table_header	00b11e78	0079daeb	0079daaf	FUN_0079daaf	DATA	MOV ECX,0xb11e78
+0x00b11f18	IndInst::instop	table_header	00b11e78	0079df31	0079deed	FUN_0079deed	DATA	MOV EAX,0xb11e78
+0x00b11f28	IndInst::instopreg	table_header	00b11e98	0079da01	0079d993	FUN_0079d993	DATA	MOV dword ptr [EAX + 0x10],ECX
+0x00b11f28	IndInst::instopreg	table_header	00b11e98	0079d9fc	0079d993	FUN_0079d993	DATA	MOV ECX,0xb11e98
+0x00b11f38	IndInst::instopimm	table_header	00b11eb8	0079db1d	0079daaf	FUN_0079daaf	DATA	MOV dword ptr [EAX + 0x10],ECX
+0x00b11f38	IndInst::instopimm	table_header	00b11eb8	0079db18	0079daaf	FUN_0079daaf	DATA	MOV ECX,0xb11eb8
+0x00b11f48	IndInst::instopcomp	table_header	00b11ed8	0079dc41	0079dc2a	FUN_0079dc2a	DATA	MOV dword ptr [EBX + 0x10],EAX
+0x00b11f48	IndInst::instopcomp	table_header	00b11ed8	0079d7e5	0079d78c	FUN_0079d78c	DATA	MOV dword ptr [EBX + 0x10],EAX
+0x00b11f48	IndInst::instopcomp	table_header	00b11ed8	0079d7e0	0079d78c	FUN_0079d78c	DATA	MOV EAX,0xb11ed8
+0x00b11f48	IndInst::instopcomp	table_header	00b11ed8	0079dc3c	0079dc2a	FUN_0079dc2a	DATA	MOV EAX,0xb11ed8
+0x00b11f58	IndInst::instopreglist	table_header	00b11ef8	0079de45	0079de2e	FUN_0079de2e	DATA	MOV dword ptr [EBX + 0x10],EAX
+0x00b11f58	IndInst::instopreglist	table_header	00b11ef8	0079df63	0079deed	FUN_0079deed	DATA	MOV dword ptr [EBX + 0x10],EAX
+0x00b11f58	IndInst::instopreglist	table_header	00b11ef8	0079de40	0079de2e	FUN_0079de2e	DATA	MOV EAX,0xb11ef8
+0x00b11f58	IndInst::instopreglist	table_header	00b11ef8	0079df5e	0079deed	FUN_0079deed	DATA	MOV EAX,0xb11ef8
+0x00b12008	std::exception	table_header	00b11f88	0079f67b	0079f618	FUN_0079f618	DATA	MOV dword ptr [EBP + -0x24],ECX
+0x00b12008	std::exception	table_header	00b11f88	0079ed38	0079ecfd	FUN_0079ecfd	DATA	MOV ECX,0xb11f88
+0x00b12008	std::exception	table_header	00b11f88	0079edc3	0079ed88	FUN_0079ed88	DATA	MOV ECX,0xb11f88
+0x00b12008	std::exception	table_header	00b11f88	0079ee4e	0079ee13	FUN_0079ee13	DATA	MOV ECX,0xb11f88
+0x00b12008	std::exception	table_header	00b11f88	0079f676	0079f618	FUN_0079f618	DATA	MOV ECX,0xb11f88
+0x00b12018	std::bad_alloc	table_header	00b11fa8	0079ed48	0079ecfd	FUN_0079ecfd	DATA	MOV EAX,0xb11fa8
+0x00b12018	std::bad_alloc	table_header	00b11fa8	0079edd3	0079ed88	FUN_0079ed88	DATA	MOV EAX,0xb11fa8
+0x00b12018	std::bad_alloc	table_header	00b11fa8	0079ee5e	0079ee13	FUN_0079ee13	DATA	MOV EAX,0xb11fa8
+0x00b12028	std::logic_error	table_header	00b11fc8	0079f686	0079f618	FUN_0079f618	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b12028	std::logic_error	table_header	00b11fc8	0079f681	0079f618	FUN_0079f618	DATA	MOV EAX,0xb11fc8
+0x00b12038	std::length_error	table_header	00b11fe8	0079f8ed	0079f618	FUN_0079f618	DATA	MOV dword ptr [EBP + -0x24],EAX
+0x00b12038	std::length_error	table_header	00b11fe8	0079f8e8	0079f618	FUN_0079f618	DATA	MOV EAX,0xb11fe8
+0x00b12800	OutputGen	table_header	00b12738	007a116b	007a1141	FUN_007a1141	DATA	MOV dword ptr [EBX],EAX
+0x00b12800	OutputGen	table_header	00b12738	007a0adf	007a0ad3	FUN_007a0ad3	DATA	MOV dword ptr [EBP + -0x8],EAX
+0x00b12800	OutputGen	table_header	00b12738	004e68d9	004e68cd	FUN_004e68cd	DATA	MOV dword ptr [EBP + -0x10],EAX
+0x00b12800	OutputGen	table_header	00b12738	0079e5e7	0079e5db	FUN_0079e5db	DATA	MOV dword ptr [EBP + -0x8],EAX
+0x00b12800	OutputGen	table_header	00b12738	004e68d4	004e68cd	FUN_004e68cd	DATA	MOV EAX,0xb12738
+0x00b12800	OutputGen	table_header	00b12738	0052177b	00521778	FUN_00521778	DATA	MOV EAX,0xb12738
+0x00b12800	OutputGen	table_header	00b12738	0079e5e2	0079e5db	FUN_0079e5db	DATA	MOV EAX,0xb12738
+0x00b12800	OutputGen	table_header	00b12738	007a0ada	007a0ad3	FUN_007a0ad3	DATA	MOV EAX,0xb12738
+0x00b12800	OutputGen	table_header	00b12738	007a1166	007a1141	FUN_007a1141	DATA	MOV EAX,0xb12738
+0x00b12810	SimpleOutputGen	table_header	00b12760	004e68e1	004e68cd	FUN_004e68cd	DATA	MOV dword ptr [EBP + -0x10],EAX
+0x00b12810	SimpleOutputGen	table_header	00b12760	004e68dc	004e68cd	FUN_004e68cd	DATA	MOV EAX,0xb12760
+0x00b12810	SimpleOutputGen	table_header	00b12760	00521785	00521778	FUN_00521778	DATA	MOV EAX,0xb12760
+0x00b12820	FileOutputGen	table_header	00b12788	007a0ae7	007a0ad3	FUN_007a0ad3	DATA	MOV dword ptr [EBP + -0x8],EAX
+0x00b12820	FileOutputGen	table_header	00b12788	0079e5ef	0079e5db	FUN_0079e5db	DATA	MOV dword ptr [EBP + -0x8],EAX
+0x00b12820	FileOutputGen	table_header	00b12788	0079e5ea	0079e5db	FUN_0079e5db	DATA	MOV EAX,0xb12788
+0x00b12820	FileOutputGen	table_header	00b12788	007a0ae2	007a0ad3	FUN_007a0ad3	DATA	MOV EAX,0xb12788
+0x00b12840	DebugOutputGen	table_header	00b127d8	007a1172	007a1141	FUN_007a1141	DATA	MOV dword ptr [EBX],EAX
+0x00b12840	DebugOutputGen	table_header	00b127d8	007a11a6	007a1191	FUN_007a1191	DATA	MOV dword ptr [EBX],EAX
+0x00b12840	DebugOutputGen	table_header	00b127d8	007a116d	007a1141	FUN_007a1141	DATA	MOV EAX,0xb127d8
+0x00b12840	DebugOutputGen	table_header	00b127d8	007a11a1	007a1191	FUN_007a1191	DATA	MOV EAX,0xb127d8
+0x00b12cf4	std::exception	table_header	00b12cb4	007a16bb	007a1680	FUN_007a1680	DATA	MOV ECX,0xb12cb4
+0x00b12d04	std::bad_alloc	table_header	00b12cd4	007a16cb	007a1680	FUN_007a1680	DATA	MOV EAX,0xb12cd4
+0x00bd48c0	std::logic_error	table_header	00bd4840	00a92194	00a9214f	FUN_00a9214f	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00bd48c0	std::logic_error	table_header	00bd4840	00a92570	00a9252b	FUN_00a9252b	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00bd48c0	std::logic_error	table_header	00bd4840	00a9218f	00a9214f	FUN_00a9214f	DATA	MOV EAX,0xbd4840
+0x00bd48c0	std::logic_error	table_header	00bd4840	00a9256b	00a9252b	FUN_00a9252b	DATA	MOV EAX,0xbd4840
+0x00bd48d0	std::length_error	table_header	00bd4860	00a92713	00a9252b	FUN_00a9252b	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00bd48d0	std::length_error	table_header	00bd4860	00a92708	00a9252b	FUN_00a9252b	DATA	MOV EAX,0xbd4860
+0x00bd48e0	std::out_of_range	table_header	00bd4880	00a92337	00a9214f	FUN_00a9214f	DATA	MOV dword ptr [EBP + -0x28],EAX
+0x00bd48e0	std::out_of_range	table_header	00bd4880	00a9232c	00a9214f	FUN_00a9214f	DATA	MOV EAX,0xbd4880
