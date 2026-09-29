@@ -1,0 +1,254 @@
+The Import Tables (interpreted .rdata section contents)
+ vma:            Hint    Time      Forward  DLL       First
+                 Table   Stamp     Chain    Name      Thunk
+ 006bd85c	006bdbf4 00000000 00000000 006bdc6c 006b730c
+
+	DLL Name: WS2_32.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	006b730c     23  <none> <none>
+	006b7310  <none>  0036  WSAIoctl
+	006b7314  <none>  0052  WSASocketA
+	006b7318    111  <none> <none>
+	006b731c     10  <none> <none>
+	006b7320     21  <none> <none>
+	006b7324      9  <none> <none>
+	006b7328     14  <none> <none>
+	006b732c     11  <none> <none>
+	006b7330      3  <none> <none>
+	006b7334     15  <none> <none>
+	006b7338     12  <none> <none>
+	006b733c     17  <none> <none>
+	006b7340      4  <none> <none>
+	006b7344      7  <none> <none>
+	006b7348      2  <none> <none>
+	006b734c     13  <none> <none>
+	006b7350     19  <none> <none>
+	006b7354      6  <none> <none>
+	006b7358     16  <none> <none>
+	006b735c    112  <none> <none>
+	006b7360     20  <none> <none>
+	006b7364      5  <none> <none>
+	006b7368      8  <none> <none>
+	006b736c     18  <none> <none>
+	006b7370     52  <none> <none>
+	006b7374    116  <none> <none>
+	006b7378     57  <none> <none>
+	006b737c    115  <none> <none>
+
+ 006bd870	006bdbd4 00000000 00000000 006bdc82 006b72ec
+
+	DLL Name: NETAPI32.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	006b72ec  <none>  0117  Netbios
+
+ 006bd884	006bdbcc 00000000 00000000 006bdca0 006b72e4
+
+	DLL Name: MPR.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	006b72e4  <none>  0039  WNetGetUserA
+
+ 006bd898	006bd914 00000000 00000000 006be3b4 006b702c
+
+	DLL Name: KERNEL32.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	006b702c  <none>  027a  GetVersionExA
+	006b7030  <none>  011e  FindFirstFileA
+	006b7034  <none>  012f  FindNextFileA
+	006b7038  <none>  011a  FindClose
+	006b703c  <none>  01ca  GetFileAttributesA
+	006b7040  <none>  01f7  GetModuleHandleA
+	006b7044  <none>  01aa  GetCurrentProcess
+	006b7048  <none>  01e7  GetLastError
+	006b704c  <none>  019f  GetConsoleTitleA
+	006b7050  <none>  023e  GetStdHandle
+	006b7054  <none>  0095  CreateProcessA
+	006b7058  <none>  042b  Sleep
+	006b705c  <none>  03fe  SetPriorityClass
+	006b7060  <none>  026a  GetTickCount
+	006b7064  <none>  01ab  GetCurrentProcessId
+	006b7068  <none>  0338  OpenProcess
+	006b706c  <none>  01c6  GetExitCodeProcess
+	006b7070  <none>  0044  CloseHandle
+	006b7074  <none>  01b6  GetDiskFreeSpaceExA
+	006b7078  <none>  0296  GlobalMemoryStatus
+	006b707c  <none>  027c  GetVolumeInformationA
+	006b7080  <none>  01f5  GetModuleFileNameA
+	006b7084  <none>  03f1  SetHandleInformation
+	006b7088  <none>  024d  GetSystemInfo
+	006b708c  <none>  007a  CreateFileMappingA
+	006b7090  <none>  030f  MapViewOfFile
+	006b7094  <none>  044b  UnmapViewOfFile
+	006b7098  <none>  0148  FormatMessageA
+	006b709c  <none>  014d  FreeLibrary
+	006b70a0  <none>  0359  QueryPerformanceCounter
+	006b70a4  <none>  035a  QueryPerformanceFrequency
+	006b70a8  <none>  0497  WriteFile
+	006b70ac  <none>  0079  CreateFileA
+	006b70b0  <none>  01ad  GetCurrentThread
+	006b70b4  <none>  041f  SetUnhandledExceptionFilter
+	006b70b8  <none>  025e  GetTempPathA
+	006b70bc  <none>  025c  GetTempFileNameA
+	006b70c0  <none>  03e7  SetFilePointer
+	006b70c4  <none>  0310  MapViewOfFileEx
+	006b70c8  <none>  03c8  SetConsoleTextAttribute
+	006b70cc  <none>  019c  GetConsoleScreenBufferInfo
+	006b70d0  <none>  0176  GetComputerNameA
+	006b70d4  <none>  01e8  GetLocalTime
+	006b70d8  <none>  0285  GetWindowsDirectoryA
+	006b70dc  <none>  009a  CreateSemaphoreA
+	006b70e0  <none>  046e  WaitForSingleObject
+	006b70e4  <none>  0381  ReleaseSemaphore
+	006b70e8  <none>  00cb  DeviceIoControl
+	006b70ec  <none>  0484  WideCharToMultiByte
+	006b70f0  <none>  01ae  GetCurrentThreadId
+	006b70f4  <none>  0249  GetSystemDirectoryA
+	006b70f8  <none>  01dd  GetFullPathNameA
+	006b70fc  <none>  04ac  _lopen
+	006b7100  <none>  04ad  _lread
+	006b7104  <none>  0251  GetSystemTime
+	006b7108  <none>  0279  GetVersion
+	006b710c  <none>  03ce  SetCurrentDirectoryA
+	006b7110  <none>  0302  LocalFree
+	006b7114  <none>  01bb  GetDriveTypeA
+	006b7118  <none>  02fe  LocalAlloc
+	006b711c  <none>  01ec  GetLogicalDriveStringsA
+	006b7120  <none>  03da  SetErrorMode
+	006b7124  <none>  023a  GetShortPathNameA
+	006b7128  <none>  01c3  GetEnvironmentVariableA
+	006b712c  <none>  0291  GlobalFree
+	006b7130  <none>  029c  GlobalUnlock
+	006b7134  <none>  04b0  lstrcatA
+	006b7138  <none>  04b9  lstrcpyA
+	006b713c  <none>  02f4  LeaveCriticalSection
+	006b7140  <none>  00da  EnterCriticalSection
+	006b7144  <none>  02b9  InitializeCriticalSection
+	006b7148  <none>  02c2  InterlockedExchange
+	006b714c  <none>  01d5  GetFileSize
+	006b7150  <none>  04bf  lstrlenA
+	006b7154  <none>  031f  MultiByteToWideChar
+	006b7158  <none>  04b3  lstrcmpA
+	006b715c  <none>  008c  CreateMutexA
+	006b7160  <none>  037d  ReleaseMutex
+	006b7164  <none>  0073  CreateEventA
+	006b7168  <none>  0330  OpenFileMappingA
+	006b716c  <none>  0145  FlushViewOfFile
+	006b7170  <none>  00c1  DeleteFileA
+	006b7174  <none>  032c  OpenEventA
+	006b7178  <none>  03db  SetEvent
+	006b717c  <none>  046c  WaitForMultipleObjects
+	006b7180  <none>  028a  GlobalAlloc
+	006b7184  <none>  0438  TerminateThread
+	006b7188  <none>  01c7  GetExitCodeThread
+	006b718c  <none>  0392  ResetEvent
+	006b7190  <none>  00ba  DefineDosDeviceA
+	006b7194  <none>  0352  QueryDosDeviceA
+	006b7198  <none>  00bf  DeleteCriticalSection
+	006b719c  <none>  021e  GetPrivateProfileStringA
+	006b71a0  <none>  0218  GetPrivateProfileIntA
+	006b71a4  <none>  0272  GetUserDefaultLCID
+	006b71a8  <none>  03d9  SetEnvironmentVariableW
+	006b71ac  <none>  045e  VirtualAlloc
+	006b71b0  <none>  0142  FlushFileBuffers
+	006b71b4  <none>  02e8  LCMapStringW
+	006b71b8  <none>  0056  CompareStringW
+	006b71bc  <none>  0222  GetProcAddress
+	006b71c0  <none>  02f6  LoadLibraryA
+	006b71c4  <none>  01e9  GetLocaleInfoA
+	006b71c8  <none>  00f9  EnumSystemLocalesA
+	006b71cc  <none>  02e2  IsValidLocale
+	006b71d0  <none>  0240  GetStringTypeA
+	006b71d4  <none>  0243  GetStringTypeW
+	006b71d8  <none>  0360  RaiseException
+	006b71dc  <none>  048c  WriteConsoleA
+	006b71e0  <none>  019a  GetConsoleOutputCP
+	006b71e4  <none>  01eb  GetLocaleInfoW
+	006b71e8  <none>  0053  CompareStringA
+	006b71ec  <none>  04a9  _lclose
+	006b71f0  <none>  02e6  LCMapStringA
+	006b71f4  <none>  02ba  InitializeCriticalSectionAndSpinCount
+	006b71f8  <none>  02f9  LoadLibraryW
+	006b71fc  <none>  02e0  IsValidCodePage
+	006b7200  <none>  0214  GetOEMCP
+	006b7204  <none>  0153  GetACP
+	006b7208  <none>  0461  VirtualFree
+	006b720c  <none>  02a4  HeapCreate
+	006b7210  <none>  03f4  SetLastError
+	006b7214  <none>  043d  TlsFree
+	006b7218  <none>  043f  TlsSetValue
+	006b721c  <none>  043c  TlsAlloc
+	006b7220  <none>  043e  TlsGetValue
+	006b7224  <none>  023c  GetStartupInfoA
+	006b7228  <none>  03f0  SetHandleCount
+	006b722c  <none>  01c2  GetEnvironmentStringsW
+	006b7230  <none>  014c  FreeEnvironmentStringsW
+	006b7234  <none>  01c0  GetEnvironmentStrings
+	006b7238  <none>  014b  FreeEnvironmentStringsA
+	006b723c  <none>  026f  GetTimeZoneInformation
+	006b7240  <none>  01a8  GetCurrentDirectoryA
+	006b7244  <none>  0170  GetCommandLineA
+	006b7248  <none>  0496  WriteConsoleW
+	006b724c  <none>  01d8  GetFileType
+	006b7250  <none>  01f6  GetModuleFileNameW
+	006b7254  <none>  01fa  GetModuleHandleW
+	006b7258  <none>  0105  ExitProcess
+	006b725c  <none>  0253  GetSystemTimeAsFileTime
+	006b7260  <none>  03af  SetConsoleCtrlHandler
+	006b7264  <none>  0448  UnhandledExceptionFilter
+	006b7268  <none>  02a6  HeapFree
+	006b726c  <none>  02a2  HeapAlloc
+	006b7270  <none>  02a9  HeapReAlloc
+	006b7274  <none>  0316  MoveFileA
+	006b7278  <none>  03eb  SetFileTime
+	006b727c  <none>  0300  LocalFileTimeToFileTime
+	006b7280  <none>  0434  SystemTimeToFileTime
+	006b7284  <none>  03d5  SetEndOfFile
+	006b7288  <none>  0226  GetProcessHeap
+	006b728c  <none>  0437  TerminateProcess
+	006b7290  <none>  02d6  IsDebuggerPresent
+	006b7294  <none>  0406  SetStdHandle
+	006b7298  <none>  036e  ReadFile
+	006b729c  <none>  0111  FileTimeToSystemTime
+	006b72a0  <none>  0110  FileTimeToLocalFileTime
+	006b72a4  <none>  01d1  GetFileInformationByHandle
+	006b72a8  <none>  0343  PeekNamedPipe
+	006b72ac  <none>  02c5  InterlockedIncrement
+	006b72b0  <none>  02c1  InterlockedDecrement
+	006b72b4  <none>  015c  GetCPInfo
+	006b72b8  <none>  039a  RtlUnwind
+	006b72bc  <none>  02ab  HeapSize
+	006b72c0  <none>  0106  ExitThread
+	006b72c4  <none>  00a4  CreateThread
+	006b72c8  <none>  0184  GetConsoleCP
+	006b72cc  <none>  0196  GetConsoleMode
+	006b72d0  <none>  03df  SetFileAttributesA
+	006b72d4  <none>  006d  CreateDirectoryA
+	006b72d8  <none>  0383  RemoveDirectoryA
+	006b72dc  <none>  03d8  SetEnvironmentVariableA
+
+ 006bd8ac	006bdbdc 00000000 00000000 006be410 006b72f4
+
+	DLL Name: USER32.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	006b72f4  <none>  01f8  MessageBoxA
+	006b72f8  <none>  0137  GetKeyboardType
+	006b72fc  <none>  0307  wsprintfA
+	006b7300  <none>  016f  GetSystemMetrics
+	006b7304  <none>  01f7  MessageBeep
+
+ 006bd8c0	006bd8e8 00000000 00000000 006be4dc 006b7000
+
+	DLL Name: ADVAPI32.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	006b7000  <none>  015e  GetUserNameA
+	006b7004  <none>  0248  RegEnumKeyExA
+	006b7008  <none>  0259  RegOpenKeyA
+	006b700c  <none>  0171  InitializeSecurityDescriptor
+	006b7010  <none>  02b0  SetSecurityDescriptorDacl
+	006b7014  <none>  025a  RegOpenKeyExA
+	006b7018  <none>  0277  RegSetValueExA
+	006b701c  <none>  022a  RegCloseKey
+	006b7020  <none>  0267  RegQueryValueExA
+	006b7024  <none>  0232  RegCreateKeyExA
+
+ 006bd8d4	00000000 00000000 00000000 00000000 00000000
+

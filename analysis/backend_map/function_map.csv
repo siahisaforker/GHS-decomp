@@ -1,0 +1,27 @@
+entry,end,size,name,role,confidence,evidence
+0x006ae504,0x006ae5c8,197,codegen,top-level independent backend driver,high,Ghidra call graph; codegen timing string
+0x006ad8d8,0x006adf1b,1604,independent_optimize,machine-independent optimization before backend lowering,high,calls dooptimize at 0x006adb2b
+0x00545735,0x0054619f,2667,dooptimize,main optimizer pass orchestrator,high,embedded dooptimize string and optimizer-pass callees
+0x006a0b1d,0x006a0e05,745,makeproc,build machine procedure / backend procedure state; stage tag 1,high,makeproc timing string; stage write
+0x006a535b,0x006a55d9,639,allocation_prepare_driver,pre-register-allocation preparation and path selection,medium-high,calls 0x006a527d; graph_allocate chooses retick path
+0x006a527d,0x006a535a,222,prealloc_phase2,pre-allocation cleanup/dataflow/peephole/scheduling wrapper; stage tag 2,medium-high,stage write; predataflow and pre_alloc_scheduling calls
+0x006a50bb,0x006a51dc,290,prealloc_vn_dataflow,temporary stage 4 VN/dataflow then stage 5 post-dataflow work,high,calls dflow_vn_forward_apply; writes stage 4 then 5
+0x006a51dd,0x006a527c,160,pre_alloc_scheduling,optional early scheduling; stage tag 3,high,pre-alloc scheduling timing string
+0x0066fad9,0x0066fdee,790,schedule_pass_1,classic pipeline/gap scheduler,high,Before/After Scheduling strings; showpipe diagnostics
+0x00739e6a,0x0073a362,1273,schedule_pass_2,PPC750/PPC7450 secondary resource scheduler,high,explicit ppc750/ppc7450 gates and list-scheduler knobs
+0x0073a363,0x0073a67c,794,schedule_pass_3,list scheduler selected by listscheduler,high,listscheduler dispatch; list-scheduler diagnostics
+0x006adf1c,0x006ae05b,320,allocate_registers,register-allocation stage driver; stage tag 6,high,register_allocation_core/fixup/dataflow/branch calls
+0x0069bf55,0x0069c296,834,register_allocation_core,register allocator dispatcher,high,register allocation timing string; graph_allocate branch
+0x0069ba54,0x0069bf54,1281,allocator_local_path,non-primary/default allocator path; can invoke local reduce/coalesce/spill machinery,medium,selected by register_allocation_core when graph_allocate is off or procedure is non-primary
+0x0071d3ef,0x0071da13,1573,graph_allocator_primary_path,graph_allocate primary-procedure allocator candidate,medium-high,selected only when graph_allocate is set for primary procedure; allocator-loop structure
+0x0074d02a,0x0074d2df,694,allocregs_local_driver,"two-attempt allocation driver: temps first, then permanent registers",high,ALLOC START only temps / ALLOC SWITCH with perms strings
+0x0074c881,0x0074cde4,1380,coalesce_spill_retry_loop,iterative reduce/coalesce/spill loop with 200-iteration cap,high,calls coalesce_stage then spill_stage; MAX VAR SPILLS/REORDER strings
+0x0074c01c,0x0074c4c2,1191,coalesce_stage,register-variable coalescing stage,high,COALESCE stage string
+0x0074c6e1,0x0074c880,416,spill_stage,register spill selection/rewrite stage,high,SPILL stage string
+0x006ac8eb,0x006aca14,298,fixup_driver,post-allocation fixup; stage tag 7; may rerun allocation,high,fixuptwice condition and register_allocation_core call
+0x006aca15,0x006ace62,1102,backend_dataflow_peephole,backend VN/dataflow and peephole stages; stage tags 8/9,high,dataflow/ipeep option gates and stage writes
+0x0076ef82,0x0076fd2d,3500,dflow_vn_forward_apply,forward dataflow/value-numbering engine,high,DFLOW/VN strings and backend_dataflow_peephole call
+0x006d183d,0x006d25fd,3521,peephole_pass_2,late backend peephole engine,high,peephole strings and repeated backend calls
+0x006ace63,0x006acfa4,322,branch_optimize_driver,branch/lifetime setup; stage tags 9 then 10,high,dumpbeforebranches/rotate_blocks/lifetime gates
+0x006747de,0x0067538d,2992,branches_and_post_alloc,"branch cleanup, expand-code, late scheduling, nop removal",high,post-alloc scheduling and branch debug strings
+0x006ae05c,0x006ae38a,815,codewrite,final target emission / debug-output stage; stage tag 11,high,stage write and target vtable emission callback

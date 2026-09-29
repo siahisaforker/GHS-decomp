@@ -1,0 +1,69 @@
+address,option_id,option_name,functions,observed_effect,confidence
+0x00c40656,8,dataflow,backend_dataflow_peephole,master enable for backend VN/dataflow passes,high
+0x00c40657,9,nopeep,backend_dataflow_peephole,disables normal peephole path,high
+0x00c4069a,76,nobranches,branches_and_post_alloc,skips main branch merge/removal loop when set,high
+0x00c40701,179,fixuptwice,fixup_driver,"if fixup marks changes, reruns register_allocation_core and fixup",high
+0x00c40759,267,SS_schedule,branches_and_post_alloc,"after schedule_pass_1, additionally runs schedule_pass_2",high
+0x00c4077b,301,merge_paired_comparisons,branches_and_post_alloc,enables paired-comparison merge cleanup,high
+0x00c40781,307,noschedule,schedule_pass_1;schedule_pass_2;schedule_pass_3,blocks scheduler bodies,high
+0x00c40784,310,showpipe,schedule_pass_1;schedule_pass_2;schedule_pass_3,enables scheduler diagnostics,high
+0x00c407cd,383,preenterexit,fixup_driver;branch_optimize_driver,runs enter/exit processing before fixup; suppresses branch driver's fallback enter/exit path,high
+0x00c407da,396,dump_after_remove_stupidbranches,branches_and_post_alloc,dumps code after branch shortening/removal pass,high
+0x00c4090b,701,ls_write_after_read_grouping,schedule_pass_2;schedule_pass_3,list-scheduler dependency-grouping knob,high
+0x00c4096d,799,noshortenbranches,branches_and_post_alloc,skips remove/shorten-stupid-branches pass,high
+0x00c40970,802,smallandslow,branches_and_post_alloc,suppresses branchtaken_is_better rewrite,high
+0x00c40a71,1059,ipeep2,backend_dataflow_peephole,enables indirect peephole-pass-2 path,high
+0x00c40a72,1060,noindpeep1,backend_dataflow_peephole,disables independent peephole-pass-1 path,high
+0x00c40a74,1062,ls_correct_issue_false_depend,schedule_pass_2;schedule_pass_3,list-scheduler false-dependency correction knob,high
+0x00c40a78,1066,ipeep2a,backend_dataflow_peephole,enables alternate peephole-pass-2 path,high
+0x00c40a87,1081,predataflow,prealloc_phase2,invokes prealloc_vn_dataflow before early scheduling,high
+0x00c40a8f,1089,ls_issue_false_depend,schedule_pass_2;schedule_pass_3,list-scheduler issue false-dependency knob,high
+0x00c40aa6,1112,abortschedule,schedule_pass_1,changes scheduler retry/abort behavior,medium-high
+0x00c40ac1,1139,earlyschedule,pre_alloc_scheduling,enables pre-allocation scheduling,high
+0x00c40ac2,1140,ls_critlength_no_false_depend,schedule_pass_2;schedule_pass_3,list-scheduler critical-length knob,high
+0x00c40ae2,1172,showframesize,allocate_registers,prints/reports computed frame size,high
+0x00c40b37,1257,prepeep,prealloc_phase2;allocation_prepare_driver,enables pre-allocation peephole work and forces full phase-2 preparation,high
+0x00c40b66,1304,nolateschedule,branches_and_post_alloc,skips post-allocation scheduling entirely,high
+0x00c40b8d,1343,postfixuppreenterexit,fixup_driver;branch_optimize_driver,runs enter/exit processing after fixup; suppresses branch fallback path,high
+0x00c40c08,1466,prunebeforepipe,schedule_pass_1,saves/restores/prunes scheduler input before pipeline scheduling,medium-high
+0x00c40c79,1579,ppc750,schedule_pass_2,one of two CPU gates required for schedule_pass_2,high
+0x00c40c8d,1599,ls_better_sum_delay,schedule_pass_2;schedule_pass_3,list-scheduler delay-scoring knob,high
+0x00c40c99,1611,preadsfix,prealloc_phase2;allocation_prepare_driver,runs pre-allocation address-fix helper,high
+0x00c40d08,1722,convergedeadblocks,branches_and_post_alloc,chooses converging late-dead-block helper,high
+0x00c40d15,1735,latedeadblocks,branches_and_post_alloc,enables late dead-block removal,high
+0x00c40d55,1799,graph_alloc_bcl,graph_allocator_primary_path,enables graph-allocation behavior for smaller procedures,medium-high
+0x00c40d89,1851,graph_allocate,allocation_prepare_driver;register_allocation_core;allocator_local_path,selects graph-aware preparation and primary-procedure allocator path,high
+0x00c40dac,1886,ip2scanpastlocalbranch,backend_dataflow_peephole,changes peephole-pass-2 scanning across local branches,medium-high
+0x00c40e27,2009,extend_lifetime,branch_optimize_driver;graph_allocator_primary_path,enables lifetime extension/debug path,high
+0x00c40ea3,2133,software_pipeline,schedule_pass_1;schedule_pass_3,runs software-pipeline preparation before scheduling,high
+0x00c40eb0,2146,branchtaken_is_better,branches_and_post_alloc,enables branch-taken preference rewrite when smallandslow is clear,high
+0x00c40ecd,2175,long_schedule,schedule_pass_1,expands scheduler search/window limit from 0x1f to 0x3f,high
+0x00c40f58,2314,ppc7450,schedule_pass_2,one of two CPU gates required for schedule_pass_2,high
+0x00c40f87,2361,showpipegroup,schedule_pass_2;schedule_pass_3,enables scheduler group diagnostics,high
+0x00c40fbc,2414,dumpbeforeallocate,allocate_registers,dumps code immediately before register allocation,high
+0x00c4102f,2529,dhecht5,coalesce_spill_retry_loop;allocregs_local_driver,extra allocator bookkeeping/verification path,medium
+0x00c4108d,2623,listscheduler,pre_alloc_scheduling;branches_and_post_alloc,selects schedule_pass_3 instead of schedule_pass_1,high
+0x00c410b3,2661,passtime,codegen;register_allocation_core;pre_alloc_scheduling;branches_and_post_alloc,enables pass timing begin/end instrumentation,high
+0x00c41180,2866,better_succs_preds,branches_and_post_alloc,expected invariant for branch pass; false triggers assertion helper,medium-high
+0x00c41187,2873,late_code_motion,backend_dataflow_peephole,enables late code-motion helper in peephole stage,high
+0x00c411ce,2944,allocregs_with_movebias,allocator_local_path;coalesce_spill_retry_loop,builds/uses move-bias list during reduce/coalesce allocation,high
+0x00c411d4,2950,allocregs_reducegraph_conservative,allocator_local_path,enables reduce-graph allocator path in conservative mode,high
+0x00c411d5,2951,allocregs_reducegraph_fully,allocator_local_path;coalesce_spill_retry_loop,enables full reduce-graph allocator path,high
+0x00c411e5,2967,showallocregs,coalesce_spill_retry_loop;allocregs_local_driver,prints allocator/coalesce/spill diagnostics,high
+0x00c41276,3112,dumpbeforeschedule,schedule_pass_1;schedule_pass_2;schedule_pass_3,dumps code before scheduler,high
+0x00c41277,3113,dumpafterschedule,schedule_pass_1;schedule_pass_2;schedule_pass_3,dumps code after scheduler,high
+0x00c412a6,3160,allocregs_combine_fastslowregs,allocator_local_path,changes how fast/slow register classes are combined before local allocation,medium-high
+0x00c412d5,3207,dhecht8,allocator_local_path;coalesce_spill_retry_loop,bypasses/changes coalesce-spill decisions in local allocator,medium
+0x00c412f9,3243,better_graph_alloc_coalesce,graph_allocator_primary_path,enables extra graph-allocator coalescing bookkeeping,medium-high
+0x00c41368,3354,dataflow_postpeep2,backend_dataflow_peephole,enables second VN/dataflow run after peephole-2,high
+0x00c413e2,3476,vn_nocopyprop,prealloc_vn_dataflow,temporarily forced when vn_no_pre_copyprop is also clear; controls prealloc VN copy propagation,high
+0x00c414d0,3714,split_64bit_variables,allocate_registers,runs 64-bit variable split before allocation on 32-bit target,high
+0x00c415a3,3925,vn_no_pre_copyprop,prealloc_vn_dataflow,causes vn_nocopyprop to be forced for prealloc VN pass,high
+0x00c415b0,3938,rotate_blocks,branch_optimize_driver,runs block-rotation helper before branch pass,high
+0x00c41820,4562,remove_all_self_moves,backend_dataflow_peephole,removes remaining self-moves at end of backend peephole,high
+0x00c41826,4568,schedule_without_optimize,schedule_pass_1;schedule_pass_2;schedule_pass_3,permits scheduling even when normal optimization-state byte is clear,high
+0x00c41827,4569,peephole_without_optimize,backend_dataflow_peephole,permits peephole path without normal optimization state,high
+0x00c4182a,4572,keep_variables_live,allocator_local_path,suppresses reduce-graph local allocator selection when set,medium-high
+0x00c41831,4579,loopoptimize_during_alloc,register_allocation_core,temporarily forces optimizer-state byte during register allocation,high
+0x00c4183c,4590,dataflow_pass1,backend_dataflow_peephole,enables first backend VN/dataflow run,high
+0x00c4183d,4591,dataflow_pass3,backend_dataflow_peephole,enables third backend VN/dataflow run,high

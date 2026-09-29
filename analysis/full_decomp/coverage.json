@@ -1,0 +1,113 @@
+{
+  "function_count": 21953,
+  "callgraph_edges_raw": 83510,
+  "callgraph_edges": 82753,
+  "semantic_names_any": 670,
+  "semantic_names_curated": 34,
+  "direct_source_associations": 1736,
+  "existing_decompiled_functions": 1810,
+  "registry_records": 428,
+  "vtable_tables": 253,
+  "vtable_slot_refs": 2605,
+  "vtable_unique_function_members": 1552,
+  "module_clustered_any": 6994,
+  "module_evidence_counts": {
+    "address": 3111,
+    "direct_source": 1736,
+    "graph": 222,
+    "graph+address": 467,
+    "none": 14959,
+    "vtable": 1458
+  },
+  "semantic_name_symbol_sources": {
+    "ANALYSIS": 606,
+    "DEFAULT": 29,
+    "IMPORTED": 1,
+    "USER_DEFINED": 34
+  },
+  "functions_with_any_structural_or_semantic_evidence": 3974,
+  "functions_with_any_structural_or_semantic_evidence_pct": 18.1,
+  "remaining_without_any_core_evidence": 17979,
+  "remaining_without_decompiled_body": 20143,
+  "semantic_completion_estimate_pct": 6.55,
+  "semantic_score_model": {
+    "decompiled_body": 0.2,
+    "direct_source_association": 0.25,
+    "inferred_module_if_no_direct_source": 0.1,
+    "curated_user_semantic_name": 0.35,
+    "other_recovered_semantic_name": 0.15,
+    "vtable_membership": 0.1,
+    "cap": 1.0,
+    "interpretation": "evidence-weighted progress proxy; a Ghidra C body alone is not treated as semantic completion"
+  },
+  "subsystems": {
+    "backend_target": {
+      "functions": 461,
+      "decompiled": 54,
+      "semantic_names": 0,
+      "curated_names": 0,
+      "direct_source": 52,
+      "vtable_members": 388,
+      "module_clustered": 461,
+      "semantic_estimate_pct": 16.07,
+      "remaining_not_decompiled": 407
+    },
+    "optimizer": {
+      "functions": 438,
+      "decompiled": 50,
+      "semantic_names": 34,
+      "curated_names": 34,
+      "direct_source": 25,
+      "vtable_members": 351,
+      "module_clustered": 404,
+      "semantic_estimate_pct": 15.08,
+      "remaining_not_decompiled": 388
+    },
+    "frontend_bridge": {
+      "functions": 324,
+      "decompiled": 108,
+      "semantic_names": 0,
+      "curated_names": 0,
+      "direct_source": 108,
+      "vtable_members": 0,
+      "module_clustered": 324,
+      "semantic_estimate_pct": 21.67,
+      "remaining_not_decompiled": 216
+    },
+    "frontend": {
+      "functions": 4992,
+      "decompiled": 1555,
+      "semantic_names": 3,
+      "curated_names": 0,
+      "direct_source": 1551,
+      "vtable_members": 0,
+      "module_clustered": 4992,
+      "semantic_estimate_pct": 20.9,
+      "remaining_not_decompiled": 3437
+    },
+    "runtime_support": {
+      "functions": 739,
+      "decompiled": 0,
+      "semantic_names": 603,
+      "curated_names": 0,
+      "direct_source": 0,
+      "vtable_members": 136,
+      "module_clustered": 136,
+      "semantic_estimate_pct": 14.08,
+      "remaining_not_decompiled": 739
+    },
+    "unclustered": {
+      "functions": 14999,
+      "decompiled": 43,
+      "semantic_names": 30,
+      "curated_names": 0,
+      "direct_source": 0,
+      "vtable_members": 677,
+      "module_clustered": 677,
+      "semantic_estimate_pct": 0.54,
+      "remaining_not_decompiled": 14956
+    }
+  },
+  "batch_count": 485,
+  "batch_size": 96
+}

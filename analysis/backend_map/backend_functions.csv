@@ -1,0 +1,38 @@
+va,rva,name,body_size,caller_refs,callee_count,role,evidence
+0x00995fd0,0x00595fd0,FUN_00995fd0,34,1,3,probable_main_wrapper,CRT passes argc/argv here; wrapper enters compiler bootstrap
+0x005b99a2,0x001b99a2,FUN_005b99a2,93,1,5,compiler_bootstrap_gen_init,single caller from probable main wrapper; trace string is gen_init
+0x00545735,0x00145735,dooptimize,2667,1,24,dooptimize,high-level target-independent optimizer driver
+0x0051c208,0x0011c208,propagateconstants,432,4,12,propagateconstants,constant propagation
+0x00500fbc,0x00100fbc,run_liveness_dataflow,431,2,5,run_liveness_dataflow,liveness dataflow
+0x0053eade,0x0013eade,loop_unroll,19682,1,87,loop_unroll,loop unrolling
+0x0054c4a7,0x0014c4a7,SIMD_vectorize,2264,1,26,SIMD_vectorize,SIMD vectorizer
+0x005522d5,0x001522d5,find_loop_invariants,352,2,6,find_loop_invariants,loop invariant discovery
+0x005558f2,0x001558f2,possible_induction_var,386,2,11,possible_induction_var,induction-variable analysis
+0x00557560,0x00157560,check_possible_alias,430,1,9,check_possible_alias,alias analysis helper
+0x00568597,0x00168597,object_motion,376,2,10,object_motion,object/code motion optimization
+0x00589e83,0x00189e83,substitute_driver,6648,1,74,substitute_driver,substitution/copy-style optimization driver
+0x005cb7e0,0x001cb7e0,treepeep,759,3,10,treepeep,tree peephole optimizer
+0x0066b178,0x0026b178,dflow_vn_forward,2745,2,33,dflow_vn_forward,forward value-numbering/dataflow
+0x0076ef82,0x0036ef82,dflow_vn_forward_apply,3500,4,29,dflow_vn_forward_apply,backend forward VN/dataflow application
+0x006ad8d8,0x002ad8d8,independent_optimize,1604,1,39,independent_optimize,target-independent optimization phase around dooptimize
+0x006ae504,0x002ae504,codegen,197,3,13,codegen,top-level code generation driver
+0x006a0b1d,0x002a0b1d,makeproc,745,1,23,makeproc,build/lower procedure before allocation
+0x006a51dd,0x002a51dd,pre_alloc_scheduling,160,1,5,pre_alloc_scheduling,pre-allocation scheduling dispatcher
+0x006adf1c,0x002adf1c,allocate_registers,320,1,12,allocate_registers,register-allocation wrapper plus post-allocation passes
+0x0069bf55,0x0029bf55,register_allocation_core,834,5,15,register_allocation_core,core allocator; invokes target virtual hook +0x524
+0x0074c01c,0x0034c01c,coalesce_stage,1191,1,21,coalesce_stage,register coalescing stage
+0x0074c6e1,0x0034c6e1,spill_stage,416,1,12,spill_stage,register spill stage
+0x0071661c,0x0031661c,spill_candidate,574,2,13,spill_candidate,spill candidate selection
+0x0071bc67,0x0031bc67,allocate_variable,2988,3,25,allocate_variable,individual variable allocation
+0x006ac8eb,0x002ac8eb,fixup_driver,298,1,5,fixup_driver,target fixup driver; virtual hooks +0x6c4/+0x474
+0x006aca15,0x002aca15,backend_dataflow_peephole,1102,1,7,backend_dataflow_peephole,backend VN/dataflow and peephole passes
+0x006d07e7,0x002d07e7,peephole_pass_1,86,4,3,peephole_pass_1,peephole pass 1
+0x006d183d,0x002d183d,peephole_pass_2,3521,4,40,peephole_pass_2,peephole pass 2
+0x006ace63,0x002ace63,branch_optimize_driver,322,1,8,branch_optimize_driver,post-allocation branch optimization driver
+0x006747de,0x002747de,branches_and_post_alloc,2992,1,49,branches_and_post_alloc,"branch cleanup, code expansion, post-allocation scheduling"
+0x006ef6cb,0x002ef6cb,optimize_tail_calls,1269,2,23,optimize_tail_calls,tail-call optimization
+0x0066fad9,0x0026fad9,schedule_pass_1,790,2,15,schedule_pass_1,window/gap-filling scheduler
+0x00739e6a,0x00339e6a,schedule_pass_2,1273,1,11,schedule_pass_2,selective/list rescheduling path
+0x0073a363,0x0033a363,schedule_pass_3,794,2,10,schedule_pass_3,full list/resource-model scheduler path
+0x006ae05c,0x002ae05c,codewrite,815,1,13,codewrite,final target emission/output phase; virtual hook +0x5e4
+0x00424ceb,0x00024ceb,FUN_00424ceb,322,0,8,powerpc_backend_constructor,"allocates 0x251c-byte target object, installs vtable 0x00abf65c, stores global 0x00bdb584"

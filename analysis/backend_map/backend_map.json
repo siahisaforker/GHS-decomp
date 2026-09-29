@@ -1,0 +1,76 @@
+{
+  "binary": {
+    "path": "ghs5.3.22/bin/ecomppc.exe",
+    "sha256": "b28a092e01f818aa6183dfdbbd40623920d672dc6d37376c0da4fb6084d2f7b3",
+    "format": "PE32 i386 console",
+    "image_base": "0x00400000",
+    "entry_rva": "0x006938ff",
+    "entry_va": "0x00a938ff",
+    "timestamp_utc": "2013-09-26T00:40:19Z",
+    "sections": [
+      {"name":".text","va":"0x00401000","size":"0x006b5934","file_offset":"0x00001000"},
+      {"name":".rdata","va":"0x00ab7000","size":"0x00007a96","file_offset":"0x006b7000"},
+      {"name":".data","va":"0x00abf000","size":"0x00118000","file_offset":"0x006bf000"},
+      {"name":".sxdata","va":"0x00d4b000","size":"0x0000013c","file_offset":"0x007d7000"}
+    ],
+    "imports": ["ADVAPI32.dll","KERNEL32.dll","MPR.dll","NETAPI32.dll","USER32.dll","WS2_32.dll"]
+  },
+  "entry_chain": [
+    {"va":"0x00a938ff","name":"pe_entry","next":"0x00a937ad","evidence":"entry stub calls 0x00aa424c then jumps"},
+    {"va":"0x00a937ad","name":"crt_startup","next":"0x00995fd0","evidence":"startup passes argc/argv/env-like globals to application wrapper"},
+    {"va":"0x00995fd0","name":"application_entry","calls":["0x00a92a01","0x005b99a2","0x007a7bd4"]},
+    {"va":"0x005b99a2","name":"gen_init","evidence":"direct xrefs to literal gen_init"}
+  ],
+  "backend_pipeline": [
+    "0x006ae504 codegen",
+    "0x006ad8d8 independent_optimize",
+    "0x006a0b1d makeproc",
+    "0x006adf1c allocate_registers",
+    "0x0069bf55 register_allocation_core",
+    "0x006ac8eb fixup_driver",
+    "0x006aca15 backend_dataflow_peephole",
+    "0x006ace63 branch_optimize_driver",
+    "0x006ae05c codewrite"
+  ],
+  "scheduler": [
+    {"va":"0x006a51dd","name":"pre_alloc_scheduling"},
+    {"va":"0x0066fad9","name":"schedule_pass_1"},
+    {"va":"0x00739e6a","name":"schedule_pass_2"},
+    {"va":"0x0073a363","name":"schedule_pass_3"}
+  ],
+  "target_dispatch": {
+    "global":"DAT_00bdb584",
+    "slots": [
+      {"offset":"0x394","callers":["0x00739e6a","0x0073a363"],"interpretation":"scheduled sequence/block rewrite hook"},
+      {"offset":"0x524","callers":["0x0069bf55"],"interpretation":"target allocation hook"},
+      {"offset":"0x5e4","callers":["0x006ae05c"],"interpretation":"target final code emission/write hook"},
+      {"offset":"0x834","callers":["0x006747de"],"interpretation":"target branch/post-allocation hook"}
+    ]
+  },
+  "powerpc_strings": [
+    {"va":"0x00ac527a","text":"POWERPC","xref_function":"0x004816a0"},
+    {"va":"0x00ac547e","text":"ppc970_resource_scheduler"},
+    {"va":"0x00ae0fd0","text":"ppce500"},
+    {"va":"0x00ae1a58","text":"ppc604"},
+    {"va":"0x00ae1a97","text":"ppc603"},
+    {"va":"0x00ae1a9e","text":"ppc750"},
+    {"va":"0x00ae3f0e","text":"ppc_vector_peephole"},
+    {"va":"0x00ae424a","text":"ppc_do_backend_bytereversed"},
+    {"va":"0x00ae5d2c","text":"ppc_no_schedule_past_branches"},
+    {"va":"0x00ae5dee","text":"ppc_dont_vectorize_few_iter_loops"},
+    {"va":"0x00af01fb","text":"ppc_isel"},
+    {"va":"0x00af0234","text":"ppc_sched_7450"}
+  ],
+  "rtti_descriptors": [
+    {"file_offset":"0x007d519c","va":"0x00bd519c","text":".?AVbad_alloc@std@@"},
+    {"file_offset":"0x007d51b8","va":"0x00bd51b8","text":".?AVexception@std@@"},
+    {"file_offset":"0x007d5fcc","va":"0x00bd5fcc","text":".?AVtype_info@@"},
+    {"file_offset":"0x007d5fe8","va":"0x00bd5fe8","text":".?AVbad_exception@std@@"}
+  ],
+  "function_boundary_heuristic": {
+    "pattern":"55 8b ec",
+    "occurrences_in_text":20786,
+    "preceded_by_ret_or_int3":20207,
+    "warning":"seed/upper-bound heuristic only; misses frameless functions and can include false positives"
+  }
+}

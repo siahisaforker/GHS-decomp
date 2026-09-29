@@ -1,0 +1,7 @@
+006a535b	allocation_prepare_driver
+006a527d	prealloc_phase2
+006a50bb	prealloc_dataflow_phase
+0069ba54	legacy_allocator_path
+0071d3ef	graph_allocator_candidate
+0074c881	coalesce_spill_loop
+0074d02a	allocregs_driver_candidate

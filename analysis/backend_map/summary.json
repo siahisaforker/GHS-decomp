@@ -1,0 +1,87 @@
+{
+  "binary": "ghs5.3.22/bin/ecomppc.exe",
+  "sha256": "b28a092e01f818aa6183dfdbbd40623920d672dc6d37376c0da4fb6084d2f7b3",
+  "pe": {
+    "machine": 332,
+    "number_of_sections": 4,
+    "timestamp": 1380181219,
+    "characteristics": 783,
+    "optional_magic": 267,
+    "image_base": 4194304,
+    "entry_rva": 6895871,
+    "entry_va": 11090175,
+    "size_of_image": 9748480,
+    "sections": [
+      {
+        "name": ".text",
+        "rva": 4096,
+        "va": 4198400,
+        "virtual_size": 7035188,
+        "raw_size": 7036928,
+        "raw_offset": 4096,
+        "characteristics": 1610612768
+      },
+      {
+        "name": ".rdata",
+        "rva": 7041024,
+        "va": 11235328,
+        "virtual_size": 31382,
+        "raw_size": 32768,
+        "raw_offset": 7041024,
+        "characteristics": 1073741888
+      },
+      {
+        "name": ".data",
+        "rva": 7073792,
+        "va": 11268096,
+        "virtual_size": 2668168,
+        "raw_size": 1146880,
+        "raw_offset": 7073792,
+        "characteristics": 3221225536
+      },
+      {
+        "name": ".sxdata",
+        "rva": 9744384,
+        "va": 13938688,
+        "virtual_size": 316,
+        "raw_size": 4096,
+        "raw_offset": 8220672,
+        "characteristics": 3221226048
+      }
+    ]
+  },
+  "imports": [
+    "WS2_32.dll",
+    "NETAPI32.dll",
+    "MPR.dll",
+    "KERNEL32.dll",
+    "USER32.dll",
+    "ADVAPI32.dll"
+  ],
+  "ghidra_function_count": 21953,
+  "ghidra_thunk_count": 29,
+  "functions_body_size_le_5": 409,
+  "functions_body_size_le_16": 1522,
+  "entry_chain": {
+    "pe_entry_va": "0x00a938ff",
+    "security_cookie_init": "0x00aa424c",
+    "crt_startup": "0x00a937ad",
+    "probable_program_main_wrapper": "0x00995fd0",
+    "compiler_bootstrap": "0x005b99a2"
+  },
+  "backend_object": {
+    "global": "0x00bdb584",
+    "constructor": "0x00424ceb",
+    "allocation_size": "0x251c",
+    "final_vtable": "0x00abf65c",
+    "vtable_span_bytes": 2104,
+    "vtable_record_size": 8,
+    "vtable_records": 263,
+    "concrete_method_records_after_metadata": 262
+  },
+  "structured_outputs": {
+    "backend_functions": "backend_functions.csv",
+    "target_vtable": "target_vtable.csv",
+    "ppc_strings": "ppc_strings.csv"
+  }
+}

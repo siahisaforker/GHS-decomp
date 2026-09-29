@@ -1,0 +1,387 @@
+{
+  "target": {
+    "path": "ghs5.3.22/bin/ecomppc.exe",
+    "sha256": "b28a092e01f818aa6183dfdbbd40623920d672dc6d37376c0da4fb6084d2f7b3",
+    "size": 8224768,
+    "pe_timestamp": 1380181219,
+    "image_base": "0x00400000",
+    "entry_rva": "0x006938ff",
+    "entry_va": "0x00a938ff",
+    "size_of_image": "0x0094c000"
+  },
+  "sections": [
+    {
+      "name": ".text",
+      "rva": "0x00001000",
+      "va": "0x00401000",
+      "virtual_size": "0x006b5934",
+      "raw_offset": "0x00001000",
+      "raw_size": "0x006b6000",
+      "characteristics": "0x60000020"
+    },
+    {
+      "name": ".rdata",
+      "rva": "0x006b7000",
+      "va": "0x00ab7000",
+      "virtual_size": "0x00007a96",
+      "raw_offset": "0x006b7000",
+      "raw_size": "0x00008000",
+      "characteristics": "0x40000040"
+    },
+    {
+      "name": ".data",
+      "rva": "0x006bf000",
+      "va": "0x00abf000",
+      "virtual_size": "0x0028b688",
+      "raw_offset": "0x006bf000",
+      "raw_size": "0x00118000",
+      "characteristics": "0xc0000040"
+    },
+    {
+      "name": ".sxdata",
+      "rva": "0x0094b000",
+      "va": "0x00d4b000",
+      "virtual_size": "0x0000013c",
+      "raw_offset": "0x007d7000",
+      "raw_size": "0x00001000",
+      "characteristics": "0xc0000240"
+    }
+  ],
+  "imports": {
+    "dll_count": 6,
+    "symbol_count": 219,
+    "dlls": [
+      {
+        "dll": "WS2_32.dll",
+        "iat_va": "0x00ab730c",
+        "symbol_count": 29,
+        "named_symbols": [
+          "WSAIoctl",
+          "WSASocketA"
+        ],
+        "ordinal_only_count": 27
+      },
+      {
+        "dll": "NETAPI32.dll",
+        "iat_va": "0x00ab72ec",
+        "symbol_count": 1,
+        "named_symbols": [
+          "Netbios"
+        ],
+        "ordinal_only_count": 0
+      },
+      {
+        "dll": "MPR.dll",
+        "iat_va": "0x00ab72e4",
+        "symbol_count": 1,
+        "named_symbols": [
+          "WNetGetUserA"
+        ],
+        "ordinal_only_count": 0
+      },
+      {
+        "dll": "KERNEL32.dll",
+        "iat_va": "0x00ab702c",
+        "symbol_count": 173,
+        "named_symbols": [
+          "GetVersionExA",
+          "FindFirstFileA",
+          "FindNextFileA",
+          "FindClose",
+          "GetFileAttributesA",
+          "GetModuleHandleA",
+          "GetCurrentProcess",
+          "GetLastError",
+          "GetConsoleTitleA",
+          "GetStdHandle",
+          "CreateProcessA",
+          "Sleep",
+          "SetPriorityClass",
+          "GetTickCount",
+          "GetCurrentProcessId",
+          "OpenProcess",
+          "GetExitCodeProcess",
+          "CloseHandle",
+          "GetDiskFreeSpaceExA",
+          "GlobalMemoryStatus",
+          "GetVolumeInformationA",
+          "GetModuleFileNameA",
+          "SetHandleInformation",
+          "GetSystemInfo",
+          "CreateFileMappingA",
+          "MapViewOfFile",
+          "UnmapViewOfFile",
+          "FormatMessageA",
+          "FreeLibrary",
+          "QueryPerformanceCounter",
+          "QueryPerformanceFrequency",
+          "WriteFile",
+          "CreateFileA",
+          "GetCurrentThread",
+          "SetUnhandledExceptionFilter",
+          "GetTempPathA",
+          "GetTempFileNameA",
+          "SetFilePointer",
+          "MapViewOfFileEx",
+          "SetConsoleTextAttribute",
+          "GetConsoleScreenBufferInfo",
+          "GetComputerNameA",
+          "GetLocalTime",
+          "GetWindowsDirectoryA",
+          "CreateSemaphoreA",
+          "WaitForSingleObject",
+          "ReleaseSemaphore",
+          "DeviceIoControl",
+          "WideCharToMultiByte",
+          "GetCurrentThreadId",
+          "GetSystemDirectoryA",
+          "GetFullPathNameA",
+          "_lopen",
+          "_lread",
+          "GetSystemTime",
+          "GetVersion",
+          "SetCurrentDirectoryA",
+          "LocalFree",
+          "GetDriveTypeA",
+          "LocalAlloc",
+          "GetLogicalDriveStringsA",
+          "SetErrorMode",
+          "GetShortPathNameA",
+          "GetEnvironmentVariableA",
+          "GlobalFree",
+          "GlobalUnlock",
+          "lstrcatA",
+          "lstrcpyA",
+          "LeaveCriticalSection",
+          "EnterCriticalSection",
+          "InitializeCriticalSection",
+          "InterlockedExchange",
+          "GetFileSize",
+          "lstrlenA",
+          "MultiByteToWideChar",
+          "lstrcmpA",
+          "CreateMutexA",
+          "ReleaseMutex",
+          "CreateEventA",
+          "OpenFileMappingA",
+          "FlushViewOfFile",
+          "DeleteFileA",
+          "OpenEventA",
+          "SetEvent",
+          "WaitForMultipleObjects",
+          "GlobalAlloc",
+          "TerminateThread",
+          "GetExitCodeThread",
+          "ResetEvent",
+          "DefineDosDeviceA",
+          "QueryDosDeviceA",
+          "DeleteCriticalSection",
+          "GetPrivateProfileStringA",
+          "GetPrivateProfileIntA",
+          "GetUserDefaultLCID",
+          "SetEnvironmentVariableW",
+          "VirtualAlloc",
+          "FlushFileBuffers",
+          "LCMapStringW",
+          "CompareStringW",
+          "GetProcAddress",
+          "LoadLibraryA",
+          "GetLocaleInfoA",
+          "EnumSystemLocalesA",
+          "IsValidLocale",
+          "GetStringTypeA",
+          "GetStringTypeW",
+          "RaiseException",
+          "WriteConsoleA",
+          "GetConsoleOutputCP",
+          "GetLocaleInfoW",
+          "CompareStringA",
+          "_lclose",
+          "LCMapStringA",
+          "InitializeCriticalSectionAndSpinCount",
+          "LoadLibraryW",
+          "IsValidCodePage",
+          "GetOEMCP",
+          "GetACP",
+          "VirtualFree",
+          "HeapCreate",
+          "SetLastError",
+          "TlsFree",
+          "TlsSetValue",
+          "TlsAlloc",
+          "TlsGetValue",
+          "GetStartupInfoA",
+          "SetHandleCount",
+          "GetEnvironmentStringsW",
+          "FreeEnvironmentStringsW",
+          "GetEnvironmentStrings",
+          "FreeEnvironmentStringsA",
+          "GetTimeZoneInformation",
+          "GetCurrentDirectoryA",
+          "GetCommandLineA",
+          "WriteConsoleW",
+          "GetFileType",
+          "GetModuleFileNameW",
+          "GetModuleHandleW",
+          "ExitProcess",
+          "GetSystemTimeAsFileTime",
+          "SetConsoleCtrlHandler",
+          "UnhandledExceptionFilter",
+          "HeapFree",
+          "HeapAlloc",
+          "HeapReAlloc",
+          "MoveFileA",
+          "SetFileTime",
+          "LocalFileTimeToFileTime",
+          "SystemTimeToFileTime",
+          "SetEndOfFile",
+          "GetProcessHeap",
+          "TerminateProcess",
+          "IsDebuggerPresent",
+          "SetStdHandle",
+          "ReadFile",
+          "FileTimeToSystemTime",
+          "FileTimeToLocalFileTime",
+          "GetFileInformationByHandle",
+          "PeekNamedPipe",
+          "InterlockedIncrement",
+          "InterlockedDecrement",
+          "GetCPInfo",
+          "RtlUnwind",
+          "HeapSize",
+          "ExitThread",
+          "CreateThread",
+          "GetConsoleCP",
+          "GetConsoleMode",
+          "SetFileAttributesA",
+          "CreateDirectoryA",
+          "RemoveDirectoryA",
+          "SetEnvironmentVariableA"
+        ],
+        "ordinal_only_count": 0
+      },
+      {
+        "dll": "USER32.dll",
+        "iat_va": "0x00ab72f4",
+        "symbol_count": 5,
+        "named_symbols": [
+          "MessageBoxA",
+          "GetKeyboardType",
+          "wsprintfA",
+          "GetSystemMetrics",
+          "MessageBeep"
+        ],
+        "ordinal_only_count": 0
+      },
+      {
+        "dll": "ADVAPI32.dll",
+        "iat_va": "0x00ab7000",
+        "symbol_count": 10,
+        "named_symbols": [
+          "GetUserNameA",
+          "RegEnumKeyExA",
+          "RegOpenKeyA",
+          "InitializeSecurityDescriptor",
+          "SetSecurityDescriptorDacl",
+          "RegOpenKeyExA",
+          "RegSetValueExA",
+          "RegCloseKey",
+          "RegQueryValueExA",
+          "RegCreateKeyExA"
+        ],
+        "ordinal_only_count": 0
+      }
+    ]
+  },
+  "function_recovery": {
+    "recognized_functions": 21953,
+    "by_symbol_source": {
+      "ANALYSIS": 606,
+      "DEFAULT": 21312,
+      "IMPORTED": 1,
+      "USER_DEFINED": 34
+    },
+    "thunks": 29,
+    "source": "analysis/ghidra/out/inventory/functions.tsv"
+  },
+  "msvc_rtti": [
+    {
+      "name": ".?AVbad_alloc@std@@",
+      "type_descriptor_va": "0x00bd5194",
+      "objects": [
+        {
+          "complete_object_locator_va": "0x00abcb64",
+          "vftable_va": "0x00ab9ee4",
+          "entries": [
+            {
+              "va": "0x00a9f61f",
+              "function": "FUN_00a9f61f"
+            },
+            {
+              "va": "0x00aae871",
+              "function": "FUN_00aae871"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ".?AVexception@std@@",
+      "type_descriptor_va": "0x00bd51b0",
+      "objects": [
+        {
+          "complete_object_locator_va": "0x00abcbe4",
+          "vftable_va": "0x00abc2ec",
+          "entries": [
+            {
+              "va": "0x00aae87e",
+              "function": "FUN_00aae87e"
+            },
+            {
+              "va": "0x00aae871",
+              "function": "FUN_00aae871"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ".?AVtype_info@@",
+      "type_descriptor_va": "0x00bd5fc4",
+      "objects": [
+        {
+          "complete_object_locator_va": "0x00abcbf8",
+          "vftable_va": "0x00abc30c",
+          "entries": [
+            {
+              "va": "0x00aae8af",
+              "function": "`scalar_deleting_destructor'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ".?AVbad_exception@std@@",
+      "type_descriptor_va": "0x00bd5fe0",
+      "objects": [
+        {
+          "complete_object_locator_va": "0x00abcc40",
+          "vftable_va": "0x00abc338",
+          "entries": [
+            {
+              "va": "0x00aae965",
+              "function": "FUN_00aae965"
+            },
+            {
+              "va": "0x00aae871",
+              "function": "FUN_00aae871"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "compiler_named_registry_count": 14,
+  "source": "analysis/manual/ecomppc_static_anchors.json"
+}

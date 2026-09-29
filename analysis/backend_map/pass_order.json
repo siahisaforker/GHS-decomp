@@ -1,0 +1,100 @@
+{
+  "target": {
+    "path": "ghs5.3.22/bin/ecomppc.exe",
+    "sha256": "b28a092e01f818aa6183dfdbbd40623920d672dc6d37376c0da4fb6084d2f7b3",
+    "image_base": "0x00400000",
+    "entry_va": "0x00a938ff"
+  },
+  "option_byte_base": "0x00c4064e",
+  "stage_tag_global": "0x00be2e20",
+  "backend_order": [
+    {
+      "address": "0x006ad8d8",
+      "name": "independent_optimize",
+      "notes": "includes dooptimize"
+    },
+    {
+      "address": "0x006a0b1d",
+      "name": "makeproc",
+      "stage": 1
+    },
+    {
+      "address": "0x006a535b",
+      "name": "allocation_prepare_driver",
+      "notes": "contains optional phase2/prealloc dataflow/early scheduling/retick"
+    },
+    {
+      "address": "0x006adf1c",
+      "name": "allocate_registers",
+      "stage": 6
+    },
+    {
+      "address": "0x006ac8eb",
+      "name": "fixup_driver",
+      "stage": 7,
+      "notes": "fixuptwice can rerun register_allocation_core"
+    },
+    {
+      "address": "0x006aca15",
+      "name": "backend_dataflow_peephole",
+      "stages": [
+        8,
+        9
+      ]
+    },
+    {
+      "address": "0x006ace63",
+      "name": "branch_optimize_driver",
+      "stages": [
+        9,
+        10
+      ]
+    },
+    {
+      "address": "0x006ae05c",
+      "name": "codewrite",
+      "stage": 11
+    }
+  ],
+  "prealloc_prepare": {
+    "driver": "0x006a535b",
+    "phase2": "0x006a527d",
+    "phase2_stage": 2,
+    "predataflow": {
+      "gate": "predataflow",
+      "address": "0x006a50bb",
+      "temporary_stages": [
+        4,
+        5
+      ]
+    },
+    "early_schedule": {
+      "gate": "earlyschedule",
+      "address": "0x006a51dd",
+      "stage": 3,
+      "listscheduler_false": "schedule_pass_1",
+      "listscheduler_true": "schedule_pass_3"
+    },
+    "note": "stage tags are contextual markers, not a monotonic pass counter: the optional stage-4 VN subpass executes before the stage-3 early scheduler and restores the prior stage on return."
+  },
+  "register_allocator": {
+    "dispatcher": "0x0069bf55",
+    "graph_allocate_false_or_nonprimary": "0x0069ba54",
+    "graph_allocate_true_primary": "0x0071d3ef",
+    "local_alloc_driver": "0x0074d02a",
+    "coalesce_spill_loop": "0x0074c881",
+    "coalesce_stage": "0x0074c01c",
+    "spill_stage": "0x0074c6e1"
+  },
+  "postalloc_scheduler": {
+    "owner": "0x006747de",
+    "gate": "nolateschedule == 0",
+    "listscheduler_false": [
+      "schedule_pass_1",
+      "schedule_pass_2 iff SS_schedule"
+    ],
+    "listscheduler_true": [
+      "schedule_pass_3"
+    ]
+  }
+}

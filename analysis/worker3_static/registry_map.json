@@ -1,0 +1,801 @@
+{
+  "image_base": 4194304,
+  "text_range": [
+    4198400,
+    11233588
+  ],
+  "records": [
+    {
+      "name": "g4_resource_scheduler",
+      "string_va": 11293800,
+      "record_va": 11295072,
+      "registry_ptr": 12405136,
+      "runtime_token": 13925302,
+      "descriptor_va": 11293776,
+      "base_record_va": 11583732,
+      "descriptor_word": 1441792,
+      "record_refs": [
+        11294740
+      ],
+      "base_name": "resource_model_scheduler"
+    },
+    {
+      "name": "ppc970_resource_scheduler",
+      "string_va": 11293822,
+      "record_va": 11295088,
+      "registry_ptr": 12405136,
+      "runtime_token": 13925301,
+      "descriptor_va": 11293784,
+      "base_record_va": 11583732,
+      "descriptor_word": 1441792,
+      "record_refs": [
+        11294852
+      ],
+      "base_name": "resource_model_scheduler"
+    },
+    {
+      "name": "ame_resource_scheduler",
+      "string_va": 11293848,
+      "record_va": 11295104,
+      "registry_ptr": 12405136,
+      "runtime_token": 13925300,
+      "descriptor_va": 11293792,
+      "base_record_va": 11583732,
+      "descriptor_word": 1441792,
+      "record_refs": [
+        11294964
+      ],
+      "base_name": "resource_model_scheduler"
+    },
+    {
+      "name": "ws_interface",
+      "string_va": 11581426,
+      "record_va": 11581368,
+      "registry_ptr": 12405136,
+      "runtime_token": 13924768,
+      "descriptor_va": 0,
+      "base_record_va": 0,
+      "descriptor_word": 0,
+      "record_refs": [
+        11581360,
+        11581484
+      ],
+      "base_name": null
+    },
+    {
+      "name": "list_scheduler",
+      "string_va": 11581439,
+      "record_va": 11583716,
+      "registry_ptr": 12405136,
+      "runtime_token": 13924767,
+      "descriptor_va": 0,
+      "base_record_va": 0,
+      "descriptor_word": 0,
+      "record_refs": [
+        11581344,
+        11581352,
+        11583300
+      ],
+      "base_name": null
+    },
+    {
+      "name": "resource_model_scheduler",
+      "string_va": 11581454,
+      "record_va": 11583732,
+      "registry_ptr": 12405136,
+      "runtime_token": 13924766,
+      "descriptor_va": 11581344,
+      "base_record_va": 11583716,
+      "descriptor_word": 1441792,
+      "record_refs": [
+        11293776,
+        11293784,
+        11293792,
+        11583396
+      ],
+      "base_name": "list_scheduler"
+    },
+    {
+      "name": "compat_list_scheduler",
+      "string_va": 11581404,
+      "record_va": 11583748,
+      "registry_ptr": 12405136,
+      "runtime_token": 13924765,
+      "descriptor_va": 11581352,
+      "base_record_va": 11583716,
+      "descriptor_word": 1441792,
+      "record_refs": [
+        11583624
+      ],
+      "base_name": "list_scheduler"
+    },
+    {
+      "name": "ls_window_scheduler",
+      "string_va": 11581384,
+      "record_va": 11583764,
+      "registry_ptr": 12405136,
+      "runtime_token": 13924764,
+      "descriptor_va": 11581360,
+      "base_record_va": 11581368,
+      "descriptor_word": 1441792,
+      "record_refs": [
+        11583508
+      ],
+      "base_name": "ws_interface"
+    }
+  ],
+  "callback_tables": [
+    {
+      "class": "g4_resource_scheduler",
+      "table_va": 11294740,
+      "slots": [
+        {
+          "slot": 0,
+          "entry_va": 11294740,
+          "pointer": 11295072,
+          "function": null
+        },
+        {
+          "slot": 1,
+          "entry_va": 11294748,
+          "pointer": 4746128,
+          "function": "FUN_00486b90"
+        },
+        {
+          "slot": 2,
+          "entry_va": 11294756,
+          "pointer": 4751175,
+          "function": "FUN_00487f47"
+        },
+        {
+          "slot": 3,
+          "entry_va": 11294764,
+          "pointer": 7571407,
+          "function": "FUN_007387cf"
+        },
+        {
+          "slot": 4,
+          "entry_va": 11294772,
+          "pointer": 7572965,
+          "function": "FUN_00738de5"
+        },
+        {
+          "slot": 5,
+          "entry_va": 11294780,
+          "pointer": 7571314,
+          "function": "FUN_00738772"
+        },
+        {
+          "slot": 6,
+          "entry_va": 11294788,
+          "pointer": 7572754,
+          "function": "FUN_00738d12"
+        },
+        {
+          "slot": 7,
+          "entry_va": 11294796,
+          "pointer": 7573655,
+          "function": "FUN_00739097"
+        },
+        {
+          "slot": 8,
+          "entry_va": 11294804,
+          "pointer": 7575161,
+          "function": "FUN_00739679"
+        },
+        {
+          "slot": 9,
+          "entry_va": 11294812,
+          "pointer": 7575129,
+          "function": "FUN_00739659"
+        },
+        {
+          "slot": 10,
+          "entry_va": 11294820,
+          "pointer": 7576290,
+          "function": "FUN_00739ae2"
+        },
+        {
+          "slot": 11,
+          "entry_va": 11294828,
+          "pointer": 7575588,
+          "function": "FUN_00739824"
+        },
+        {
+          "slot": 12,
+          "entry_va": 11294836,
+          "pointer": 4746428,
+          "function": "FUN_00486cbc"
+        },
+        {
+          "slot": 13,
+          "entry_va": 11294844,
+          "pointer": 7576029,
+          "function": "FUN_007399dd"
+        }
+      ]
+    },
+    {
+      "class": "ppc970_resource_scheduler",
+      "table_va": 11294852,
+      "slots": [
+        {
+          "slot": 0,
+          "entry_va": 11294852,
+          "pointer": 11295088,
+          "function": null
+        },
+        {
+          "slot": 1,
+          "entry_va": 11294860,
+          "pointer": 4746128,
+          "function": "FUN_00486b90"
+        },
+        {
+          "slot": 2,
+          "entry_va": 11294868,
+          "pointer": 4751974,
+          "function": "FUN_00488266"
+        },
+        {
+          "slot": 3,
+          "entry_va": 11294876,
+          "pointer": 7571407,
+          "function": "FUN_007387cf"
+        },
+        {
+          "slot": 4,
+          "entry_va": 11294884,
+          "pointer": 7572965,
+          "function": "FUN_00738de5"
+        },
+        {
+          "slot": 5,
+          "entry_va": 11294892,
+          "pointer": 7571314,
+          "function": "FUN_00738772"
+        },
+        {
+          "slot": 6,
+          "entry_va": 11294900,
+          "pointer": 7572754,
+          "function": "FUN_00738d12"
+        },
+        {
+          "slot": 7,
+          "entry_va": 11294908,
+          "pointer": 7573655,
+          "function": "FUN_00739097"
+        },
+        {
+          "slot": 8,
+          "entry_va": 11294916,
+          "pointer": 7575161,
+          "function": "FUN_00739679"
+        },
+        {
+          "slot": 9,
+          "entry_va": 11294924,
+          "pointer": 7575129,
+          "function": "FUN_00739659"
+        },
+        {
+          "slot": 10,
+          "entry_va": 11294932,
+          "pointer": 7576290,
+          "function": "FUN_00739ae2"
+        },
+        {
+          "slot": 11,
+          "entry_va": 11294940,
+          "pointer": 7575588,
+          "function": "FUN_00739824"
+        },
+        {
+          "slot": 12,
+          "entry_va": 11294948,
+          "pointer": 4751346,
+          "function": "FUN_00487ff2"
+        },
+        {
+          "slot": 13,
+          "entry_va": 11294956,
+          "pointer": 7576029,
+          "function": "FUN_007399dd"
+        }
+      ]
+    },
+    {
+      "class": "ame_resource_scheduler",
+      "table_va": 11294964,
+      "slots": [
+        {
+          "slot": 0,
+          "entry_va": 11294964,
+          "pointer": 11295104,
+          "function": null
+        },
+        {
+          "slot": 1,
+          "entry_va": 11294972,
+          "pointer": 4761682,
+          "function": "FUN_0048a852"
+        },
+        {
+          "slot": 2,
+          "entry_va": 11294980,
+          "pointer": 4763527,
+          "function": "FUN_0048af87"
+        },
+        {
+          "slot": 3,
+          "entry_va": 11294988,
+          "pointer": 7571407,
+          "function": "FUN_007387cf"
+        },
+        {
+          "slot": 4,
+          "entry_va": 11294996,
+          "pointer": 7572965,
+          "function": "FUN_00738de5"
+        },
+        {
+          "slot": 5,
+          "entry_va": 11295004,
+          "pointer": 7571314,
+          "function": "FUN_00738772"
+        },
+        {
+          "slot": 6,
+          "entry_va": 11295012,
+          "pointer": 7572754,
+          "function": "FUN_00738d12"
+        },
+        {
+          "slot": 7,
+          "entry_va": 11295020,
+          "pointer": 7573655,
+          "function": "FUN_00739097"
+        },
+        {
+          "slot": 8,
+          "entry_va": 11295028,
+          "pointer": 7575161,
+          "function": "FUN_00739679"
+        },
+        {
+          "slot": 9,
+          "entry_va": 11295036,
+          "pointer": 7575129,
+          "function": "FUN_00739659"
+        },
+        {
+          "slot": 10,
+          "entry_va": 11295044,
+          "pointer": 7576290,
+          "function": "FUN_00739ae2"
+        },
+        {
+          "slot": 11,
+          "entry_va": 11295052,
+          "pointer": 7575588,
+          "function": "FUN_00739824"
+        },
+        {
+          "slot": 12,
+          "entry_va": 11295060,
+          "pointer": 4761884,
+          "function": "FUN_0048a91c"
+        }
+      ]
+    },
+    {
+      "class": "ws_interface",
+      "table_va": 11581484,
+      "slots": [
+        {
+          "slot": 0,
+          "entry_va": 11581484,
+          "pointer": 11581368,
+          "function": null
+        },
+        {
+          "slot": 1,
+          "entry_va": 11581492,
+          "pointer": 11085920,
+          "function": null
+        },
+        {
+          "slot": 2,
+          "entry_va": 11581500,
+          "pointer": 11085920,
+          "function": null
+        },
+        {
+          "slot": 3,
+          "entry_va": 11581508,
+          "pointer": 11085920,
+          "function": null
+        },
+        {
+          "slot": 4,
+          "entry_va": 11581516,
+          "pointer": 11085920,
+          "function": null
+        },
+        {
+          "slot": 5,
+          "entry_va": 11581524,
+          "pointer": 11085920,
+          "function": null
+        },
+        {
+          "slot": 6,
+          "entry_va": 11581532,
+          "pointer": 11085920,
+          "function": null
+        },
+        {
+          "slot": 7,
+          "entry_va": 11581540,
+          "pointer": 11085920,
+          "function": null
+        },
+        {
+          "slot": 8,
+          "entry_va": 11581548,
+          "pointer": 11085920,
+          "function": null
+        },
+        {
+          "slot": 9,
+          "entry_va": 11581556,
+          "pointer": 11085920,
+          "function": null
+        },
+        {
+          "slot": 10,
+          "entry_va": 11581564,
+          "pointer": 11085920,
+          "function": null
+        },
+        {
+          "slot": 11,
+          "entry_va": 11581572,
+          "pointer": 11085920,
+          "function": null
+        },
+        {
+          "slot": 12,
+          "entry_va": 11581580,
+          "pointer": 11085920,
+          "function": null
+        }
+      ]
+    },
+    {
+      "class": "list_scheduler",
+      "table_va": 11583300,
+      "slots": [
+        {
+          "slot": 0,
+          "entry_va": 11583300,
+          "pointer": 11583716,
+          "function": null
+        },
+        {
+          "slot": 1,
+          "entry_va": 11583308,
+          "pointer": 7559856,
+          "function": "FUN_00735ab0"
+        },
+        {
+          "slot": 2,
+          "entry_va": 11583316,
+          "pointer": 7568530,
+          "function": "FUN_00737c92"
+        },
+        {
+          "slot": 3,
+          "entry_va": 11583324,
+          "pointer": 7565222,
+          "function": "FUN_00736fa6"
+        },
+        {
+          "slot": 4,
+          "entry_va": 11583332,
+          "pointer": 7567158,
+          "function": "FUN_00737736"
+        },
+        {
+          "slot": 5,
+          "entry_va": 11583340,
+          "pointer": 11085920,
+          "function": null
+        },
+        {
+          "slot": 6,
+          "entry_va": 11583348,
+          "pointer": 7568220,
+          "function": "FUN_00737b5c"
+        },
+        {
+          "slot": 7,
+          "entry_va": 11583356,
+          "pointer": 11085920,
+          "function": null
+        },
+        {
+          "slot": 8,
+          "entry_va": 11583364,
+          "pointer": 7559865,
+          "function": "FUN_00735ab9"
+        },
+        {
+          "slot": 9,
+          "entry_va": 11583372,
+          "pointer": 7559870,
+          "function": "FUN_00735abe"
+        },
+        {
+          "slot": 10,
+          "entry_va": 11583380,
+          "pointer": 7570936,
+          "function": "FUN_007385f8"
+        },
+        {
+          "slot": 11,
+          "entry_va": 11583388,
+          "pointer": 7570728,
+          "function": "FUN_00738528"
+        }
+      ]
+    },
+    {
+      "class": "resource_model_scheduler",
+      "table_va": 11583396,
+      "slots": [
+        {
+          "slot": 0,
+          "entry_va": 11583396,
+          "pointer": 11583732,
+          "function": null
+        },
+        {
+          "slot": 1,
+          "entry_va": 11583404,
+          "pointer": 7559856,
+          "function": "FUN_00735ab0"
+        },
+        {
+          "slot": 2,
+          "entry_va": 11583412,
+          "pointer": 7574799,
+          "function": "FUN_0073950f"
+        },
+        {
+          "slot": 3,
+          "entry_va": 11583420,
+          "pointer": 7571407,
+          "function": "FUN_007387cf"
+        },
+        {
+          "slot": 4,
+          "entry_va": 11583428,
+          "pointer": 7572965,
+          "function": "FUN_00738de5"
+        },
+        {
+          "slot": 5,
+          "entry_va": 11583436,
+          "pointer": 7571314,
+          "function": "FUN_00738772"
+        },
+        {
+          "slot": 6,
+          "entry_va": 11583444,
+          "pointer": 7572754,
+          "function": "FUN_00738d12"
+        },
+        {
+          "slot": 7,
+          "entry_va": 11583452,
+          "pointer": 7573655,
+          "function": "FUN_00739097"
+        },
+        {
+          "slot": 8,
+          "entry_va": 11583460,
+          "pointer": 7575161,
+          "function": "FUN_00739679"
+        },
+        {
+          "slot": 9,
+          "entry_va": 11583468,
+          "pointer": 7575129,
+          "function": "FUN_00739659"
+        },
+        {
+          "slot": 10,
+          "entry_va": 11583476,
+          "pointer": 7576290,
+          "function": "FUN_00739ae2"
+        },
+        {
+          "slot": 11,
+          "entry_va": 11583484,
+          "pointer": 7575588,
+          "function": "FUN_00739824"
+        },
+        {
+          "slot": 12,
+          "entry_va": 11583492,
+          "pointer": 11085920,
+          "function": null
+        },
+        {
+          "slot": 13,
+          "entry_va": 11583500,
+          "pointer": 7576029,
+          "function": "FUN_007399dd"
+        }
+      ]
+    },
+    {
+      "class": "ls_window_scheduler",
+      "table_va": 11583508,
+      "slots": [
+        {
+          "slot": 0,
+          "entry_va": 11583508,
+          "pointer": 11583764,
+          "function": null
+        },
+        {
+          "slot": 1,
+          "entry_va": 11583516,
+          "pointer": 7580230,
+          "function": "FUN_0073aa46"
+        },
+        {
+          "slot": 2,
+          "entry_va": 11583524,
+          "pointer": 7559875,
+          "function": "FUN_00735ac3"
+        },
+        {
+          "slot": 3,
+          "entry_va": 11583532,
+          "pointer": 7559880,
+          "function": "FUN_00735ac8"
+        },
+        {
+          "slot": 4,
+          "entry_va": 11583540,
+          "pointer": 7580305,
+          "function": "FUN_0073aa91"
+        },
+        {
+          "slot": 5,
+          "entry_va": 11583548,
+          "pointer": 7580604,
+          "function": "FUN_0073abbc"
+        },
+        {
+          "slot": 6,
+          "entry_va": 11583556,
+          "pointer": 7580668,
+          "function": "FUN_0073abfc"
+        },
+        {
+          "slot": 7,
+          "entry_va": 11583564,
+          "pointer": 7580878,
+          "function": "FUN_0073acce"
+        },
+        {
+          "slot": 8,
+          "entry_va": 11583572,
+          "pointer": 7581046,
+          "function": "FUN_0073ad76"
+        },
+        {
+          "slot": 9,
+          "entry_va": 11583580,
+          "pointer": 7581140,
+          "function": "FUN_0073add4"
+        },
+        {
+          "slot": 10,
+          "entry_va": 11583588,
+          "pointer": 7559885,
+          "function": "FUN_00735acd"
+        },
+        {
+          "slot": 11,
+          "entry_va": 11583596,
+          "pointer": 7559904,
+          "function": "FUN_00735ae0"
+        },
+        {
+          "slot": 12,
+          "entry_va": 11583604,
+          "pointer": 7559923,
+          "function": "FUN_00735af3"
+        }
+      ]
+    },
+    {
+      "class": "compat_list_scheduler",
+      "table_va": 11583624,
+      "slots": [
+        {
+          "slot": 0,
+          "entry_va": 11583624,
+          "pointer": 11583748,
+          "function": null
+        },
+        {
+          "slot": 1,
+          "entry_va": 11583632,
+          "pointer": 7559856,
+          "function": "FUN_00735ab0"
+        },
+        {
+          "slot": 2,
+          "entry_va": 11583640,
+          "pointer": 7579679,
+          "function": "FUN_0073a81f"
+        },
+        {
+          "slot": 3,
+          "entry_va": 11583648,
+          "pointer": 7565222,
+          "function": "FUN_00736fa6"
+        },
+        {
+          "slot": 4,
+          "entry_va": 11583656,
+          "pointer": 7567158,
+          "function": "FUN_00737736"
+        },
+        {
+          "slot": 5,
+          "entry_va": 11583664,
+          "pointer": 7579721,
+          "function": "FUN_0073a849"
+        },
+        {
+          "slot": 6,
+          "entry_va": 11583672,
+          "pointer": 7568220,
+          "function": "FUN_00737b5c"
+        },
+        {
+          "slot": 7,
+          "entry_va": 11583680,
+          "pointer": 7579639,
+          "function": "FUN_0073a7f7"
+        },
+        {
+          "slot": 8,
+          "entry_va": 11583688,
+          "pointer": 7559865,
+          "function": "FUN_00735ab9"
+        },
+        {
+          "slot": 9,
+          "entry_va": 11583696,
+          "pointer": 7559870,
+          "function": "FUN_00735abe"
+        },
+        {
+          "slot": 10,
+          "entry_va": 11583704,
+          "pointer": 7570936,
+          "function": "FUN_007385f8"
+        }
+      ]
+    }
+  ]
+}
