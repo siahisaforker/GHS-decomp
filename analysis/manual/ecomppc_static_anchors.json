@@ -1,0 +1,1113 @@
+{
+  "file": "ghs5.3.22/bin/ecomppc.exe",
+  "sha256": "b28a092e01f818aa6183dfdbbd40623920d672dc6d37376c0da4fb6084d2f7b3",
+  "size": 8224768,
+  "timestamp": 1380181219,
+  "image_base": 4194304,
+  "entry_rva": 6895871,
+  "entry_va": 11090175,
+  "size_of_image": 9748480,
+  "sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "va": 4198400,
+      "virtual_size": 7035188,
+      "raw_offset": 4096,
+      "raw_size": 7036928,
+      "characteristics": 1610612768
+    },
+    {
+      "name": ".rdata",
+      "rva": 7041024,
+      "va": 11235328,
+      "virtual_size": 31382,
+      "raw_offset": 7041024,
+      "raw_size": 32768,
+      "characteristics": 1073741888
+    },
+    {
+      "name": ".data",
+      "rva": 7073792,
+      "va": 11268096,
+      "virtual_size": 2668168,
+      "raw_offset": 7073792,
+      "raw_size": 1146880,
+      "characteristics": 3221225536
+    },
+    {
+      "name": ".sxdata",
+      "rva": 9744384,
+      "va": 13938688,
+      "virtual_size": 316,
+      "raw_offset": 8220672,
+      "raw_size": 4096,
+      "characteristics": 3221226048
+    }
+  ],
+  "imports": [
+    {
+      "dll": "WS2_32.dll",
+      "iat_va": 11236108,
+      "symbols": [
+        {
+          "ordinal": 23
+        },
+        {
+          "hint": 54,
+          "name": "WSAIoctl"
+        },
+        {
+          "hint": 82,
+          "name": "WSASocketA"
+        },
+        {
+          "ordinal": 111
+        },
+        {
+          "ordinal": 10
+        },
+        {
+          "ordinal": 21
+        },
+        {
+          "ordinal": 9
+        },
+        {
+          "ordinal": 14
+        },
+        {
+          "ordinal": 11
+        },
+        {
+          "ordinal": 3
+        },
+        {
+          "ordinal": 15
+        },
+        {
+          "ordinal": 12
+        },
+        {
+          "ordinal": 17
+        },
+        {
+          "ordinal": 4
+        },
+        {
+          "ordinal": 7
+        },
+        {
+          "ordinal": 2
+        },
+        {
+          "ordinal": 13
+        },
+        {
+          "ordinal": 19
+        },
+        {
+          "ordinal": 6
+        },
+        {
+          "ordinal": 16
+        },
+        {
+          "ordinal": 112
+        },
+        {
+          "ordinal": 20
+        },
+        {
+          "ordinal": 5
+        },
+        {
+          "ordinal": 8
+        },
+        {
+          "ordinal": 18
+        },
+        {
+          "ordinal": 52
+        },
+        {
+          "ordinal": 116
+        },
+        {
+          "ordinal": 57
+        },
+        {
+          "ordinal": 115
+        }
+      ]
+    },
+    {
+      "dll": "NETAPI32.dll",
+      "iat_va": 11236076,
+      "symbols": [
+        {
+          "hint": 279,
+          "name": "Netbios"
+        }
+      ]
+    },
+    {
+      "dll": "MPR.dll",
+      "iat_va": 11236068,
+      "symbols": [
+        {
+          "hint": 57,
+          "name": "WNetGetUserA"
+        }
+      ]
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "iat_va": 11235372,
+      "symbols": [
+        {
+          "hint": 634,
+          "name": "GetVersionExA"
+        },
+        {
+          "hint": 286,
+          "name": "FindFirstFileA"
+        },
+        {
+          "hint": 303,
+          "name": "FindNextFileA"
+        },
+        {
+          "hint": 282,
+          "name": "FindClose"
+        },
+        {
+          "hint": 458,
+          "name": "GetFileAttributesA"
+        },
+        {
+          "hint": 503,
+          "name": "GetModuleHandleA"
+        },
+        {
+          "hint": 426,
+          "name": "GetCurrentProcess"
+        },
+        {
+          "hint": 487,
+          "name": "GetLastError"
+        },
+        {
+          "hint": 415,
+          "name": "GetConsoleTitleA"
+        },
+        {
+          "hint": 574,
+          "name": "GetStdHandle"
+        },
+        {
+          "hint": 149,
+          "name": "CreateProcessA"
+        },
+        {
+          "hint": 1067,
+          "name": "Sleep"
+        },
+        {
+          "hint": 1022,
+          "name": "SetPriorityClass"
+        },
+        {
+          "hint": 618,
+          "name": "GetTickCount"
+        },
+        {
+          "hint": 427,
+          "name": "GetCurrentProcessId"
+        },
+        {
+          "hint": 824,
+          "name": "OpenProcess"
+        },
+        {
+          "hint": 454,
+          "name": "GetExitCodeProcess"
+        },
+        {
+          "hint": 68,
+          "name": "CloseHandle"
+        },
+        {
+          "hint": 438,
+          "name": "GetDiskFreeSpaceExA"
+        },
+        {
+          "hint": 662,
+          "name": "GlobalMemoryStatus"
+        },
+        {
+          "hint": 636,
+          "name": "GetVolumeInformationA"
+        },
+        {
+          "hint": 501,
+          "name": "GetModuleFileNameA"
+        },
+        {
+          "hint": 1009,
+          "name": "SetHandleInformation"
+        },
+        {
+          "hint": 589,
+          "name": "GetSystemInfo"
+        },
+        {
+          "hint": 122,
+          "name": "CreateFileMappingA"
+        },
+        {
+          "hint": 783,
+          "name": "MapViewOfFile"
+        },
+        {
+          "hint": 1099,
+          "name": "UnmapViewOfFile"
+        },
+        {
+          "hint": 328,
+          "name": "FormatMessageA"
+        },
+        {
+          "hint": 333,
+          "name": "FreeLibrary"
+        },
+        {
+          "hint": 857,
+          "name": "QueryPerformanceCounter"
+        },
+        {
+          "hint": 858,
+          "name": "QueryPerformanceFrequency"
+        },
+        {
+          "hint": 1175,
+          "name": "WriteFile"
+        },
+        {
+          "hint": 121,
+          "name": "CreateFileA"
+        },
+        {
+          "hint": 429,
+          "name": "GetCurrentThread"
+        },
+        {
+          "hint": 1055,
+          "name": "SetUnhandledExceptionFilter"
+        },
+        {
+          "hint": 606,
+          "name": "GetTempPathA"
+        },
+        {
+          "hint": 604,
+          "name": "GetTempFileNameA"
+        },
+        {
+          "hint": 999,
+          "name": "SetFilePointer"
+        },
+        {
+          "hint": 784,
+          "name": "MapViewOfFileEx"
+        },
+        {
+          "hint": 968,
+          "name": "SetConsoleTextAttribute"
+        },
+        {
+          "hint": 412,
+          "name": "GetConsoleScreenBufferInfo"
+        },
+        {
+          "hint": 374,
+          "name": "GetComputerNameA"
+        },
+        {
+          "hint": 488,
+          "name": "GetLocalTime"
+        },
+        {
+          "hint": 645,
+          "name": "GetWindowsDirectoryA"
+        },
+        {
+          "hint": 154,
+          "name": "CreateSemaphoreA"
+        },
+        {
+          "hint": 1134,
+          "name": "WaitForSingleObject"
+        },
+        {
+          "hint": 897,
+          "name": "ReleaseSemaphore"
+        },
+        {
+          "hint": 203,
+          "name": "DeviceIoControl"
+        },
+        {
+          "hint": 1156,
+          "name": "WideCharToMultiByte"
+        },
+        {
+          "hint": 430,
+          "name": "GetCurrentThreadId"
+        },
+        {
+          "hint": 585,
+          "name": "GetSystemDirectoryA"
+        },
+        {
+          "hint": 477,
+          "name": "GetFullPathNameA"
+        },
+        {
+          "hint": 1196,
+          "name": "_lopen"
+        },
+        {
+          "hint": 1197,
+          "name": "_lread"
+        },
+        {
+          "hint": 593,
+          "name": "GetSystemTime"
+        },
+        {
+          "hint": 633,
+          "name": "GetVersion"
+        },
+        {
+          "hint": 974,
+          "name": "SetCurrentDirectoryA"
+        },
+        {
+          "hint": 770,
+          "name": "LocalFree"
+        },
+        {
+          "hint": 443,
+          "name": "GetDriveTypeA"
+        },
+        {
+          "hint": 766,
+          "name": "LocalAlloc"
+        },
+        {
+          "hint": 492,
+          "name": "GetLogicalDriveStringsA"
+        },
+        {
+          "hint": 986,
+          "name": "SetErrorMode"
+        },
+        {
+          "hint": 570,
+          "name": "GetShortPathNameA"
+        },
+        {
+          "hint": 451,
+          "name": "GetEnvironmentVariableA"
+        },
+        {
+          "hint": 657,
+          "name": "GlobalFree"
+        },
+        {
+          "hint": 668,
+          "name": "GlobalUnlock"
+        },
+        {
+          "hint": 1200,
+          "name": "lstrcatA"
+        },
+        {
+          "hint": 1209,
+          "name": "lstrcpyA"
+        },
+        {
+          "hint": 756,
+          "name": "LeaveCriticalSection"
+        },
+        {
+          "hint": 218,
+          "name": "EnterCriticalSection"
+        },
+        {
+          "hint": 697,
+          "name": "InitializeCriticalSection"
+        },
+        {
+          "hint": 706,
+          "name": "InterlockedExchange"
+        },
+        {
+          "hint": 469,
+          "name": "GetFileSize"
+        },
+        {
+          "hint": 1215,
+          "name": "lstrlenA"
+        },
+        {
+          "hint": 799,
+          "name": "MultiByteToWideChar"
+        },
+        {
+          "hint": 1203,
+          "name": "lstrcmpA"
+        },
+        {
+          "hint": 140,
+          "name": "CreateMutexA"
+        },
+        {
+          "hint": 893,
+          "name": "ReleaseMutex"
+        },
+        {
+          "hint": 115,
+          "name": "CreateEventA"
+        },
+        {
+          "hint": 816,
+          "name": "OpenFileMappingA"
+        },
+        {
+          "hint": 325,
+          "name": "FlushViewOfFile"
+        },
+        {
+          "hint": 193,
+          "name": "DeleteFileA"
+        },
+        {
+          "hint": 812,
+          "name": "OpenEventA"
+        },
+        {
+          "hint": 987,
+          "name": "SetEvent"
+        },
+        {
+          "hint": 1132,
+          "name": "WaitForMultipleObjects"
+        },
+        {
+          "hint": 650,
+          "name": "GlobalAlloc"
+        },
+        {
+          "hint": 1080,
+          "name": "TerminateThread"
+        },
+        {
+          "hint": 455,
+          "name": "GetExitCodeThread"
+        },
+        {
+          "hint": 914,
+          "name": "ResetEvent"
+        },
+        {
+          "hint": 186,
+          "name": "DefineDosDeviceA"
+        },
+        {
+          "hint": 850,
+          "name": "QueryDosDeviceA"
+        },
+        {
+          "hint": 191,
+          "name": "DeleteCriticalSection"
+        },
+        {
+          "hint": 542,
+          "name": "GetPrivateProfileStringA"
+        },
+        {
+          "hint": 536,
+          "name": "GetPrivateProfileIntA"
+        },
+        {
+          "hint": 626,
+          "name": "GetUserDefaultLCID"
+        },
+        {
+          "hint": 985,
+          "name": "SetEnvironmentVariableW"
+        },
+        {
+          "hint": 1118,
+          "name": "VirtualAlloc"
+        },
+        {
+          "hint": 322,
+          "name": "FlushFileBuffers"
+        },
+        {
+          "hint": 744,
+          "name": "LCMapStringW"
+        },
+        {
+          "hint": 86,
+          "name": "CompareStringW"
+        },
+        {
+          "hint": 546,
+          "name": "GetProcAddress"
+        },
+        {
+          "hint": 758,
+          "name": "LoadLibraryA"
+        },
+        {
+          "hint": 489,
+          "name": "GetLocaleInfoA"
+        },
+        {
+          "hint": 249,
+          "name": "EnumSystemLocalesA"
+        },
+        {
+          "hint": 738,
+          "name": "IsValidLocale"
+        },
+        {
+          "hint": 576,
+          "name": "GetStringTypeA"
+        },
+        {
+          "hint": 579,
+          "name": "GetStringTypeW"
+        },
+        {
+          "hint": 864,
+          "name": "RaiseException"
+        },
+        {
+          "hint": 1164,
+          "name": "WriteConsoleA"
+        },
+        {
+          "hint": 410,
+          "name": "GetConsoleOutputCP"
+        },
+        {
+          "hint": 491,
+          "name": "GetLocaleInfoW"
+        },
+        {
+          "hint": 83,
+          "name": "CompareStringA"
+        },
+        {
+          "hint": 1193,
+          "name": "_lclose"
+        },
+        {
+          "hint": 742,
+          "name": "LCMapStringA"
+        },
+        {
+          "hint": 698,
+          "name": "InitializeCriticalSectionAndSpinCount"
+        },
+        {
+          "hint": 761,
+          "name": "LoadLibraryW"
+        },
+        {
+          "hint": 736,
+          "name": "IsValidCodePage"
+        },
+        {
+          "hint": 532,
+          "name": "GetOEMCP"
+        },
+        {
+          "hint": 339,
+          "name": "GetACP"
+        },
+        {
+          "hint": 1121,
+          "name": "VirtualFree"
+        },
+        {
+          "hint": 676,
+          "name": "HeapCreate"
+        },
+        {
+          "hint": 1012,
+          "name": "SetLastError"
+        },
+        {
+          "hint": 1085,
+          "name": "TlsFree"
+        },
+        {
+          "hint": 1087,
+          "name": "TlsSetValue"
+        },
+        {
+          "hint": 1084,
+          "name": "TlsAlloc"
+        },
+        {
+          "hint": 1086,
+          "name": "TlsGetValue"
+        },
+        {
+          "hint": 572,
+          "name": "GetStartupInfoA"
+        },
+        {
+          "hint": 1008,
+          "name": "SetHandleCount"
+        },
+        {
+          "hint": 450,
+          "name": "GetEnvironmentStringsW"
+        },
+        {
+          "hint": 332,
+          "name": "FreeEnvironmentStringsW"
+        },
+        {
+          "hint": 448,
+          "name": "GetEnvironmentStrings"
+        },
+        {
+          "hint": 331,
+          "name": "FreeEnvironmentStringsA"
+        },
+        {
+          "hint": 623,
+          "name": "GetTimeZoneInformation"
+        },
+        {
+          "hint": 424,
+          "name": "GetCurrentDirectoryA"
+        },
+        {
+          "hint": 368,
+          "name": "GetCommandLineA"
+        },
+        {
+          "hint": 1174,
+          "name": "WriteConsoleW"
+        },
+        {
+          "hint": 472,
+          "name": "GetFileType"
+        },
+        {
+          "hint": 502,
+          "name": "GetModuleFileNameW"
+        },
+        {
+          "hint": 506,
+          "name": "GetModuleHandleW"
+        },
+        {
+          "hint": 261,
+          "name": "ExitProcess"
+        },
+        {
+          "hint": 595,
+          "name": "GetSystemTimeAsFileTime"
+        },
+        {
+          "hint": 943,
+          "name": "SetConsoleCtrlHandler"
+        },
+        {
+          "hint": 1096,
+          "name": "UnhandledExceptionFilter"
+        },
+        {
+          "hint": 678,
+          "name": "HeapFree"
+        },
+        {
+          "hint": 674,
+          "name": "HeapAlloc"
+        },
+        {
+          "hint": 681,
+          "name": "HeapReAlloc"
+        },
+        {
+          "hint": 790,
+          "name": "MoveFileA"
+        },
+        {
+          "hint": 1003,
+          "name": "SetFileTime"
+        },
+        {
+          "hint": 768,
+          "name": "LocalFileTimeToFileTime"
+        },
+        {
+          "hint": 1076,
+          "name": "SystemTimeToFileTime"
+        },
+        {
+          "hint": 981,
+          "name": "SetEndOfFile"
+        },
+        {
+          "hint": 550,
+          "name": "GetProcessHeap"
+        },
+        {
+          "hint": 1079,
+          "name": "TerminateProcess"
+        },
+        {
+          "hint": 726,
+          "name": "IsDebuggerPresent"
+        },
+        {
+          "hint": 1030,
+          "name": "SetStdHandle"
+        },
+        {
+          "hint": 878,
+          "name": "ReadFile"
+        },
+        {
+          "hint": 273,
+          "name": "FileTimeToSystemTime"
+        },
+        {
+          "hint": 272,
+          "name": "FileTimeToLocalFileTime"
+        },
+        {
+          "hint": 465,
+          "name": "GetFileInformationByHandle"
+        },
+        {
+          "hint": 835,
+          "name": "PeekNamedPipe"
+        },
+        {
+          "hint": 709,
+          "name": "InterlockedIncrement"
+        },
+        {
+          "hint": 705,
+          "name": "InterlockedDecrement"
+        },
+        {
+          "hint": 348,
+          "name": "GetCPInfo"
+        },
+        {
+          "hint": 922,
+          "name": "RtlUnwind"
+        },
+        {
+          "hint": 683,
+          "name": "HeapSize"
+        },
+        {
+          "hint": 262,
+          "name": "ExitThread"
+        },
+        {
+          "hint": 164,
+          "name": "CreateThread"
+        },
+        {
+          "hint": 388,
+          "name": "GetConsoleCP"
+        },
+        {
+          "hint": 406,
+          "name": "GetConsoleMode"
+        },
+        {
+          "hint": 991,
+          "name": "SetFileAttributesA"
+        },
+        {
+          "hint": 109,
+          "name": "CreateDirectoryA"
+        },
+        {
+          "hint": 899,
+          "name": "RemoveDirectoryA"
+        },
+        {
+          "hint": 984,
+          "name": "SetEnvironmentVariableA"
+        }
+      ]
+    },
+    {
+      "dll": "USER32.dll",
+      "iat_va": 11236084,
+      "symbols": [
+        {
+          "hint": 504,
+          "name": "MessageBoxA"
+        },
+        {
+          "hint": 311,
+          "name": "GetKeyboardType"
+        },
+        {
+          "hint": 775,
+          "name": "wsprintfA"
+        },
+        {
+          "hint": 367,
+          "name": "GetSystemMetrics"
+        },
+        {
+          "hint": 503,
+          "name": "MessageBeep"
+        }
+      ]
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "iat_va": 11235328,
+      "symbols": [
+        {
+          "hint": 350,
+          "name": "GetUserNameA"
+        },
+        {
+          "hint": 584,
+          "name": "RegEnumKeyExA"
+        },
+        {
+          "hint": 601,
+          "name": "RegOpenKeyA"
+        },
+        {
+          "hint": 369,
+          "name": "InitializeSecurityDescriptor"
+        },
+        {
+          "hint": 688,
+          "name": "SetSecurityDescriptorDacl"
+        },
+        {
+          "hint": 602,
+          "name": "RegOpenKeyExA"
+        },
+        {
+          "hint": 631,
+          "name": "RegSetValueExA"
+        },
+        {
+          "hint": 554,
+          "name": "RegCloseKey"
+        },
+        {
+          "hint": 615,
+          "name": "RegQueryValueExA"
+        },
+        {
+          "hint": 562,
+          "name": "RegCreateKeyExA"
+        }
+      ]
+    }
+  ],
+  "msvc_rtti": [
+    {
+      "type_descriptor_va": 12407188,
+      "name": ".?AVbad_alloc@std@@",
+      "objects": [
+        {
+          "complete_object_locator_va": 11258724,
+          "vftable_va": 11247332,
+          "entries": [
+            {
+              "va": 11138591,
+              "function": "FUN_00a9f61f"
+            },
+            {
+              "va": 11200625,
+              "function": "FUN_00aae871"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type_descriptor_va": 12407216,
+      "name": ".?AVexception@std@@",
+      "objects": [
+        {
+          "complete_object_locator_va": 11258852,
+          "vftable_va": 11256556,
+          "entries": [
+            {
+              "va": 11200638,
+              "function": "FUN_00aae87e"
+            },
+            {
+              "va": 11200625,
+              "function": "FUN_00aae871"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type_descriptor_va": 12410820,
+      "name": ".?AVtype_info@@",
+      "objects": [
+        {
+          "complete_object_locator_va": 11258872,
+          "vftable_va": 11256588,
+          "entries": [
+            {
+              "va": 11200687,
+              "function": "`scalar_deleting_destructor'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type_descriptor_va": 12410848,
+      "name": ".?AVbad_exception@std@@",
+      "objects": [
+        {
+          "complete_object_locator_va": 11258944,
+          "vftable_va": 11256632,
+          "entries": [
+            {
+              "va": 11200869,
+              "function": "FUN_00aae965"
+            },
+            {
+              "va": 11200625,
+              "function": "FUN_00aae871"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "named_registries": [
+    {
+      "name": "SubstituteVariantsVisitor",
+      "string_va": 11326120,
+      "pointer_refs": [
+        11325528
+      ]
+    },
+    {
+      "name": "LivenessDf",
+      "string_va": 11334595,
+      "pointer_refs": [
+        11335396
+      ]
+    },
+    {
+      "name": "PostLivenessDf",
+      "string_va": 11334606,
+      "pointer_refs": [
+        11335412
+      ]
+    },
+    {
+      "name": "AliasAnalyzer",
+      "string_va": 11524408,
+      "pointer_refs": [
+        11530448
+      ]
+    },
+    {
+      "name": "TimeAccurateAliasAnalyzer",
+      "string_va": 11524422,
+      "pointer_refs": [
+        11530464
+      ]
+    },
+    {
+      "name": "BooleanAccurateAliasAnalyzer",
+      "string_va": 11524736,
+      "pointer_refs": [
+        11530480
+      ]
+    },
+    {
+      "name": "g4_resource_scheduler",
+      "string_va": 11293800,
+      "pointer_refs": [
+        11295076
+      ]
+    },
+    {
+      "name": "ppc970_resource_scheduler",
+      "string_va": 11293822,
+      "pointer_refs": [
+        11295092
+      ]
+    },
+    {
+      "name": "ame_resource_scheduler",
+      "string_va": 11293848,
+      "pointer_refs": [
+        11295108
+      ]
+    },
+    {
+      "name": "list_scheduler",
+      "string_va": 11581439,
+      "pointer_refs": [
+        11583720
+      ]
+    },
+    {
+      "name": "resource_model_scheduler",
+      "string_va": 11581454,
+      "pointer_refs": [
+        11583736
+      ]
+    },
+    {
+      "name": "compat_list_scheduler",
+      "string_va": 11581404,
+      "pointer_refs": [
+        11583752
+      ]
+    },
+    {
+      "name": "ls_window_scheduler",
+      "string_va": 11581384,
+      "pointer_refs": [
+        11583768
+      ]
+    },
+    {
+      "name": "spill_variable_set::listener",
+      "string_va": 11589361,
+      "pointer_refs": [
+        11589284
+      ]
+    }
+  ]
+}

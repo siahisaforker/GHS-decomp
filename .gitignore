@@ -1,0 +1,49 @@
+# Proprietary compiler/toolchain inputs
+ghs5.3.22/
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+*.o
+*.a
+*.tar
+*.tar.gz
+*.tar.zst
+*.zip
+
+# Ghidra / RE tools and generated databases
+tools/
+analysis/ghidra/project/
+*.gpr
+*.rep/
+*.gzf
+
+# Wine
+.wine/
+wineprefix/
+
+# Generated oracle output
+analysis/oracle/runs/
+analysis/oracle/runs_*/
+analysis/oracle/fingerprint_runs/
+analysis/oracle/fingerprint_smoke*/
+analysis/oracle/_probe_tmp/
+analysis/oracle/*.s
+analysis/oracle/*.o
+analysis/oracle/*.bin
+
+# Large raw dumps; regenerate locally
+analysis/ghidra/out/all_string_xrefs.tsv
+analysis/ghidra/out/compiler_string_xrefs.tsv
+analysis/ghidra/out/inventory/functions.tsv
+analysis/manual/ecomppc_strings.txt
+analysis/manual/ecomppc_codegen_strings.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Misc
+.DS_Store

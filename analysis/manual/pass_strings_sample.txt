@@ -1,0 +1,260 @@
+spanish-dominican republic
+%;do_unaligned_vector_load1 for %O
+%;do_unaligned_vector_store1 for %O
+ADD INST AFTER
+g4_resource_scheduler
+ppc970_resource_scheduler
+ame_resource_scheduler
+After Trace
+Before Trace
+After Trace
+Before Trace
+objectdata_dot
+__double__
+Multiple aliases detected for symbol:
+Multiple aliases detected for symbol:
+options
+#pragma intvect incompatible with binary code generation. Try command line option -noobj, or builder menu File Options->Advanced->Compilation = Assembly
+After optimization barriers
+Before optimization barriers
+After barrier scopes removed
+TouchesDf
+InterblockDf
+LivenessDf
+PostLivenessDf
+%;After livetime():
+Before tablify_cases()
+After tablify_cases()
+After Purgedupjumps
+Before Sort:
+After Cse Sort:
+After Initial:
+After Final Allc
+Before findsuccs1
+propagateconstants
+double
+long double
+  small_inline = %d   dont_inline = %d
+  alias_reads = %d    recursive = %d
+_(done)
+DoInlineCheckRetVar
+DoInlineFlagReturnVars
+DoInlineIncrScopes
+	ipa don't inline
+	OPTPRO: caller optimized for size
+AFTER THIS UNROLL:
+BEFORE UNROLL:
+AFTER  UNROLL:
+dooptimize
+BEFORE OPTLOOPS:
+AFTER  OPTLOOPS:
+%;############### After convert_strides ###############
+After SIMD_vectorize:
+Before SIMD_vectorize:
+%; After replace_iteration_variable_vectors
+ele_helper: dot type = 
+possible_induction_var: lhs has multiple updates 
+possible_induction_var
+process_induction_list: var = 
+base address is induction var
+check_possible_alias(): checkalias: expr 
+    may alias 
+Found possible alias
+PASSED check_possible_alias
+FAILED check_possible_alias()
+Possible alias
+cvs_helper: cur peel %d does not equal old %d
+BEFORE flatten_code
+AFTER  flatten_code
+After finding loop variants
+Before SIMD_analysis:
+AFTER max bit factors
+AFTER find_loop_invariants
+Before ObjectMotion
+Too many -I- options   
+Asm statement illegal under current options
+Too many -I options
+Multiple aliases detected for symbol:
+This block does not return a value
+This compilation does not support floating point
+This code generator does not support 64 bit integers
+Too many -YI options
+Illegal option: 
+Old fashioned ''long float'' declaration, double assumed
+This target does not support linkonce functions:
+Asm statement incompatible with binary code generation. Try command line option -noobj, or builder menu File Options->Advanced->Compilation = Assembly
+A questionable cast was encountered which may result in incorrect output when ANSI aliasing based optimizations are applied to this function.  To ensure correct output, ANSI aliasing rules will not be used on this function.
+A questionable cast was encountered at the file scope level which may result in incorrect output when ANSI aliasing based optimizations are applied.  Please recompile with ANSI aliasing switched off.
+Asm procedure incompatible with binary code generation. Try command line option -noobj, or builder menu File Options->Advanced->Compilation = Assembly
+#pragma asm incompatible with binary code generation. Try command line option -noobj, or builder menu File Options->Advanced->Compilation = Assembly
+#pragma intvect incompatible with binary code generation. Try command line option -noobj, or builder menu File Options->Advanced->Compilation = Assembly
+Too many -YI options
+Too many -I- options   
+Too many -I options
+optpro=
+dorouconst=
+-double_check.ignore= option must pass error/warning number.
+Unknown -double_check.level= option; only none, low, medium, or high accepted.
+Unknown -double_check.stop_build= option; only off, warnings or errors accepted.
+Illegal option: 
+A questionable cast was encountered which may result in incorrect output when ANSI aliasing based optimizations are applied to this function.  To ensure correct output, ANSI aliasing rules will not be used on this function.
+A questionable cast was encountered at the file scope level which may result in incorrect output when ANSI aliasing based optimizations are applied.  Please recompile with ANSI aliasing switched off.
+double
+double *
+After unused incr
+BEFORE SUBSTITUT
+BEFORE-SUBSTITUT
+AFTER SUBSTITUTE
+AFTER-SUBSTITUTE
+ [options] input-file [output-file]
+After canon
+Before canon
+[gen_switch_endian] null buf or unit_size does not divide buf_size evenly
+Illegal viewpath option passed to gen_viewpathing
+dotsym
+double
+dont_purge_loop_borders
+dotreepeepfirst
+better_dotmodes
+broken_x_div_x_spec_opt
+broken_opt_subf
+rb_dest_dotmode
+ints_do_not_alias_longs
+reverse_regs_in_doublereg_index
+varvar_analyze_dotmodes
+coalesce_and_substitute
+check_condcode_liveness
+peeptrans_alias
+ip_alias_writes
+ip_alias_tree_recursion
+val_varying_ipa_options
+no_printf_optimizations
+make_optimizations_fail
+makeinst_dont_gain_mustkeepdest
+optpackedaccess
+arm_optimize_loadstore_multiple
+doaddrconstsfix
+no_fr_enter_opt
+use_old_dotort_behavior
+dont_leave_unaligned_stackparms
+no_replace_const_spills
+const_spill_makes_const
+opt_testbit
+unrolled_induction_variable
+doconstdiv2
+ppc_dofloatif_unsigned_32bit_without_branch
+optloadaddr
+mreplace3_ICEs_on_doit_fail
+no_alias_check_array_bounds
+singregmachop_index_dotmode
+arm_dont_merge_cmp_into_sub
+dont_subst_actuals_wo_proto
+ppc_do_backend_bytereversed
+gofurther_doublereg
+broken_associative_spec_opt
+dont_associate_pointer_math
+df_rb_dont_verify_condcodes
+SIMD_all_alias_info
+lame_liveness_split
+better_graph_alloc_coalesce
+dont_coalesce_unequal_sizes
+dont_swap_volatile_with_nonvolatile
+arg_check_ignore_alias_weak
+dont_release_memory
+ip_no_alias_libfuncs_fileio
+optimize_empty_constructors
+csecall_dont_subst_actuals_wo_proto
+optimize_pool_loads
+dotindefine
+sh_no_optimize_movt
+sh_no_optimize_nott
+sc_opt_loop
+sc_alias_data_areas
+mips_mach_endpeep_block_opt
+V800_dont_fix_up_casm_operands_late
+ignore_unknown_double_check_pragmas
+doisvalueof
+optbranches
+dont_move_exitblock
+dontbackupcondinsts
+optimize_in_neweval
+staticbase_without_optimize
+optloops_before_loopunrolling
+optimize_compare_zero
+ppc_dont_vectorize_few_iter_loops
+dont_fix_expandupdate_object_type
+ip2_extract_shift_opt
+ip2_extract_shift_opt_fix
+ip2_twoop_opt
+noprepeep_optimize_load_const
+dont_invalidate_isvalueof
+opt_small_struct_init
+do_treepeep_twice
+no_optimize_no_return
+pointers_cannot_alias_spills2
+no_better_param_alias
+optimizeloadstore_extract
+do_stupid_indspec
+do_distribute
+df_rb_dont_split_multireg
+df_dont_cp_move_const
+show_df_optimizer_rewrite
+take_addrof_union_dot
+optimizeinnerlooponly
+SIMD_dotmode_tick_fix
+allocregs_dontbound_reducegraph_fully
+coalesce_vars
+interproc_no_opts
+ip_alias_analysis
+ip_alias_libfuncs
+no_fix_printf_interproc_alias
+ip_alias_no_max_limit
+val_varying_ipa_options10
+find_missed_optimizations
+dothecall
+dostrcmp2
+better_weak_and_alias
+doubleon8
+no_oddreg_doubles
+longdouble_is_two_doubles
+doublereg
+no_doublereg_longlong
+dont_include_high_bound_on_fixed_type
+ada_no_memcpy_opt
+longjmp_does_not_trash_locals
+sc_track_dovf
+arm_better_realloc_spills
+mips_no_slt_with_zero_opt
+espresso_basic_ps_opt
+do_database86
+option_substrings
+macros_in_double_check_report
+dont_use_inf_note_sec
+no_dobinop_castop_fix
+optfconst
+cvtif_dot
+real_replace_const_spills
+dont_add_same_const_edges
+random_optimization_flags
+smartcallticking_without_optimize
+schedule_without_optimize
+peephole_without_optimize
+optimize_for_auto_sda_off
+opt_testbit_late
+better_dot_align
+doconstdiv
+always_optimize_nameless
+dopostlooptreepeep
+dolatetreepeep
+optimize_compare_allconsts
+optimize_compare_zero_nointerblock
+ppc_optimize_unaligned_loads
+ppc_dont_mask_vector_addresses
+csi_dont_removeconstants
+dont_compact_into_memclr
+move_truncs_down
+dont_substitute_isvalueof_variants
+dont_skip_isvalueof_non_consts
+isvalueof_base_opt
+indmovbigrisc_dont_use_existing_pointers
+optloadstorepost

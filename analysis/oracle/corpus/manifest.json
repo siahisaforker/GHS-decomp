@@ -1,0 +1,14 @@
+[
+  {"name": "arith", "language": "c", "file": "arith.c"},
+  {"name": "branch", "language": "c", "file": "branch.c"},
+  {"name": "loop", "language": "c", "file": "loop.c"},
+  {"name": "bits", "language": "c", "file": "bits.c"},
+  {"name": "bitfield", "language": "c", "file": "bitfield.c"},
+  {"name": "float", "language": "c", "file": "float.c"},
+  {"name": "abi", "language": "c", "file": "abi.c"},
+  {"name": "abi_wide", "language": "c", "file": "abi_wide.c"},
+  {"name": "narrow_globals", "language": "c", "file": "narrow_globals.c"},
+  {"name": "paired_candidate", "language": "c", "file": "paired_candidate.c"},
+  {"name": "memory", "language": "c", "file": "memory.c"},
+  {"name": "cpp_virtual", "language": "c++", "file": "cpp_virtual.cpp"}
+]
