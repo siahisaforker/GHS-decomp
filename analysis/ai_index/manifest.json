@@ -1,0 +1,100 @@
+{
+  "audience": "AI_ONLY",
+  "baseline_counts": {
+    "candidate_vtables": 253,
+    "direct_source_associations": 1736,
+    "existing_decompiled_at_batch_generation": 1810,
+    "functions": 21953,
+    "functions_with_any_core_evidence": 3974,
+    "registry_records": 428,
+    "semantic_completion_proxy": 0.0655,
+    "semantic_completion_uncertainty_pp": 2.0,
+    "vtable_member_functions": 1552
+  },
+  "canonical_inputs": [
+    {
+      "key": "entry",
+      "kind": "function_coverage_table",
+      "path": "analysis/full_decomp/coverage.tsv"
+    },
+    {
+      "key": "caller_addr+callee_addr",
+      "kind": "directed_callgraph",
+      "path": "analysis/full_decomp/callgraph.tsv"
+    },
+    {
+      "kind": "decompile_batch_manifest",
+      "path": "analysis/full_decomp/batch_manifest.tsv"
+    },
+    {
+      "key": "function_entry",
+      "kind": "embedded_source_path_function_map",
+      "path": "analysis/prime/source_file_function_map.tsv"
+    },
+    {
+      "kind": "curated_semantic_labels",
+      "path": "analysis/ghidra/labels.tsv"
+    },
+    {
+      "kind": "class_registry",
+      "path": "analysis/worker3_static_map/ghs_registry.tsv"
+    },
+    {
+      "kind": "vtable_inventory",
+      "path": "analysis/worker3_static_map/ghs_vtables.tsv"
+    },
+    {
+      "kind": "ppc_target_interface_vtable",
+      "path": "analysis/backend_map/target_vtable.csv"
+    },
+    {
+      "kind": "ppc_espresso_option_map",
+      "path": "analysis/backend_map/target_options.csv"
+    }
+  ],
+  "confidence_policy": {
+    "range": [
+      0.0,
+      1.0
+    ],
+    "rule": "hypotheses must retain numeric confidence and provenance; repeated hypotheses are not facts"
+  },
+  "current_priority_order": [
+    "backend_target",
+    "optimizer",
+    "frontend_bridge",
+    "frontend",
+    "runtime_support",
+    "unclustered"
+  ],
+  "evidence_kinds": [
+    "direct_string_xref",
+    "source_path_xref",
+    "callgraph",
+    "vtable_slot",
+    "registry",
+    "decompiled_body",
+    "option_gate",
+    "oracle",
+    "manual"
+  ],
+  "identity": {
+    "canonical_va_format": "8 lowercase hex digits, no 0x prefix",
+    "primary_key": "function_entry_va"
+  },
+  "notes": "Human readability is explicitly secondary. Preserve raw evidence and machine-followable references even when redundant.",
+  "preferred_formats": [
+    "jsonl",
+    "tsv",
+    "json",
+    "csv",
+    "markdown"
+  ],
+  "schema_version": 1,
+  "target": {
+    "binary": "ecomppc.exe",
+    "image_base": "00400000",
+    "product": "Green Hills C/C++ 5.3.22 Nintendo",
+    "sha256": "b28a092e01f818aa6183dfdbbd40623920d672dc6d37376c0da4fb6084d2f7b3"
+  }
+}
